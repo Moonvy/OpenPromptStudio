@@ -1,6 +1,5 @@
 import axios from "axios"
 import { chinesePercentage } from "./chinesePercentage"
-
 ;(<any>window)._translatePrompts = translatePrompts
 
 let cache: any = {}
@@ -8,6 +7,7 @@ export async function translatePrompts(testList: string[], options?: { server?: 
     try {
         let resultList: string[][] = []
         let reqList: [string, number][] = []
+
         testList.forEach((text, i) => {
             if (cache[text]) {
                 let t = cache[text]
@@ -19,8 +19,10 @@ export async function translatePrompts(testList: string[], options?: { server?: 
         })
 
         let host = (<any>globalThis).__OPS_SERVER
+        let orgWords = reqList.map((req) => req[0])
+        if (orgWords.length == 0) return  resultList.map((x) => x[1])
         let re = await axios.post(`${options?.server ?? `${host}/translate/prompts`}`, {
-            words: reqList.map((req) => req[0]),
+            words: orgWords,
             to: options?.to ?? "zh",
         })
 
@@ -53,7 +55,7 @@ export async function translateZh2En(texts: string[]) {
         return x[0]
     })
     let re = await translatePrompts(prompts, { to: "en" })
-
+    // console.log("[translateZh2En]", prompts, "=>", re)
     if (re) {
         re.forEach((en, i) => {
             let orgIndex = zhWords[i][1]

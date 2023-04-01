@@ -28,6 +28,7 @@ export async function midjourneyParse(text: string, options?: { zh2en?: boolean 
 
         if (options?.zh2en) texts = await translateZh2En(texts)
 
+
         texts.forEach((text, i) => {
             let word = { text, type: PromptWordType.Word, rawText: text, group: `${groupIndex}::${lv}`, lv }
             words.push(<IPromptWord>word)
