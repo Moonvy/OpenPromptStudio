@@ -1,0 +1,4884 @@
+{
+ "1080": {
+  "text": "1080",
+  "subType": "quality"
+ },
+ "uhd": {
+  "text": "UHD",
+  "lang_zh": "超高清",
+  "subType": "quality",
+  "dir": "质量"
+ },
+ "1080p": {
+  "text": "1080P",
+  "subType": "quality",
+  "dir": "质量/画质"
+ },
+ "retina": {
+  "text": "retina",
+  "lang_zh": "视网膜屏",
+  "subType": "quality",
+  "dir": "质量/画质"
+ },
+ "hd": {
+  "text": "HD",
+  "subType": "quality",
+  "dir": "质量/画质"
+ },
+ "modern minimalist illustration": {
+  "text": "modern minimalist illustration",
+  "lang_zh": "现代极简主义插画",
+  "subType": "style"
+ },
+ "surrealism": {
+  "text": "Surrealism",
+  "lang_zh": "超现实主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "rococo": {
+  "text": "Rococo",
+  "lang_zh": "洛可可",
+  "subType": "style"
+ },
+ "anatomically correct": {
+  "text": "anatomically correct",
+  "lang_zh": "解剖学正确",
+  "subType": "quality",
+  "dir": "质量"
+ },
+ "color field painting": {
+  "text": "Color Field painting",
+  "lang_zh": "色块画",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "art deco": {
+  "text": "Art Deco",
+  "lang_zh": "装饰艺术",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "rococo style": {
+  "text": "rococo style",
+  "lang_zh": "洛可可风格",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "high detail": {
+  "text": "high detail",
+  "lang_zh": "高细节",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "blind box toy style": {
+  "text": "blind box toy style",
+  "lang_zh": "盲盒玩具风格",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "cubist futurism": {
+  "text": "Cubist Futurism",
+  "lang_zh": "立体派未来主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "conceptual art": {
+  "text": "Conceptual art",
+  "lang_zh": "概念艺术",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "futurism": {
+  "text": "Futurism",
+  "lang_zh": "未来主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "social realism": {
+  "text": "Social realism",
+  "lang_zh": "社会现实主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "interior architecture": {
+  "text": "interior architecture",
+  "lang_zh": "室内建筑",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "chiaroscuro": {
+  "text": "chiaroscuro",
+  "lang_zh": "明暗对比",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "renaissance": {
+  "text": "Renaissance",
+  "lang_zh": "文艺复兴",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "neoclassicism": {
+  "text": "Neoclassicism",
+  "lang_zh": "新古典主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "modern": {
+  "text": "modern",
+  "lang_zh": "现代",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "anime": {
+  "text": "anime",
+  "lang_zh": "动漫",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "minimalism": {
+  "text": "Minimalism",
+  "lang_zh": "极简主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "romanticism": {
+  "text": "Romanticism",
+  "lang_zh": "浪漫主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "gothic art": {
+  "text": "Gothic art",
+  "lang_zh": "哥特式艺术",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "american propaganda poster": {
+  "text": "American propaganda poster",
+  "lang_zh": "美国宣传海报",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "tonalism": {
+  "text": "Tonalism",
+  "lang_zh": "色调主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "baroque": {
+  "text": "Baroque",
+  "lang_zh": "巴洛克",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "3d rendering": {
+  "text": "3d rendering",
+  "lang_zh": "3D渲染",
+  "subType": "style"
+ },
+ "fauvism": {
+  "text": "Fauvism",
+  "lang_zh": "野兽派",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "punk woman": {
+  "text": "punk woman",
+  "lang_zh": "朋克女性",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "c4d": {
+  "text": "c4d",
+  "lang_zh": "c4d",
+  "subType": "style",
+  "tags": [
+   "3D"
+  ]
+ },
+ "expressionism": {
+  "text": "Expressionism",
+  "lang_zh": "表现主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "carl larsson": {
+  "text": "Carl Larsson",
+  "lang_zh": "卡尔·拉尔松风格的画作",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "op art": {
+  "text": "Op art",
+  "lang_zh": "视错觉艺术",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "realism": {
+  "text": "Realism",
+  "lang_zh": "现实主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "contemporary art": {
+  "text": "Contemporary art",
+  "lang_zh": "当代艺术",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "genre painting": {
+  "text": "Genre painting",
+  "lang_zh": "风俗画",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "constructivism": {
+  "text": "Constructivism",
+  "lang_zh": "构成主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "mannerism": {
+  "text": "Mannerism",
+  "lang_zh": "后期文艺复兴",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "bauhaus": {
+  "text": "Bauhaus",
+  "lang_zh": "包豪斯",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "action painting": {
+  "text": "Action painting",
+  "lang_zh": "行动绘画",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "by alfons mucha": {
+  "text": "by Alfons Mucha",
+  "lang_zh": "由阿尔方斯·穆卡制作",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "blender": {
+  "text": "blender",
+  "subType": "style",
+  "tags": [
+   "3D"
+  ]
+ },
+ "dutch golden age painting": {
+  "text": "Dutch Golden Age painting",
+  "lang_zh": "荷兰黄金时期绘画",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "pop art": {
+  "text": "Pop art",
+  "lang_zh": "波普艺术",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "monet": {
+  "text": "Monet",
+  "lang_zh": "莫奈",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "northern renaissance": {
+  "text": "Northern Renaissance",
+  "lang_zh": "北方文艺复兴",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "dadaism": {
+  "text": "Dadaism",
+  "lang_zh": "达达主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "ukiyo-e": {
+  "text": "Ukiyo-e",
+  "lang_zh": "浮世绘",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "luminism": {
+  "text": "Luminism",
+  "lang_zh": "明亮主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "hyperdetailed": {
+  "text": "hyperdetailed",
+  "lang_zh": "超写实",
+  "subType": "style"
+ },
+ "abstract expressionism": {
+  "text": "Abstract expressionism",
+  "lang_zh": "抽象表现主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "feminist woman": {
+  "text": "feminist woman",
+  "lang_zh": "女权主义",
+  "subType": "style"
+ },
+ "ccurate": {
+  "text": "ccurate",
+  "lang_zh": "准确",
+  "subType": "quality",
+  "dir": "质量"
+ },
+ "impressionism": {
+  "text": "Impressionism",
+  "lang_zh": "印象派",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "pre-raphaelite brotherhood": {
+  "text": "Pre-Raphaelite Brotherhood",
+  "lang_zh": "前拉斐尔派兄弟会",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "classicism": {
+  "text": "Classicism",
+  "lang_zh": "古典主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "ghibli-like colours": {
+  "text": "Ghibli-like colours",
+  "lang_zh": "吉卜力色彩",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "hyperrealism": {
+  "text": "Hyperrealism",
+  "lang_zh": "超现实主义细节画派",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "art nouveau": {
+  "text": "Art Nouveau",
+  "lang_zh": "新艺术运动",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "suprematism": {
+  "text": "Suprematism",
+  "lang_zh": "至高主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "abstractionism": {
+  "text": "Abstractionism",
+  "lang_zh": "抽象主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "pre-rephaëlite painting": {
+  "text": "pre-rephaëlite painting",
+  "lang_zh": "前拉斐尔派绘画",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "textured skin": {
+  "text": "textured skin",
+  "lang_zh": "质感皮肤",
+  "subType": "quality",
+  "dir": "质量"
+ },
+ "anime style": {
+  "text": "anime style",
+  "lang_zh": "动漫风格",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "post-impressionism": {
+  "text": "Post-Impressionism",
+  "lang_zh": "后印象派",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "en plein air": {
+  "text": "En plein air",
+  "lang_zh": "野外写生",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "super detail": {
+  "text": "super detail",
+  "lang_zh": "非常详细",
+  "subType": "quality",
+  "dir": "质量"
+ },
+ "high details": {
+  "text": "high details",
+  "lang_zh": "高细节",
+  "subType": "quality",
+  "dir": "质量"
+ },
+ "timeless modern": {
+  "text": "timeless modern",
+  "lang_zh": "永恒的现代",
+  "subType": "style"
+ },
+ "8k octane": {
+  "text": "8k octane",
+  "lang_zh": "8k八角渲染",
+  "subType": "style"
+ },
+ "pointillism": {
+  "text": "Pointillism",
+  "lang_zh": "点彩派",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "verism": {
+  "text": "Verism",
+  "lang_zh": "写实主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "raised fist": {
+  "text": "raised fist",
+  "lang_zh": "扬起的拳头",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "ashcan school": {
+  "text": "Ashcan School",
+  "lang_zh": "垃圾桶派",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "soft colors": {
+  "text": "soft colors",
+  "lang_zh": "柔和的颜色",
+  "subType": "style"
+ },
+ "careful line drawing": {
+  "text": "careful line drawing",
+  "lang_zh": "细心的线条绘画",
+  "subType": "style"
+ },
+ "naïve art": {
+  "text": "Naïve art",
+  "lang_zh": "原始艺术",
+  "subType": "style"
+ },
+ "pixar": {
+  "text": "Pixar",
+  "lang_zh": "皮克斯",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "cubism": {
+  "text": "Cubism",
+  "lang_zh": "立体主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "soft lighting": {
+  "text": "soft lighting",
+  "lang_zh": "柔和的灯光",
+  "subType": "style"
+ },
+ "test1": {
+  "text": "test1",
+  "subType": "normal"
+ },
+ "depth of field": {
+  "text": "depth of field",
+  "lang_zh": "背景虚化",
+  "subType": "style",
+  "dir": "画面效果",
+  "tags": [
+   "摄影"
+  ]
+ },
+ "ultra - wide angle": {
+  "text": "Ultra - wide angle",
+  "lang_zh": "超广角",
+  "subType": "style",
+  "tags": [
+   "摄影"
+  ]
+ },
+ "portrait photography": {
+  "text": "Portrait photography",
+  "lang_zh": "人像摄影",
+  "subType": "style",
+  "tags": [
+   "摄影"
+  ]
+ },
+ "color correction": {
+  "text": "Color correction",
+  "lang_zh": "色彩校正",
+  "subType": "style",
+  "tags": [
+   "摄影"
+  ]
+ },
+ "cinematic": {
+  "text": "Cinematic",
+  "lang_zh": "电影",
+  "subType": "style",
+  "tags": [
+   "摄影",
+   "平面设计"
+  ]
+ },
+ "photorealistic": {
+  "text": "photorealistic",
+  "lang_zh": "真实感",
+  "subType": "style",
+  "tags": [
+   "摄影"
+  ]
+ },
+ "cinematography": {
+  "text": "cinematography",
+  "lang_zh": "电影摄影",
+  "subType": "style",
+  "tags": [
+   "摄影",
+   "平面设计"
+  ]
+ },
+ "retrofuturism": {
+  "text": "retrofuturism",
+  "lang_zh": "复古未来主义",
+  "subType": "style"
+ },
+ "16k": {
+  "text": "16k",
+  "subType": "quality",
+  "dir": "质量/画质"
+ },
+ "ip": {
+  "text": "IP",
+  "subType": "style",
+  "tags": [
+   "3D"
+  ]
+ },
+ "8k": {
+  "text": "8k",
+  "subType": "quality",
+  "dir": "质量/画质"
+ },
+ "pixel assets": {
+  "text": "pixel assets",
+  "lang_zh": "像素资产",
+  "subType": "style"
+ },
+ "character sheet full-length": {
+  "text": "character sheet full-length",
+  "lang_zh": "全身角色表",
+  "subType": "style"
+ },
+ "pixel art": {
+  "text": "Pixel Art",
+  "lang_zh": "像素艺术",
+  "subType": "style"
+ },
+ "illustration": {
+  "text": "illustration",
+  "lang_zh": "插画",
+  "subType": "style"
+ },
+ "japanese illustration style": {
+  "text": "Japanese illustration style",
+  "lang_zh": "日本插画风格",
+  "subType": "style"
+ },
+ "character design": {
+  "text": "Character Design",
+  "lang_zh": "角色设计",
+  "subType": "style",
+  "tags": [
+   "3D"
+  ]
+ },
+ "clay render": {
+  "text": "clay render",
+  "lang_zh": "粘土渲染",
+  "subType": "style",
+  "tags": [
+   "3D"
+  ]
+ },
+ "oc renderer": {
+  "text": "OC renderer",
+  "lang_zh": "OC渲染器",
+  "subType": "style",
+  "tags": [
+   "3D"
+  ]
+ },
+ "award winning": {
+  "text": "award winning",
+  "lang_zh": "屡获殊荣",
+  "subType": "quality",
+  "dir": "质量"
+ },
+ "artistic": {
+  "text": "artistic",
+  "lang_zh": "艺术的",
+  "subType": "style"
+ },
+ "detail": {
+  "text": "detail",
+  "lang_zh": "细节",
+  "subType": "normal"
+ },
+ "cinematic lighting": {
+  "text": "cinematic lighting",
+  "lang_zh": "电影光效",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "3d isometric": {
+  "text": "3D Isometric",
+  "lang_zh": "3D 等距",
+  "subType": "style",
+  "tags": [
+   "3D"
+  ]
+ },
+ "best quality": {
+  "text": "best quality",
+  "lang_zh": "最佳质量",
+  "subType": "quality",
+  "dir": "质量"
+ },
+ "detail 8k": {
+  "text": "detail 8k",
+  "subType": "style"
+ },
+ "dribbble": {
+  "text": "dribbble",
+  "lang_zh": "Dribbble",
+  "subType": "style",
+  "tags": [
+   "3D",
+   "平面设计",
+   "UI"
+  ]
+ },
+ "behance": {
+  "text": "behance",
+  "lang_zh": "Behance",
+  "subType": "style",
+  "tags": [
+   "3D",
+   "UI",
+   "平面设计"
+  ]
+ },
+ "icon style": {
+  "text": "icon style",
+  "lang_zh": "图标样式",
+  "subType": "style"
+ },
+ "minimalist": {
+  "text": "minimalist",
+  "lang_zh": "极简主义",
+  "subType": "style"
+ },
+ "2d": {
+  "text": "2D",
+  "subType": "style"
+ },
+ "3d": {
+  "text": "3D",
+  "subType": "style",
+  "tags": [
+   "3D"
+  ]
+ },
+ "4k": {
+  "text": "4K",
+  "subType": "quality",
+  "dir": "质量/画质"
+ },
+ "unreal engine": {
+  "text": "unreal engine",
+  "lang_zh": "虚幻引擎",
+  "subType": "style"
+ },
+ "hyper realistic": {
+  "text": "hyper realistic",
+  "lang_zh": "超现实主义",
+  "subType": "style"
+ },
+ "isometric view": {
+  "text": "isometric view",
+  "lang_zh": "等距视图",
+  "subType": "style"
+ },
+ "damaged": {
+  "text": "damaged",
+  "lang_zh": "损坏的",
+  "subType": "normal"
+ },
+ "ruined": {
+  "text": "ruined",
+  "lang_zh": "破败的",
+  "subType": "normal"
+ },
+ "digital art": {
+  "text": "digital art",
+  "lang_zh": "数字艺术",
+  "subType": "style"
+ },
+ "high quality": {
+  "text": "high quality",
+  "lang_zh": "高质量",
+  "subType": "quality",
+  "dir": "质量"
+ },
+ "trumbledown": {
+  "text": "trumbledown",
+  "lang_zh": "摇摇欲坠",
+  "subType": "normal"
+ },
+ "apocalypse": {
+  "text": "apocalypse",
+  "lang_zh": "启示录",
+  "subType": "normal"
+ },
+ "isometric projection": {
+  "text": "isometric projection",
+  "lang_zh": "等距投影",
+  "subType": "style"
+ },
+ "streaked hair": {
+  "text": "streaked hair",
+  "lang_zh": "条染",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "multicolored hair": {
+  "text": "multicolored hair",
+  "lang_zh": "多彩头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "colored inner hair": {
+  "text": "colored inner hair",
+  "lang_zh": "内侧染色",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "blonde hair": {
+  "text": "blonde hair",
+  "lang_zh": "金发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "silver hair": {
+  "text": "silver hair",
+  "lang_zh": "银发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "grey hair": {
+  "text": "grey hair",
+  "lang_zh": "灰发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "white hair": {
+  "text": "white hair",
+  "lang_zh": "白发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "brown hair": {
+  "text": "brown hair",
+  "lang_zh": "茶发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "light brown hair": {
+  "text": "light brown hair",
+  "lang_zh": "浅褐发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "black hair": {
+  "text": "black hair",
+  "lang_zh": "黑发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "purple hair": {
+  "text": "purple hair",
+  "lang_zh": "紫发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "red hair": {
+  "text": "red hair",
+  "lang_zh": "红发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "blue hair": {
+  "text": "blue hair",
+  "lang_zh": "蓝发/水色发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "dark blue hair": {
+  "text": "dark blue hair",
+  "lang_zh": "深蓝发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "light blue hair": {
+  "text": "light blue hair",
+  "lang_zh": "浅蓝发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "green hair": {
+  "text": "green hair",
+  "lang_zh": "绿发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "pink hair": {
+  "text": "pink hair",
+  "lang_zh": "粉发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "gradient hair": {
+  "text": "gradient hair",
+  "lang_zh": "渐变发色",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "rainbow hair": {
+  "text": "rainbow hair",
+  "lang_zh": "彩虹发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "ahoge": {
+  "text": "ahoge",
+  "lang_zh": "呆毛",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "asymmetrical hair": {
+  "text": "asymmetrical hair",
+  "lang_zh": "非对称发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "bangs": {
+  "text": "bangs",
+  "lang_zh": "刘海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "blunt bangs": {
+  "text": "blunt bangs",
+  "lang_zh": "齐刘海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "braid": {
+  "text": "braid",
+  "lang_zh": "辫子",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "braided ponytail": {
+  "text": "braided ponytail",
+  "lang_zh": "编织马尾辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "curly hair": {
+  "text": "curly hair",
+  "lang_zh": "卷发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "curtained hair": {
+  "text": "curtained hair",
+  "lang_zh": "窗帘/瀑布发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "double bun": {
+  "text": "double bun",
+  "lang_zh": "双团子头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "drill hair": {
+  "text": "drill hair",
+  "lang_zh": "钻头卷/公主卷",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "twin drills": {
+  "text": "twin drills",
+  "lang_zh": "双钻头卷",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "quad drills": {
+  "text": "quad drills",
+  "lang_zh": "多钻头卷",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "side drill": {
+  "text": "side drill",
+  "lang_zh": "单侧钻头卷",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "french braid": {
+  "text": "french braid",
+  "lang_zh": "法式辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair behind ear": {
+  "text": "hair behind ear",
+  "lang_zh": "耳后发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair between eyes": {
+  "text": "hair between eyes",
+  "lang_zh": "眼间刘海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "crossed bangs": {
+  "text": "crossed bangs",
+  "lang_zh": "交错刘海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair bun": {
+  "text": "hair bun",
+  "lang_zh": "团子头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair intakes": {
+  "text": "hair intakes",
+  "lang_zh": "进气口发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair over shoulder": {
+  "text": "hair over shoulder",
+  "lang_zh": "披肩发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hime cut": {
+  "text": "hime cut",
+  "lang_zh": "姬发式",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "long hair": {
+  "text": "long hair",
+  "lang_zh": "长发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "messy hair": {
+  "text": "messy hair",
+  "lang_zh": "凌乱发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "parted bangs": {
+  "text": "parted bangs",
+  "lang_zh": "分开的刘海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "ponytail": {
+  "text": "ponytail",
+  "lang_zh": "马尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "short hair": {
+  "text": "short hair",
+  "lang_zh": "短发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "short ponytail": {
+  "text": "short ponytail",
+  "lang_zh": "短马尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "side swept bangs": {
+  "text": "side swept bangs",
+  "lang_zh": "朝一个方向的刘海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "side ponytail": {
+  "text": "side ponytail",
+  "lang_zh": "侧马尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "twin braids": {
+  "text": "twin braids",
+  "lang_zh": "双辫子",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "twintails": {
+  "text": "twintails",
+  "lang_zh": "双马尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "very long hair": {
+  "text": "very long hair",
+  "lang_zh": "很长的头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "front ponytail": {
+  "text": "front ponytail",
+  "lang_zh": "前马尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "short twintails": {
+  "text": "short twintails",
+  "lang_zh": "短双马尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "folded ponytail": {
+  "text": "folded ponytail",
+  "lang_zh": "折叠马尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "quad tails": {
+  "text": "quad tails",
+  "lang_zh": "四马尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "single braid": {
+  "text": "single braid",
+  "lang_zh": "单辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "low twin braids": {
+  "text": "low twin braids",
+  "lang_zh": "低双辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "side braid": {
+  "text": "side braid",
+  "lang_zh": "侧辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "crown braid": {
+  "text": "crown braid",
+  "lang_zh": "冠型织辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "dreadlocks": {
+  "text": "dreadlocks",
+  "lang_zh": "脏辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "cone hair bun": {
+  "text": "cone hair bun",
+  "lang_zh": "锥形发髻",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "braided bun": {
+  "text": "braided bun",
+  "lang_zh": "辫子髻",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "doughnut hair bun": {
+  "text": "doughnut hair bun",
+  "lang_zh": "圆环发髻",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "heart hair bun": {
+  "text": "heart hair bun",
+  "lang_zh": "心形发髻",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "wavy hair": {
+  "text": "wavy hair",
+  "lang_zh": "自然卷",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "asymmetrical bangs": {
+  "text": "asymmetrical bangs",
+  "lang_zh": "不对称刘海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "swept bangs": {
+  "text": "swept bangs",
+  "lang_zh": "扫浏海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "sidelocks": {
+  "text": "sidelocks",
+  "lang_zh": "耳前发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "single sidelock": {
+  "text": "single sidelock",
+  "lang_zh": "单耳前发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair pulled back": {
+  "text": "hair pulled back",
+  "lang_zh": "头发后梳",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "half updo": {
+  "text": "half updo",
+  "lang_zh": "侧发后梳",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair one side up": {
+  "text": "hair one side up",
+  "lang_zh": "一侧绑发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair two side up": {
+  "text": "hair two side up",
+  "lang_zh": "双侧绑发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair spread out": {
+  "text": "hair spread out",
+  "lang_zh": "散发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "floating hair": {
+  "text": "floating hair",
+  "lang_zh": "漂浮的头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "straight hair": {
+  "text": "straight hair",
+  "lang_zh": "直发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "big hair": {
+  "text": "big hair",
+  "lang_zh": "头发很多的",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "crystal hair": {
+  "text": "crystal hair",
+  "lang_zh": "水晶状的头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "expressive hair": {
+  "text": "expressive hair",
+  "lang_zh": "富有表现力的头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair over eyes": {
+  "text": "hair over eyes",
+  "lang_zh": "头发遮着双眼",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair strand": {
+  "text": "hair strand",
+  "lang_zh": "强调一缕一缕感的发型/发丝",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair over one eye": {
+  "text": "hair over one eye",
+  "lang_zh": "头发遮住了一只眼睛",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "shiny hair": {
+  "text": "shiny hair",
+  "lang_zh": "有光泽的头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "wet hair": {
+  "text": "wet hair",
+  "lang_zh": "湿头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair slicked back": {
+  "text": "hair slicked back",
+  "lang_zh": "垂下的长鬈发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "high ponytail": {
+  "text": "high ponytail",
+  "lang_zh": "披在两侧的两条辫子",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "long braid": {
+  "text": "long braid",
+  "lang_zh": "侧马尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "low-tied long hair": {
+  "text": "low-tied long hair",
+  "lang_zh": "直发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "low ponytail": {
+  "text": "low ponytail",
+  "lang_zh": "低扎马尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "low twintails": {
+  "text": "low twintails",
+  "lang_zh": "低扎双尾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "medium hair": {
+  "text": "medium hair",
+  "lang_zh": "中等长发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "ringlets": {
+  "text": "ringlets",
+  "lang_zh": "垂下的长鬈发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "side braids": {
+  "text": "side braids",
+  "lang_zh": "披在两侧的两条辫子",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "side bun": {
+  "text": "side bun",
+  "lang_zh": "披在两侧的发髻",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "split ponytail": {
+  "text": "split ponytail",
+  "lang_zh": "尾部散开的单马尾发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "two side up": {
+  "text": "two side up",
+  "lang_zh": "小型双股辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "absurdly long hair": {
+  "text": "absurdly long hair",
+  "lang_zh": "超长的头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "cloud hair": {
+  "text": "cloud hair",
+  "lang_zh": "云絮状发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "flipped hair": {
+  "text": "flipped hair",
+  "lang_zh": "外卷发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "tentacle hair": {
+  "text": "tentacle hair",
+  "lang_zh": "触手头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "very short hair": {
+  "text": "very short hair",
+  "lang_zh": "很短的头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "bangs pinned back": {
+  "text": "bangs pinned back",
+  "lang_zh": "掀起的刘海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "braided bangs": {
+  "text": "braided bangs",
+  "lang_zh": "辫子刘海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "diagonal bangs": {
+  "text": "diagonal bangs",
+  "lang_zh": "斜刘海",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "single hair intake": {
+  "text": "single hair intake",
+  "lang_zh": "单侧进气口发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair ears": {
+  "text": "hair ears",
+  "lang_zh": "耳状头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "bald": {
+  "text": "bald",
+  "lang_zh": "秃头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "bald girl": {
+  "text": "bald girl",
+  "lang_zh": "秃头女孩",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "bowl cut": {
+  "text": "bowl cut",
+  "lang_zh": "锅盖头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "buzz cut": {
+  "text": "buzz cut",
+  "lang_zh": "寸头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "chonmage": {
+  "text": "chonmage",
+  "lang_zh": "丁髷",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "crew cut": {
+  "text": "crew cut",
+  "lang_zh": "平头/板寸头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "flattop": {
+  "text": "flattop",
+  "lang_zh": "平顶",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "okappa": {
+  "text": "okappa",
+  "lang_zh": "河童头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "pixie cut": {
+  "text": "pixie cut",
+  "lang_zh": "精灵头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "undercut": {
+  "text": "undercut",
+  "lang_zh": "帽盔式发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "bob cut": {
+  "text": "bob cut",
+  "lang_zh": "波波头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "cornrows": {
+  "text": "cornrows",
+  "lang_zh": "玉米垄发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "mullet": {
+  "text": "mullet",
+  "lang_zh": "鲻鱼头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "bow-shaped hair": {
+  "text": "bow-shaped hair",
+  "lang_zh": "弓形头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "front braid": {
+  "text": "front braid",
+  "lang_zh": "前辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "multiple braids": {
+  "text": "multiple braids",
+  "lang_zh": "多股(麻花)辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "tri braids": {
+  "text": "tri braids",
+  "lang_zh": "三股辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "quad braids": {
+  "text": "quad braids",
+  "lang_zh": "四股辫",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "triple bun": {
+  "text": "triple bun",
+  "lang_zh": "三发髻",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair rings": {
+  "text": "hair rings",
+  "lang_zh": "发圈",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "tied hair": {
+  "text": "tied hair",
+  "lang_zh": "扎头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "single hair ring": {
+  "text": "single hair ring",
+  "lang_zh": "单发圈",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "one side up": {
+  "text": "one side up",
+  "lang_zh": "只扎了一边的头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "low-braided long hair": {
+  "text": "low-braided long hair",
+  "lang_zh": "低辫长发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "mizura": {
+  "text": "mizura",
+  "lang_zh": "角发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "multi-tied hair": {
+  "text": "multi-tied hair",
+  "lang_zh": "多扎头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "nihongami": {
+  "text": "nihongami",
+  "lang_zh": "日本发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "topknot": {
+  "text": "topknot",
+  "lang_zh": "丸子头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "uneven twintails": {
+  "text": "uneven twintails",
+  "lang_zh": "两股辫子大小不一",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "tri tails": {
+  "text": "tri tails",
+  "lang_zh": "有三股辫子",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "quin tails": {
+  "text": "quin tails",
+  "lang_zh": "有五股辫子",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "afro": {
+  "text": "afro",
+  "lang_zh": "鸟窝头/爆炸头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "huge afro": {
+  "text": "huge afro",
+  "lang_zh": "超大鸟窝头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "beehive hairdo": {
+  "text": "beehive hairdo",
+  "lang_zh": "蜂窝头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "pompadour": {
+  "text": "pompadour",
+  "lang_zh": "蓬帕杜发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "quiff": {
+  "text": "quiff",
+  "lang_zh": "蓬松感油头",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair flaps": {
+  "text": "hair flaps",
+  "lang_zh": "在摆动的头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "pointy hair": {
+  "text": "pointy hair",
+  "lang_zh": "带着尖角的发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "spiked hair": {
+  "text": "spiked hair",
+  "lang_zh": "刺刺的头发",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "widow's peak": {
+  "text": "widow's peak",
+  "lang_zh": "美人尖",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "heart ahoge": {
+  "text": "heart ahoge",
+  "lang_zh": "心形呆毛",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "huge ahoge": {
+  "text": "huge ahoge",
+  "lang_zh": "大呆毛",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "antenna hair": {
+  "text": "antenna hair",
+  "lang_zh": "多根呆毛",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "comb over": {
+  "text": "comb over",
+  "lang_zh": "遮盖头发稀少部分",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "mohawk": {
+  "text": "mohawk",
+  "lang_zh": "莫霍克发型",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "lone nape hair": {
+  "text": "lone nape hair",
+  "lang_zh": "孤颈毛",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair bikini": {
+  "text": "hair bikini",
+  "lang_zh": "头发比基尼",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "hair scarf": {
+  "text": "hair scarf",
+  "lang_zh": "头发围巾",
+  "subType": "normal",
+  "dir": "容貌/头发"
+ },
+ "halo": {
+  "text": "halo",
+  "lang_zh": "头顶光环",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "tokin hat": {
+  "text": "tokin hat",
+  "lang_zh": "东金帽子",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "mini top hat": {
+  "text": "mini top hat",
+  "lang_zh": "迷你礼帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "beret": {
+  "text": "beret",
+  "lang_zh": "贝雷帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hood": {
+  "text": "hood",
+  "lang_zh": "兜帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "nurse cap": {
+  "text": "nurse cap",
+  "lang_zh": "护士帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "tiara": {
+  "text": "tiara",
+  "lang_zh": "三重冕",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "crown": {
+  "text": "crown",
+  "lang_zh": "皇冠",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hairpin": {
+  "text": "hairpin",
+  "lang_zh": "发卡",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hairband": {
+  "text": "hairband",
+  "lang_zh": "头箍",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hairclip": {
+  "text": "hairclip",
+  "lang_zh": "发夹",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hair ribbon": {
+  "text": "hair ribbon",
+  "lang_zh": "发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hair flower": {
+  "text": "hair flower",
+  "lang_zh": "发花",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hair ornament": {
+  "text": "hair ornament",
+  "lang_zh": "头饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hair bow": {
+  "text": "hair bow",
+  "lang_zh": "蝴蝶结发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "maid headdress": {
+  "text": "maid headdress",
+  "lang_zh": "女仆头饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "ribbon": {
+  "text": "ribbon",
+  "lang_zh": "丝带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "sunglasses": {
+  "text": "sunglasses",
+  "lang_zh": "太阳镜",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "blindfold": {
+  "text": "blindfold",
+  "lang_zh": "眼罩",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "eyepatch": {
+  "text": "eyepatch",
+  "lang_zh": "单眼罩",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "mask": {
+  "text": "mask",
+  "lang_zh": "面具/眼罩/口罩",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "jewelry": {
+  "text": "jewelry",
+  "lang_zh": "首饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "bell": {
+  "text": "bell",
+  "lang_zh": "铃铛",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "facepaint": {
+  "text": "facepaint",
+  "lang_zh": "面纹",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "horns": {
+  "text": "horns",
+  "lang_zh": "兽角",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "antlers": {
+  "text": "antlers",
+  "lang_zh": "鹿角",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "clover hair ornament": {
+  "text": "clover hair ornament",
+  "lang_zh": "三叶草发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "crescent hair ornament": {
+  "text": "crescent hair ornament",
+  "lang_zh": "月牙发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "demon horns": {
+  "text": "demon horns",
+  "lang_zh": "恶魔的角",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "jeweled branch of hourai": {
+  "text": "jeweled branch of hourai",
+  "lang_zh": "蓬莱玉枝",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "fish hair ornament": {
+  "text": "fish hair ornament",
+  "lang_zh": "鱼形发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "forehead jewel": {
+  "text": "forehead jewel",
+  "lang_zh": "额前有宝石",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "forehead mark": {
+  "text": "forehead mark",
+  "lang_zh": "额前有图案",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "forehead protector": {
+  "text": "forehead protector",
+  "lang_zh": "护额",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "kanzashi": {
+  "text": "kanzashi",
+  "lang_zh": "簪子",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hair bobbles": {
+  "text": "hair bobbles",
+  "lang_zh": "头绳",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hairpods": {
+  "text": "hairpods",
+  "lang_zh": "头发上成对的像无线蓝牙的发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hair bell": {
+  "text": "hair bell",
+  "lang_zh": "头发上系着铃铛",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "heart-shaped eyewear": {
+  "text": "heart-shaped eyewear",
+  "lang_zh": "心形眼镜",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "goggles": {
+  "text": "goggles",
+  "lang_zh": "护目镜",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "rimless eyewear": {
+  "text": "rimless eyewear",
+  "lang_zh": "无框眼镜",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "over-rim eyewear": {
+  "text": "over-rim eyewear",
+  "lang_zh": "下半无框眼镜",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "kamina shades": {
+  "text": "kamina shades",
+  "lang_zh": "卡米纳墨镜",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "goggles on head": {
+  "text": "goggles on head",
+  "lang_zh": "头上别着护目镜",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "goggles on headwear": {
+  "text": "goggles on headwear",
+  "lang_zh": "帽子上别着护目镜",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "head mounted display": {
+  "text": "head mounted display",
+  "lang_zh": "戴着头戴显示设备",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "bandage on": {
+  "text": "bandage on",
+  "lang_zh": "贴有绷带的脸",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "bandage over one eye": {
+  "text": "bandage over one eye",
+  "lang_zh": "缠着绷带的单眼",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "scar across eye": {
+  "text": "scar across eye",
+  "lang_zh": "眼睛上的疤痕",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "scar on cheek": {
+  "text": "scar on cheek",
+  "lang_zh": "脸颊上的疤痕",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "covered eyes": {
+  "text": "covered eyes",
+  "lang_zh": "蒙住的眼",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "surgical mask": {
+  "text": "surgical mask",
+  "lang_zh": "医用口罩",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "mouth mask": {
+  "text": "mouth mask",
+  "lang_zh": "口罩",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "mouth veil": {
+  "text": "mouth veil",
+  "lang_zh": "面纱",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "coke-bottle glasses": {
+  "text": "coke-bottle glasses",
+  "lang_zh": "厚如玻璃瓶底的圆眼镜",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "tengu mask": {
+  "text": "tengu mask",
+  "lang_zh": "天狗面具",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "fox mask": {
+  "text": "fox mask",
+  "lang_zh": "狐狸面具",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "mask on head": {
+  "text": "mask on head",
+  "lang_zh": "掀到头上的面具",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "mask pull": {
+  "text": "mask pull",
+  "lang_zh": "拉着口罩",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "mask removed": {
+  "text": "mask removed",
+  "lang_zh": "摘下的面具",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "gas mask": {
+  "text": "gas mask",
+  "lang_zh": "防毒面具",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "anchor choker": {
+  "text": "anchor choker",
+  "lang_zh": "锚形项圈",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "bead necklace": {
+  "text": "bead necklace",
+  "lang_zh": "珠子项链",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "headphones": {
+  "text": "headphones",
+  "lang_zh": "耳机",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "behind-the-head headphones": {
+  "text": "behind-the-head headphones",
+  "lang_zh": "从后脑戴上的耳机",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "whistle around neck": {
+  "text": "whistle around neck",
+  "lang_zh": "脖子上挂着口哨",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "animal hood": {
+  "text": "animal hood",
+  "lang_zh": "兽耳头罩",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "bespectacled": {
+  "text": "bespectacled",
+  "lang_zh": "戴眼镜的",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "fedora": {
+  "text": "fedora",
+  "lang_zh": "软呢帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "witch hat": {
+  "text": "witch hat",
+  "lang_zh": "女巫帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "wizard hat": {
+  "text": "wizard hat",
+  "lang_zh": "法师帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "winged helmet": {
+  "text": "winged helmet",
+  "lang_zh": "带翅膀的头盔",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hood down": {
+  "text": "hood down",
+  "lang_zh": "放下的兜帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hood up": {
+  "text": "hood up",
+  "lang_zh": "戴起来的兜帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "sailor hat": {
+  "text": "sailor hat",
+  "lang_zh": "水手帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "santa hat": {
+  "text": "santa hat",
+  "lang_zh": "圣诞帽",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "peaked cap": {
+  "text": "peaked cap",
+  "lang_zh": "类似警帽的帽子",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "elbow pads": {
+  "text": "elbow pads",
+  "lang_zh": "护肘",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "dragon horns": {
+  "text": "dragon horns",
+  "lang_zh": "龙角",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "eyewear on head": {
+  "text": "eyewear on head",
+  "lang_zh": "眼镜别在头上",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "mole under eye": {
+  "text": "mole under eye",
+  "lang_zh": "眼下痣",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "mole under mouth": {
+  "text": "mole under mouth",
+  "lang_zh": "嘴角有痣/美人痣",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "x hair ornament": {
+  "text": "x hair ornament",
+  "lang_zh": "x发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "black hairband": {
+  "text": "black hairband",
+  "lang_zh": "黑色发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hair scrunchie": {
+  "text": "hair scrunchie",
+  "lang_zh": "发箍",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "white hairband": {
+  "text": "white hairband",
+  "lang_zh": "白色发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hair tie": {
+  "text": "hair tie",
+  "lang_zh": "发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "frog hair ornament": {
+  "text": "frog hair ornament",
+  "lang_zh": "青蛙发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "food-themed hair ornament": {
+  "text": "food-themed hair ornament",
+  "lang_zh": "食物发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "star hair ornament": {
+  "text": "star hair ornament",
+  "lang_zh": "星星发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "heart hair ornament": {
+  "text": "heart hair ornament",
+  "lang_zh": "心形发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "red hairband": {
+  "text": "red hairband",
+  "lang_zh": "红色发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "butterfly hair ornament": {
+  "text": "butterfly hair ornament",
+  "lang_zh": "蝴蝶发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "snake hair ornament": {
+  "text": "snake hair ornament",
+  "lang_zh": "蛇发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "lolita hairband": {
+  "text": "lolita hairband",
+  "lang_zh": "洛丽塔发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "feather hair ornament": {
+  "text": "feather hair ornament",
+  "lang_zh": "羽毛头饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "blue hairband": {
+  "text": "blue hairband",
+  "lang_zh": "蓝色发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "anchor hair ornament": {
+  "text": "anchor hair ornament",
+  "lang_zh": "锚发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "leaf hair ornament": {
+  "text": "leaf hair ornament",
+  "lang_zh": "叶发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "bunny hair ornament": {
+  "text": "bunny hair ornament",
+  "lang_zh": "兔子头饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "skull hair ornament": {
+  "text": "skull hair ornament",
+  "lang_zh": "骷髅头饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "yellow hairband": {
+  "text": "yellow hairband",
+  "lang_zh": "黄色发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "pink hairband": {
+  "text": "pink hairband",
+  "lang_zh": "粉色发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "bow hairband": {
+  "text": "bow hairband",
+  "lang_zh": "蝴蝶结发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "cat hair ornament": {
+  "text": "cat hair ornament",
+  "lang_zh": "猫头饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "musical note hair ornament": {
+  "text": "musical note hair ornament",
+  "lang_zh": "音符发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "carrot hair ornament": {
+  "text": "carrot hair ornament",
+  "lang_zh": "胡萝卜发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "purple hairband": {
+  "text": "purple hairband",
+  "lang_zh": "紫色发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "hair beads": {
+  "text": "hair beads",
+  "lang_zh": "发珠",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "multiple hair bows": {
+  "text": "multiple hair bows",
+  "lang_zh": "多个蝴蝶结",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "bat hair ornament": {
+  "text": "bat hair ornament",
+  "lang_zh": "蝙蝠发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "bone hair ornament": {
+  "text": "bone hair ornament",
+  "lang_zh": "骨发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "orange hairband": {
+  "text": "orange hairband",
+  "lang_zh": "橙色发带",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "snowflake hair ornament": {
+  "text": "snowflake hair ornament",
+  "lang_zh": "雪花发饰",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "flower on head": {
+  "text": "flower on head",
+  "lang_zh": "头上有花",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "head wreath": {
+  "text": "head wreath",
+  "lang_zh": "头上戴着花冠",
+  "subType": "normal",
+  "dir": "容貌/头饰"
+ },
+ "heart-shaped pupils": {
+  "text": "heart-shaped pupils",
+  "lang_zh": "爱心瞳",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "rolling eyes": {
+  "text": "rolling eyes",
+  "lang_zh": "翻白眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "crazy eyes": {
+  "text": "crazy eyes",
+  "lang_zh": "疯狂的眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "raised eyebrows": {
+  "text": "raised eyebrows",
+  "lang_zh": "挑眉",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "furrowed brow": {
+  "text": "furrowed brow",
+  "lang_zh": "下眉毛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "dashed eyes": {
+  "text": "dashed eyes",
+  "lang_zh": "黑眼圈中的水平线",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "multicolored eyes": {
+  "text": "multicolored eyes",
+  "lang_zh": "多色的黑眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "mismatched pupils": {
+  "text": "mismatched pupils",
+  "lang_zh": "左右眼颜色不同",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "mismatched sclera": {
+  "text": "mismatched sclera",
+  "lang_zh": "左右眼不同颜色的眼白",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "no pupils": {
+  "text": "no pupils",
+  "lang_zh": "没有眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "empty eyes": {
+  "text": "empty eyes",
+  "lang_zh": "空洞眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "blank eyes": {
+  "text": "blank eyes",
+  "lang_zh": "白眼球",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "dilated pupils": {
+  "text": "dilated pupils",
+  "lang_zh": "瞳孔扩张",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "hollow eyes": {
+  "text": "hollow eyes",
+  "lang_zh": "漆黑的眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "constricted pupils": {
+  "text": "constricted pupils",
+  "lang_zh": "收缩的瞳孔",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "symbol-shaped pupils": {
+  "text": "symbol-shaped pupils",
+  "lang_zh": "符号眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "star-shaped pupils": {
+  "text": "star-shaped pupils",
+  "lang_zh": "星形眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "x-shaped pupils": {
+  "text": "x-shaped pupils",
+  "lang_zh": "X 形眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "button eyes": {
+  "text": "button eyes",
+  "lang_zh": "纽扣眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "eye reflection": {
+  "text": "eye reflection",
+  "lang_zh": "眼睛反射",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "closed eyes": {
+  "text": "closed eyes",
+  "lang_zh": "闭上眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "one eye closed": {
+  "text": "one eye closed",
+  "lang_zh": "闭上一只眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "half-closed eyes": {
+  "text": "half-closed eyes",
+  "lang_zh": "半闭眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "eyes closed": {
+  "text": "eyes closed",
+  "lang_zh": "闭眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "wince": {
+  "text": "wince",
+  "lang_zh": "闭一只眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "tsurime": {
+  "text": "tsurime",
+  "lang_zh": "吊眼角",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "eyeball": {
+  "text": "eyeball",
+  "lang_zh": "盯着看",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "tears": {
+  "text": "tears",
+  "lang_zh": "眼泪",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "gradient eyes": {
+  "text": "gradient eyes",
+  "lang_zh": "渐变瞳色",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "aqua eyes": {
+  "text": "aqua eyes",
+  "lang_zh": "水汪汪大眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "crying with eyes open": {
+  "text": "crying with eyes open",
+  "lang_zh": "睁着眼落泪",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "glowing eyes": {
+  "text": "glowing eyes",
+  "lang_zh": "发光眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "half-closed eye": {
+  "text": "half-closed eye",
+  "lang_zh": "半闭的眼睛(单眼)",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "happy tears": {
+  "text": "happy tears",
+  "lang_zh": "开心的眼泪",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "sparkling eyes": {
+  "text": "sparkling eyes",
+  "lang_zh": "星星眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "glaring": {
+  "text": "glaring",
+  "lang_zh": "轻蔑/怒视",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "streaming tears": {
+  "text": "streaming tears",
+  "lang_zh": "流泪",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "eyebrows behind hair": {
+  "text": "eyebrows behind hair",
+  "lang_zh": "挡在头发下的眉毛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "wide eyes": {
+  "text": "wide eyes",
+  "lang_zh": "睁大眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "gradient_eyes": {
+  "text": "gradient_eyes",
+  "lang_zh": "渐变眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "cross-eyed": {
+  "text": "cross-eyed",
+  "lang_zh": "斗鸡眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "slit pupils": {
+  "text": "slit pupils",
+  "lang_zh": "竖瞳孔/猫眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "bloodshot eyes": {
+  "text": "bloodshot eyes",
+  "lang_zh": "布满血丝的眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "tareme": {
+  "text": "tareme",
+  "lang_zh": "下垂的眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "devil eyes": {
+  "text": "devil eyes",
+  "lang_zh": "恶魔眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "devil pupils": {
+  "text": "devil pupils",
+  "lang_zh": "魔瞳",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "snake pupils": {
+  "text": "snake pupils",
+  "lang_zh": "蛇瞳",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "heterochromia": {
+  "text": "heterochromia",
+  "lang_zh": "异色瞳",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "purple eyes": {
+  "text": "purple eyes",
+  "lang_zh": "紫眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "red eyes": {
+  "text": "red eyes",
+  "lang_zh": "红眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "white eyes": {
+  "text": "white eyes",
+  "lang_zh": "白眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "yellow eyes": {
+  "text": "yellow eyes",
+  "lang_zh": "金眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "sanpaku": {
+  "text": "sanpaku",
+  "lang_zh": "三白眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "upturned eyes": {
+  "text": "upturned eyes",
+  "lang_zh": "上翘的眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "wide-eyed": {
+  "text": "wide-eyed",
+  "lang_zh": "睁开眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "ringed eyes": {
+  "text": "ringed eyes",
+  "lang_zh": "眼圈",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "pupils sparkling": {
+  "text": "pupils sparkling",
+  "lang_zh": "闪闪发光瞳",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "flower-shaped pupils": {
+  "text": "flower-shaped pupils",
+  "lang_zh": "花形瞳孔",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "color contact lenses": {
+  "text": "color contact lenses",
+  "lang_zh": "美瞳",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "longeyelashes": {
+  "text": "longeyelashes",
+  "lang_zh": "长睫毛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "colored eyelashes": {
+  "text": "colored eyelashes",
+  "lang_zh": "彩色睫毛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "solid circle eyes": {
+  "text": "solid circle eyes",
+  "lang_zh": "实心圆眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "heart-shaped eyes": {
+  "text": "heart-shaped eyes",
+  "lang_zh": "心形眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "@ @": {
+  "text": "@ @",
+  "lang_zh": "晕眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "orange eyes": {
+  "text": "orange eyes",
+  "lang_zh": "橙色的眼镜",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "pink eyes": {
+  "text": "pink eyes",
+  "lang_zh": "粉红色的眼睛",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "amber eyes": {
+  "text": "amber eyes",
+  "lang_zh": "琥珀色眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "pac-man eyes": {
+  "text": "pac-man eyes",
+  "lang_zh": "吃豆人形眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "horizontal pupils": {
+  "text": "horizontal pupils",
+  "lang_zh": "一字型瞳孔/蛙眼",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "diamond-shaped pupils": {
+  "text": "diamond-shaped pupils",
+  "lang_zh": "钻石形瞳孔",
+  "subType": "normal",
+  "dir": "容貌/眼睛"
+ },
+ "animal ears": {
+  "text": "animal ears",
+  "lang_zh": "动物耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "fox ears": {
+  "text": "fox ears",
+  "lang_zh": "狐狸耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "cat ears": {
+  "text": "cat ears",
+  "lang_zh": "猫耳",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "dog ears": {
+  "text": "dog ears",
+  "lang_zh": "狗耳",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "mouse ears": {
+  "text": "mouse ears",
+  "lang_zh": "老鼠耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "pointy ears": {
+  "text": "pointy ears",
+  "lang_zh": "尖耳",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "heart earrings": {
+  "text": "heart earrings",
+  "lang_zh": "心形耳环",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "hoop earrings": {
+  "text": "hoop earrings",
+  "lang_zh": "环状耳环",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "crystal earrings": {
+  "text": "crystal earrings",
+  "lang_zh": "水晶耳环",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "earrings": {
+  "text": "earrings",
+  "lang_zh": "耳环",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "crescent earrings": {
+  "text": "crescent earrings",
+  "lang_zh": "月牙耳环",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "cat ear headphones": {
+  "text": "cat ear headphones",
+  "lang_zh": "猫耳式耳机",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "bat ears": {
+  "text": "bat ears",
+  "lang_zh": "蝙蝠耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "raccoon ears": {
+  "text": "raccoon ears",
+  "lang_zh": "浣熊耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "long pointy ears": {
+  "text": "long pointy ears",
+  "lang_zh": "尖尖的长耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "covering ears": {
+  "text": "covering ears",
+  "lang_zh": "遮住耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "bear ears": {
+  "text": "bear ears",
+  "lang_zh": "熊耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "rabbit ears": {
+  "text": "rabbit ears",
+  "lang_zh": "兔子耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "cow ears": {
+  "text": "cow ears",
+  "lang_zh": "牛耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "deer ears": {
+  "text": "deer ears",
+  "lang_zh": "鹿耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "ferret ears": {
+  "text": "ferret ears",
+  "lang_zh": "鼬耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "goat ears": {
+  "text": "goat ears",
+  "lang_zh": "山羊耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "horse ears": {
+  "text": "horse ears",
+  "lang_zh": "马耳",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "kemonomimi mode": {
+  "text": "kemonomimi mode",
+  "lang_zh": "兽耳萝莉模式",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "lion ears": {
+  "text": "lion ears",
+  "lang_zh": "狮子耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "monkey ears": {
+  "text": "monkey ears",
+  "lang_zh": "猴耳",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "panda ears": {
+  "text": "panda ears",
+  "lang_zh": "熊猫耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "pikachu ears": {
+  "text": "pikachu ears",
+  "lang_zh": "皮卡丘耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "pig ears": {
+  "text": "pig ears",
+  "lang_zh": "猪耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "sheep ears": {
+  "text": "sheep ears",
+  "lang_zh": "羊耳",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "squirrel ears": {
+  "text": "squirrel ears",
+  "lang_zh": "松鼠耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "tiger ears": {
+  "text": "tiger ears",
+  "lang_zh": "虎耳",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "wolf ears": {
+  "text": "wolf ears",
+  "lang_zh": "狼耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "fake animal ears": {
+  "text": "fake animal ears",
+  "lang_zh": "仿制的动物耳朵",
+  "subType": "normal",
+  "dir": "容貌/耳朵"
+ },
+ "makeup": {
+  "text": "makeup",
+  "lang_zh": "浓装",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "food on face": {
+  "text": "food on face",
+  "lang_zh": "食物在脸上",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "smelling": {
+  "text": "smelling",
+  "lang_zh": "闻",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "nosebleed": {
+  "text": "nosebleed",
+  "lang_zh": "鼻血",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "clenched teeth": {
+  "text": "clenched teeth",
+  "lang_zh": "咬牙",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "open mouth": {
+  "text": "open mouth",
+  "lang_zh": "张口",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "pout": {
+  "text": "pout",
+  "lang_zh": "努嘴",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "sigh": {
+  "text": "sigh",
+  "lang_zh": "叹气",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "smile": {
+  "text": "smile",
+  "lang_zh": "微笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "light smile": {
+  "text": "light smile",
+  "lang_zh": "浅笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "grin": {
+  "text": "grin",
+  "lang_zh": "露齿而笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "evil smile": {
+  "text": "evil smile",
+  "lang_zh": "坏笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "angry": {
+  "text": "angry",
+  "lang_zh": "生气的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "annoyed": {
+  "text": "annoyed",
+  "lang_zh": "苦恼的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "crazy": {
+  "text": "crazy",
+  "lang_zh": "疯狂的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "shy": {
+  "text": "shy",
+  "lang_zh": "害羞的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "embarrassed": {
+  "text": "embarrassed",
+  "lang_zh": "尴尬的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "blush": {
+  "text": "blush",
+  "lang_zh": "脸红的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "sleepy": {
+  "text": "sleepy",
+  "lang_zh": "困乏的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "sad": {
+  "text": "sad",
+  "lang_zh": "悲伤的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "drunk": {
+  "text": "drunk",
+  "lang_zh": "喝醉的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "frown": {
+  "text": "frown",
+  "lang_zh": "皱眉/蹙额",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "fangs": {
+  "text": "fangs",
+  "lang_zh": "尖牙",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "tongue": {
+  "text": "tongue",
+  "lang_zh": "舌头",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "no nose": {
+  "text": "no nose",
+  "lang_zh": "没有鼻子",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "saliva": {
+  "text": "saliva",
+  "lang_zh": "唾液",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "facial hair": {
+  "text": "facial hair",
+  "lang_zh": "胡子",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "fingersmile": {
+  "text": "fingersmile",
+  "lang_zh": "用手指做出笑脸",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "mouth hold": {
+  "text": "mouth hold",
+  "lang_zh": "嘴咬住",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "parted lips": {
+  "text": "parted lips",
+  "lang_zh": "嘴唇微张",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "closed mouth": {
+  "text": "closed mouth",
+  "lang_zh": "闭嘴",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "tongue out": {
+  "text": "tongue out",
+  "lang_zh": "吐舌头",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "licking lips": {
+  "text": "licking lips",
+  "lang_zh": "舔嘴唇",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "pain": {
+  "text": "pain",
+  "lang_zh": "疼痛",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "crying": {
+  "text": "crying",
+  "lang_zh": "哭",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "fume": {
+  "text": "fume",
+  "lang_zh": "气得冒烟(漫画)",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "grimace": {
+  "text": "grimace",
+  "lang_zh": "厌恶的怪相",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "screaming": {
+  "text": "screaming",
+  "lang_zh": "尖叫",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "v-shaped eyebrows": {
+  "text": "v-shaped eyebrows",
+  "lang_zh": "V形眉(表高傲或愤怒)",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "scared": {
+  "text": "scared",
+  "lang_zh": "害怕的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "scowl": {
+  "text": "scowl",
+  "lang_zh": "怒视/嫌弃/不满",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "serious": {
+  "text": "serious",
+  "lang_zh": "严肃的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "tearing up": {
+  "text": "tearing up",
+  "lang_zh": "要哭的表情",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "bored": {
+  "text": "bored",
+  "lang_zh": "无聊的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "gloom (expression)": {
+  "text": "gloom (expression)",
+  "lang_zh": "消沉(表情)",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "jealous": {
+  "text": "jealous",
+  "lang_zh": "嫉妒的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "jitome": {
+  "text": "jitome",
+  "lang_zh": "轻蔑的眼神",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "nervous": {
+  "text": "nervous",
+  "lang_zh": "不安的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "nervous smile": {
+  "text": "nervous smile",
+  "lang_zh": "不安地微笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "shaded": {
+  "text": "shaded",
+  "lang_zh": "阴沉脸",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "turn pale": {
+  "text": "turn pale",
+  "lang_zh": "脸色苍白",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "expressionless": {
+  "text": "expressionless",
+  "lang_zh": "无口",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "expressions": {
+  "text": "expressions",
+  "lang_zh": "表情",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "unconscious": {
+  "text": "unconscious",
+  "lang_zh": "失神",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "bright pupils": {
+  "text": "bright pupils",
+  "lang_zh": "明亮的瞳孔",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "ear blush": {
+  "text": "ear blush",
+  "lang_zh": "耳红",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "holding breath": {
+  "text": "holding breath",
+  "lang_zh": "憋气",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "puckered lips": {
+  "text": "puckered lips",
+  "lang_zh": "撅起的嘴唇",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "seductive smile": {
+  "text": "seductive smile",
+  "lang_zh": "诱人的微笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "smiley": {
+  "text": "smiley",
+  "lang_zh": "笑脸",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "smirk": {
+  "text": "smirk",
+  "lang_zh": "傻笑/得意的笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "doyagao": {
+  "text": "doyagao",
+  "lang_zh": "得意脸",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "flustered": {
+  "text": "flustered",
+  "lang_zh": "慌乱的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "full blush": {
+  "text": "full blush",
+  "lang_zh": "整张脸泛红",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "heart in eye": {
+  "text": "heart in eye",
+  "lang_zh": "眼里冒爱心",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "heavy breathing": {
+  "text": "heavy breathing",
+  "lang_zh": "喘粗气",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "moaning": {
+  "text": "moaning",
+  "lang_zh": "呻吟",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "smug": {
+  "text": "smug",
+  "lang_zh": "得意脸",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "spit take": {
+  "text": "spit take",
+  "lang_zh": "惊讶或无语到喷了",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "surprised": {
+  "text": "surprised",
+  "lang_zh": "惊讶",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "tsundere": {
+  "text": "tsundere",
+  "lang_zh": "傲娇",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "drooling": {
+  "text": "drooling",
+  "lang_zh": "流口水",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "torogao": {
+  "text": "torogao",
+  "lang_zh": "诱惑的表情",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "ahegao": {
+  "text": "ahegao",
+  "lang_zh": "阿嘿颜",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "naughty face": {
+  "text": "naughty face",
+  "lang_zh": "下流的表情",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "naughty": {
+  "text": "naughty",
+  "lang_zh": "下流的表情",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "endured face": {
+  "text": "endured face",
+  "lang_zh": "忍耐的表情",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "glint": {
+  "text": "glint",
+  "lang_zh": "眼中闪现强烈的情感",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "happy": {
+  "text": "happy",
+  "lang_zh": "快乐/幸福",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "laughing": {
+  "text": "laughing",
+  "lang_zh": "在笑的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "troll": {
+  "text": "troll",
+  "lang_zh": "嚣张脸",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "yandere": {
+  "text": "yandere",
+  "lang_zh": "病娇",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "saliva trail": {
+  "text": "saliva trail",
+  "lang_zh": "唾液拉丝",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "red lips": {
+  "text": "red lips",
+  "lang_zh": "朱唇",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "skin fang": {
+  "text": "skin fang",
+  "lang_zh": "虎牙状",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "upper teeth": {
+  "text": "upper teeth",
+  "lang_zh": "露出上排牙齿",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "fang": {
+  "text": "fang",
+  "lang_zh": "虎牙",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "fang out": {
+  "text": "fang out",
+  "lang_zh": "露出虎牙/露出尖牙",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "long tongue": {
+  "text": "long tongue",
+  "lang_zh": "长舌头",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "forehead": {
+  "text": "forehead",
+  "lang_zh": "额头",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "light blush": {
+  "text": "light blush",
+  "lang_zh": "淡淡的腮红",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "cheek-to-cheek": {
+  "text": "cheek-to-cheek",
+  "lang_zh": "脸贴脸",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "cheek bulge": {
+  "text": "cheek bulge",
+  "lang_zh": "鼓着腮帮",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "cheek pinching": {
+  "text": "cheek pinching",
+  "lang_zh": "捏脸颊",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "cheek poking": {
+  "text": "cheek poking",
+  "lang_zh": "戳脸颊",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "cheek pull": {
+  "text": "cheek pull",
+  "lang_zh": "扯脸颊",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "chin grab": {
+  "text": "chin grab",
+  "lang_zh": "抬下巴",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "covering eyes": {
+  "text": "covering eyes",
+  "lang_zh": "遮住眼睛",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "covering": {
+  "text": "covering",
+  "lang_zh": "挡住脸",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "covering mouth": {
+  "text": "covering mouth",
+  "lang_zh": "挡住嘴巴",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "face-to-face": {
+  "text": "face-to-face",
+  "lang_zh": "脸贴脸",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "facing another": {
+  "text": "facing another",
+  "lang_zh": "二人面对面(脸贴得很近)",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "forehead-to-forehead": {
+  "text": "forehead-to-forehead",
+  "lang_zh": "额头贴额头",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "teeth": {
+  "text": "teeth",
+  "lang_zh": "牙",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "excited": {
+  "text": "excited",
+  "lang_zh": "兴奋",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "nose blush": {
+  "text": "nose blush",
+  "lang_zh": "害羞",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "expressionless eyes": {
+  "text": "expressionless eyes",
+  "lang_zh": "失神",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "anger vein": {
+  "text": "anger vein",
+  "lang_zh": "青筋",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "blush stickers": {
+  "text": "blush stickers",
+  "lang_zh": "表情贴纸",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "full-face blush": {
+  "text": "full-face blush",
+  "lang_zh": "整张脸泛红",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "confused": {
+  "text": "confused",
+  "lang_zh": "疑惑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "determined": {
+  "text": "determined",
+  "lang_zh": "有决心的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "disappointed": {
+  "text": "disappointed",
+  "lang_zh": "失望的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "disdain": {
+  "text": "disdain",
+  "lang_zh": "蔑视",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "disgust": {
+  "text": "disgust",
+  "lang_zh": "恶心",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "despair": {
+  "text": "despair",
+  "lang_zh": "绝望",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "envy": {
+  "text": "envy",
+  "lang_zh": "嫉妒",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "evil": {
+  "text": "evil",
+  "lang_zh": "邪恶",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "facepalm": {
+  "text": "facepalm",
+  "lang_zh": "以手掩面",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "frustrated": {
+  "text": "frustrated",
+  "lang_zh": "沮丧",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "guilt": {
+  "text": "guilt",
+  "lang_zh": "有罪的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "kubrick stare": {
+  "text": "kubrick stare",
+  "lang_zh": "库布里克凝视",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "lonely": {
+  "text": "lonely",
+  "lang_zh": "孤独的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "raised eyebrow": {
+  "text": "raised eyebrow",
+  "lang_zh": "扬起的眉毛",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "rape face": {
+  "text": "rape face",
+  "lang_zh": "强硬的表情",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "depressed": {
+  "text": "depressed",
+  "lang_zh": "压抑的/郁闷的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "panicking": {
+  "text": "panicking",
+  "lang_zh": "恐慌的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "worried": {
+  "text": "worried",
+  "lang_zh": "担忧的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "tired": {
+  "text": "tired",
+  "lang_zh": "累",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "sulking": {
+  "text": "sulking",
+  "lang_zh": "闷闷不乐",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "thinking": {
+  "text": "thinking",
+  "lang_zh": "思考",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "pensive": {
+  "text": "pensive",
+  "lang_zh": "沉思的",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "upset": {
+  "text": "upset",
+  "lang_zh": "气愤",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "crazy smile": {
+  "text": "crazy smile",
+  "lang_zh": "疯狂地笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "forced smile": {
+  "text": "forced smile",
+  "lang_zh": "强迫笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "glasgow smile": {
+  "text": "glasgow smile",
+  "lang_zh": "格拉斯哥微笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "sad smile": {
+  "text": "sad smile",
+  "lang_zh": "苦笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "stifled laugh": {
+  "text": "stifled laugh",
+  "lang_zh": "憋笑",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "color drain": {
+  "text": "color drain",
+  "lang_zh": "惊讶到掉色",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "horrified": {
+  "text": "horrified",
+  "lang_zh": "恐惧表情",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "sobbing": {
+  "text": "sobbing",
+  "lang_zh": "啜泣",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "oral invitation": {
+  "text": "oral invitation",
+  "lang_zh": "伸出舌头",
+  "subType": "normal",
+  "dir": "容貌/表情"
+ },
+ "afterimage": {
+  "text": "afterimage",
+  "lang_zh": "残像",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "border": {
+  "text": "border",
+  "lang_zh": "边框",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "framed": {
+  "text": "framed",
+  "lang_zh": "画框",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "outside border": {
+  "text": "outside border",
+  "lang_zh": "一部分画到了背景框外面",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "fading border": {
+  "text": "fading border",
+  "lang_zh": "褪色边框",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "rounded corners": {
+  "text": "rounded corners",
+  "lang_zh": "背景或画框是圆角",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "viewfinder": {
+  "text": "viewfinder",
+  "lang_zh": "相机取景框",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "chart": {
+  "text": "chart",
+  "lang_zh": "图表",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "character chart": {
+  "text": "character chart",
+  "lang_zh": "人设图",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "reference sheet": {
+  "text": "reference sheet",
+  "lang_zh": "设定图",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "diagram": {
+  "text": "diagram",
+  "lang_zh": "图表",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "move chart": {
+  "text": "move chart",
+  "lang_zh": "动作演示图",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "relationship graph": {
+  "text": "relationship graph",
+  "lang_zh": "关系表",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "seating chart": {
+  "text": "seating chart",
+  "lang_zh": "座次表",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "stats": {
+  "text": "stats",
+  "lang_zh": "属性栏/状态表",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "collage": {
+  "text": "collage",
+  "lang_zh": "拼贴画",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "column lineup": {
+  "text": "column lineup",
+  "lang_zh": "小图拼接",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "bust chart": {
+  "text": "bust chart",
+  "lang_zh": "胸围图",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "cropped": {
+  "text": "cropped",
+  "lang_zh": "遭到裁剪",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "fake scrollbar": {
+  "text": "fake scrollbar",
+  "lang_zh": "假的滚动条",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "head out of frame": {
+  "text": "head out of frame",
+  "lang_zh": "头部脱框",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "out of frame": {
+  "text": "out of frame",
+  "lang_zh": "脱框",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "feet out of frame": {
+  "text": "feet out of frame",
+  "lang_zh": "脚部脱框",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "isometric": {
+  "text": "isometric",
+  "lang_zh": "等轴",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "letterboxed": {
+  "text": "letterboxed",
+  "lang_zh": "宽银幕格式",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "pillarboxed": {
+  "text": "pillarboxed",
+  "lang_zh": "柱状画布背景",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "lineup": {
+  "text": "lineup",
+  "lang_zh": "一排人",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "mosaic art": {
+  "text": "mosaic art",
+  "lang_zh": "马赛克艺术",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "photomosaic": {
+  "text": "photomosaic",
+  "lang_zh": "马赛克拼图",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "negative space": {
+  "text": "negative space",
+  "lang_zh": "大量留白",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "omake": {
+  "text": "omake",
+  "lang_zh": "附图",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "partially underwater shot": {
+  "text": "partially underwater shot",
+  "lang_zh": "部分水下拍摄",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "social media composition": {
+  "text": "social media composition",
+  "lang_zh": "社交媒体整合",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "symmetry": {
+  "text": "symmetry",
+  "lang_zh": "左右对称",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "polar opposites": {
+  "text": "polar opposites",
+  "lang_zh": "两极对称",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "rotational symmetry": {
+  "text": "rotational symmetry",
+  "lang_zh": "对称旋转",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "tachi-e": {
+  "text": "tachi-e",
+  "lang_zh": "立绘样式",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "trim marks": {
+  "text": "trim marks",
+  "lang_zh": "裁剪标记",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "zoom layer": {
+  "text": "zoom layer",
+  "lang_zh": "人物立绘缩放(剪影)图层",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "projected inset": {
+  "text": "projected inset",
+  "lang_zh": "类似海报或杂志的插图效果",
+  "subType": "style",
+  "dir": "构图/形式"
+ },
+ "first-person view": {
+  "text": "first-person view",
+  "lang_zh": "第一人称视角",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "pov": {
+  "text": "pov",
+  "lang_zh": "主观视角",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "three sided view": {
+  "text": "three sided view",
+  "lang_zh": "三视图",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "multiple views": {
+  "text": "multiple views",
+  "lang_zh": "多视图",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "cut-in": {
+  "text": "cut-in",
+  "lang_zh": "插入画面",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "blurry foreground": {
+  "text": "blurry foreground",
+  "lang_zh": "前景模糊",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "close-up": {
+  "text": "close-up",
+  "lang_zh": "特写镜头",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "cowboy shot": {
+  "text": "cowboy shot",
+  "lang_zh": "七分身镜头",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "dutch angle": {
+  "text": "dutch angle",
+  "lang_zh": "德式倾斜镜头",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "fisheye": {
+  "text": "fisheye",
+  "lang_zh": "鱼眼镜头",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "hatching (texture)": {
+  "text": "hatching (texture)",
+  "lang_zh": "线影法(纹理)",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "vanishing point": {
+  "text": "vanishing point",
+  "lang_zh": "远景透视画法",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "wide shot": {
+  "text": "wide shot",
+  "lang_zh": "广角镜头",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "from above": {
+  "text": "from above",
+  "lang_zh": "俯视镜头",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "from behind": {
+  "text": "from behind",
+  "lang_zh": "背影",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "from below": {
+  "text": "from below",
+  "lang_zh": "仰视镜头",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "from outside": {
+  "text": "from outside",
+  "lang_zh": "室外看向室内(的镜头)",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "from side": {
+  "text": "from side",
+  "lang_zh": "角色的侧面",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "atmospheric perspective": {
+  "text": "atmospheric perspective",
+  "lang_zh": "大气距离感",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "panorama": {
+  "text": "panorama",
+  "lang_zh": "全景",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "perspective": {
+  "text": "perspective",
+  "lang_zh": "透视画法",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "rotated": {
+  "text": "rotated",
+  "lang_zh": "经过旋转的",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "sideways": {
+  "text": "sideways",
+  "lang_zh": "横向显示的",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "upside-down": {
+  "text": "upside-down",
+  "lang_zh": "倒挂的",
+  "subType": "style",
+  "dir": "构图/视角"
+ },
+ "lens flare": {
+  "text": "lens flare",
+  "lang_zh": "镜头光晕",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "overexposure": {
+  "text": "overexposure",
+  "lang_zh": "过曝",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "bokeh": {
+  "text": "bokeh",
+  "lang_zh": "背景散焦",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "caustics": {
+  "text": "caustics",
+  "lang_zh": "焦散",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "diffraction spikes": {
+  "text": "diffraction spikes",
+  "lang_zh": "衍射十字星",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "foreshortening": {
+  "text": "foreshortening",
+  "lang_zh": "正前缩距透视法",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "emphasis lines": {
+  "text": "emphasis lines",
+  "lang_zh": "集中线",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "satellite image": {
+  "text": "satellite image",
+  "lang_zh": "卫星鸟瞰",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "macro photo": {
+  "text": "macro photo",
+  "lang_zh": "微距照片",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "360 view": {
+  "text": "360 view",
+  "lang_zh": "360 度视角",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "wide-angle": {
+  "text": "Wide-Angle",
+  "lang_zh": "广角",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "ultra-wide angle": {
+  "text": "Ultra-Wide Angle",
+  "lang_zh": "超广角",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "eye-level shot": {
+  "text": "Eye-Level Shot",
+  "lang_zh": "人眼视角拍摄",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "f/1.2": {
+  "text": "f/1.2",
+  "lang_zh": "光圈 F1.2",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "f/1.8": {
+  "text": "f/1.8",
+  "lang_zh": "光圈 F1.8",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "f/2.8": {
+  "text": "f/2.8",
+  "lang_zh": "光圈 F2.8",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "f/4.0": {
+  "text": "f/4.0",
+  "lang_zh": "光圈 F4.0",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "f/16": {
+  "text": "f/16",
+  "lang_zh": "光圈 F16",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "35mm": {
+  "text": "35mm",
+  "lang_zh": "焦距 35mm",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "85mm": {
+  "text": "85mm",
+  "lang_zh": "焦距 85mm",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "135mm": {
+  "text": "135mm",
+  "lang_zh": "焦距 135mm",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "nikon": {
+  "text": "Nikon",
+  "lang_zh": "尼康",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "canon": {
+  "text": "Canon",
+  "lang_zh": "佳能",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "fujifilm": {
+  "text": "Fujifilm",
+  "lang_zh": "富士",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "hasselblad": {
+  "text": "Hasselblad",
+  "lang_zh": "哈数",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "sony fe": {
+  "text": "Sony FE",
+  "lang_zh": "索尼镜头",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "sony fe gm": {
+  "text": "Sony FE GM",
+  "lang_zh": "索尼大师镜头",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "motion blur": {
+  "text": "motion blur",
+  "lang_zh": "动态模糊",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "chromatic aberration": {
+  "text": "chromatic aberration",
+  "lang_zh": "色差",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "sparkle": {
+  "text": "sparkle",
+  "lang_zh": "闪耀效果",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "jpeg artifacts": {
+  "text": "jpeg artifacts",
+  "lang_zh": "JPEG 压缩失真",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "blurry": {
+  "text": "blurry",
+  "lang_zh": "模糊的",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "glowing light": {
+  "text": "glowing light",
+  "lang_zh": "荧光",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "god rays": {
+  "text": "god rays",
+  "lang_zh": "神圣感顶光",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "ray tracing": {
+  "text": "ray tracing",
+  "lang_zh": "光线追踪",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "reflection light": {
+  "text": "reflection light",
+  "lang_zh": "反射光",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "backlighting": {
+  "text": "backlighting",
+  "lang_zh": "逆光",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "blending": {
+  "text": "blending",
+  "lang_zh": "混合",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "bloom": {
+  "text": "bloom",
+  "lang_zh": "盛开",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "chromatic aberration abuse": {
+  "text": "chromatic aberration abuse",
+  "lang_zh": "色差滥用",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "dithering": {
+  "text": "dithering",
+  "lang_zh": "抖动",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "drop shadow": {
+  "text": "drop shadow",
+  "lang_zh": "立绘阴影",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "film grain": {
+  "text": "film grain",
+  "lang_zh": "胶片颗粒感/老电影滤镜",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "fujicolor": {
+  "text": "Fujicolor",
+  "lang_zh": "富士色彩",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "halftone": {
+  "text": "halftone",
+  "lang_zh": "半调风格",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "image fill": {
+  "text": "image fill",
+  "lang_zh": "图像填充",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "motion lines": {
+  "text": "motion lines",
+  "lang_zh": "体现运动的线",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "multiple monochrome": {
+  "text": "multiple monochrome",
+  "lang_zh": "多重单色",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "optical illusion": {
+  "text": "optical illusion",
+  "lang_zh": "视错觉",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "anaglyph": {
+  "text": "anaglyph",
+  "lang_zh": "互补色",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "stereogram": {
+  "text": "stereogram",
+  "lang_zh": "立体画",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "scanlines": {
+  "text": "scanlines",
+  "lang_zh": "扫描线",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "silhouette": {
+  "text": "silhouette",
+  "lang_zh": "剪影",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "speed lines": {
+  "text": "speed lines",
+  "lang_zh": "速度线",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "vignetting": {
+  "text": "vignetting",
+  "lang_zh": "晕影",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "--version": {
+  "text": "--version",
+  "lang_zh": "版本",
+  "subType": "command",
+  "desc": "模型版本",
+  "sampleCmds": [
+   "4",
+   "5",
+   "niji"
+  ],
+  "dir": "命令/版本"
+ },
+ "—version": {
+  "text": "—version",
+  "lang_zh": "版本",
+  "subType": "command",
+  "desc": "模型版本"
+ },
+ "--v": {
+  "text": "--v",
+  "lang_zh": "版本",
+  "subType": "command",
+  "desc": "模型版本"
+ },
+ "—v": {
+  "text": "—v",
+  "lang_zh": "版本",
+  "subType": "command",
+  "desc": "模型版本"
+ },
+ "--aspect": {
+  "text": "--aspect",
+  "lang_zh": "宽高比",
+  "subType": "command",
+  "desc": "生成图片的宽高比尺寸",
+  "sampleCmds": [
+   "2:3",
+   "16:9",
+   "3:2"
+  ],
+  "dir": "命令/宽高比"
+ },
+ "—aspect": {
+  "text": "—aspect",
+  "lang_zh": "宽高比",
+  "subType": "command",
+  "desc": "生成图片的宽高比尺寸"
+ },
+ "--ar": {
+  "text": "--ar",
+  "lang_zh": "宽高比",
+  "subType": "command",
+  "desc": "生成图片的宽高比尺寸"
+ },
+ "—ar": {
+  "text": "—ar",
+  "lang_zh": "宽高比",
+  "subType": "command",
+  "desc": "生成图片的宽高比尺寸"
+ },
+ "--chaos": {
+  "text": "--chaos",
+  "lang_zh": "多样性",
+  "subType": "command",
+  "desc": "<0–100>，多样性数值越高，越能产生更多意想不到的结果和组合，越小越能产生更稳定、更可重复的结果",
+  "sampleCmds": [
+   0,
+   50,
+   100
+  ],
+  "dir": "命令/多样性"
+ },
+ "—chaos": {
+  "text": "—chaos",
+  "lang_zh": "多样性",
+  "subType": "command",
+  "desc": "<0–100>，多样性数值越高，越能产生更多意想不到的结果和组合，越小越能产生更稳定、更可重复的结果"
+ },
+ "--c": {
+  "text": "--c",
+  "lang_zh": "多样性",
+  "subType": "command",
+  "desc": "<0–100>，多样性数值越高，越能产生更多意想不到的结果和组合，越小越能产生更稳定、更可重复的结果"
+ },
+ "—c": {
+  "text": "—c",
+  "lang_zh": "多样性",
+  "subType": "command",
+  "desc": "<0–100>，多样性数值越高，越能产生更多意想不到的结果和组合，越小越能产生更稳定、更可重复的结果"
+ },
+ "--no": {
+  "text": "--no",
+  "lang_zh": "负面",
+  "subType": "command",
+  "desc": "<0–100> 多样性数值越高，越能产生更多意想不到的结果和组合，越小越能产生更稳定、更可重复的结果。默认值为 0",
+  "sampleCmds": [
+   "xxx"
+  ],
+  "dir": "命令/负面"
+ },
+ "—no": {
+  "text": "—no",
+  "lang_zh": "负面",
+  "subType": "command",
+  "desc": "<0–100> 多样性数值越高，越能产生更多意想不到的结果和组合，越小越能产生更稳定、更可重复的结果。默认值为 0"
+ },
+ "--quality": {
+  "text": "--quality",
+  "lang_zh": "质量",
+  "subType": "command",
+  "desc": "<.25, .5, 1, 2> 要花费多少渲染时间（迭代步数），更高通常会产生更多的细节，但高 --quality 并不总能产生更好的结果。默认值为 1 ",
+  "sampleCmds": [
+   ".25",
+   ".5",
+   "1"
+  ],
+  "dir": "命令/质量"
+ },
+ "—quality": {
+  "text": "—quality",
+  "lang_zh": "质量",
+  "subType": "command",
+  "desc": "<.25, .5, 1, 2> 要花费多少渲染时间（迭代步数），更高通常会产生更多的细节，但高 --quality 并不总能产生更好的结果。默认值为 1 "
+ },
+ "--q": {
+  "text": "--q",
+  "lang_zh": "质量",
+  "subType": "command",
+  "desc": "<.25, .5, 1, 2> 要花费多少渲染时间（迭代步数），更高通常会产生更多的细节，但高 --quality 并不总能产生更好的结果。默认值为 1 "
+ },
+ "—q": {
+  "text": "—q",
+  "lang_zh": "质量",
+  "subType": "command",
+  "desc": "<.25, .5, 1, 2> 要花费多少渲染时间（迭代步数），更高通常会产生更多的细节，但高 --quality 并不总能产生更好的结果。默认值为 1 "
+ },
+ "--seed": {
+  "text": "--seed",
+  "lang_zh": "种子",
+  "subType": "command",
+  "desc": "<0–4294967295> 指定随机种子，相同的提示词与相同的种子能产生相似的结果",
+  "dir": "命令/种子"
+ },
+ "—seed": {
+  "text": "—seed",
+  "lang_zh": "种子",
+  "subType": "command",
+  "desc": "<0–4294967295> 指定随机种子，相同的提示词与相同的种子能产生相似的结果"
+ },
+ "--sameseed": {
+  "text": "--sameseed",
+  "lang_zh": "相似种子",
+  "subType": "command",
+  "desc": "<0–4294967295> 比 --seed 能生成更相似的结果",
+  "dir": "命令/相似种子"
+ },
+ "—sameseed": {
+  "text": "—sameseed",
+  "lang_zh": "相似种子",
+  "subType": "command",
+  "desc": "<0–4294967295> 比 --seed 能生成更相似的结果"
+ },
+ "--stop": {
+  "text": "--stop",
+  "lang_zh": "停止",
+  "subType": "command",
+  "desc": "<10–100> 在流程中途结束生成。以较早的百分比停止流程会产生更模糊、更不细致的结果",
+  "dir": "命令/停止"
+ },
+ "—stop": {
+  "text": "—stop",
+  "lang_zh": "停止",
+  "subType": "command",
+  "desc": "<10–100> 在流程中途结束生成。以较早的百分比停止流程会产生更模糊、更不细致的结果"
+ },
+ "--style": {
+  "text": "--style",
+  "lang_zh": "风格",
+  "subType": "command",
+  "desc": "<4a, 4b or 4c> 模型版本 4 的版本之间切换",
+  "dir": "命令/风格"
+ },
+ "—style": {
+  "text": "—style",
+  "lang_zh": "风格",
+  "subType": "command",
+  "desc": "<4a, 4b or 4c> 模型版本 4 的版本之间切换"
+ },
+ "--stylize": {
+  "text": "--stylize",
+  "lang_zh": "风格化",
+  "subType": "command",
+  "desc": "<0–1000> 越高结果的艺术性越高，越低越像真实图片。默认 100",
+  "sampleCmds": [
+   "0",
+   "500",
+   "1000"
+  ],
+  "dir": "命令/风格化"
+ },
+ "—stylize": {
+  "text": "—stylize",
+  "lang_zh": "风格化",
+  "subType": "command",
+  "desc": "<0–1000> 越高结果的艺术性越高，越低越像真实图片。默认 100"
+ },
+ "--s": {
+  "text": "--s",
+  "lang_zh": "风格化",
+  "subType": "command",
+  "desc": "<0–1000> 越高结果的艺术性越高，越低越像真实图片。默认 100"
+ },
+ "—s": {
+  "text": "—s",
+  "lang_zh": "风格化",
+  "subType": "command",
+  "desc": "<0–1000> 越高结果的艺术性越高，越低越像真实图片。默认 100"
+ },
+ "--iw": {
+  "text": "--iw",
+  "lang_zh": "图像权重",
+  "subType": "command",
+  "desc": "相对于文本权重的图像提示权重，默认 0.25",
+  "dir": "命令/图像权重"
+ },
+ "—iw": {
+  "text": "—iw",
+  "lang_zh": "图像权重",
+  "subType": "command",
+  "desc": "相对于文本权重的图像提示权重，默认 0.25"
+ },
+ "--uplight": {
+  "text": "--uplight",
+  "lang_zh": "轻量放大器",
+  "subType": "command",
+  "desc": "选择 U 按钮时使用替代的“轻量”放大器。结果更接近原始网格图像，放大后的图像细节更少，更平滑",
+  "dir": "命令/轻量放大器"
+ },
+ "—uplight": {
+  "text": "—uplight",
+  "lang_zh": "轻量放大器",
+  "subType": "command",
+  "desc": "选择 U 按钮时使用替代的“轻量”放大器。结果更接近原始网格图像，放大后的图像细节更少，更平滑"
+ },
+ "--upbeta": {
+  "text": "--upbeta",
+  "lang_zh": "测试版放大器",
+  "subType": "command",
+  "desc": "选择 U 按钮时使用替代的“beta”放大器。结果更接近原始网格图像。放大后的图像添加的细节明显更少",
+  "dir": "命令/测试版放大器"
+ },
+ "—upbeta": {
+  "text": "—upbeta",
+  "lang_zh": "测试版放大器",
+  "subType": "command",
+  "desc": "选择 U 按钮时使用替代的“beta”放大器。结果更接近原始网格图像。放大后的图像添加的细节明显更少"
+ },
+ "--niji": {
+  "text": "--niji",
+  "lang_zh": "动漫模型",
+  "subType": "command",
+  "desc": "另一种模型专注于动漫风格的图像",
+  "dir": "命令/动漫模型"
+ },
+ "—niji": {
+  "text": "—niji",
+  "lang_zh": "动漫模型",
+  "subType": "command",
+  "desc": "另一种模型专注于动漫风格的图像"
+ },
+ "--test": {
+  "text": "--test",
+  "lang_zh": "测试模型",
+  "subType": "command",
+  "desc": "特殊测试模型",
+  "dir": "命令/测试模型"
+ },
+ "—test": {
+  "text": "—test",
+  "lang_zh": "测试模型",
+  "subType": "command",
+  "desc": "特殊测试模型"
+ },
+ "--testp": {
+  "text": "--testp",
+  "lang_zh": "摄影测试模型",
+  "subType": "command",
+  "desc": "特殊的以摄影为重点的测试模型",
+  "dir": "命令/摄影测试模型"
+ },
+ "—testp": {
+  "text": "—testp",
+  "lang_zh": "摄影测试模型",
+  "subType": "command",
+  "desc": "特殊的以摄影为重点的测试模型"
+ },
+ "--hd": {
+  "text": "--hd",
+  "lang_zh": "高清模型",
+  "subType": "command",
+  "desc": "使用早期的替代模型来生成更大、更不一致的图像。该算法可能适用于抽象和风景图像",
+  "dir": "命令/高清模型"
+ },
+ "—hd": {
+  "text": "—hd",
+  "lang_zh": "高清模型",
+  "subType": "command",
+  "desc": "使用早期的替代模型来生成更大、更不一致的图像。该算法可能适用于抽象和风景图像"
+ }
+}

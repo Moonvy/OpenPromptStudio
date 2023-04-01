@@ -1,0 +1,19 @@
+  .PromptItem {
+    &.subType-quality {
+        --bk: linear-gradient(#45507a, #69728b);
+        --bk-desc: linear-gradient(#6f80b2, #5475f6);
+    }
+    &.subType-command {
+        --bk: linear-gradient(#584589, #7774a0);
+        --bk-desc: linear-gradient(#8d79c0, #7a78dc);
+    }
+    &.subType-style {
+        --bk: linear-gradient(#406e6d, #749b98);
+        --bk-desc: linear-gradient(#75a19f, #31aaa3);
+    }
+    &.subType-eg {
+        --bk: linear-gradient(#844444, #7c6c6c);
+        --bk-desc: linear-gradient(#da4927, #c78a6e);
+    }
+
+}

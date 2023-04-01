@@ -1,0 +1,25 @@
+text,lang_zh,subType,dir
+first-person view,第一人称视角,风格,构图/视角
+pov,主观视角,风格,构图/视角
+three sided view,三视图,风格,构图/视角
+multiple views,多视图,风格,构图/视角
+cut-in,插入画面,风格,构图/视角
+blurry foreground,前景模糊,风格,构图/视角
+close-up,特写镜头,风格,构图/视角
+cowboy shot,七分身镜头,风格,构图/视角
+dutch angle,德式倾斜镜头,风格,构图/视角
+fisheye,鱼眼镜头,风格,构图/视角
+hatching (texture),线影法(纹理),风格,构图/视角
+vanishing point,远景透视画法,风格,构图/视角
+wide shot,广角镜头,风格,构图/视角
+from above,俯视镜头,风格,构图/视角
+from behind,背影,风格,构图/视角
+from below,仰视镜头,风格,构图/视角
+from outside,室外看向室内(的镜头),风格,构图/视角
+from side,角色的侧面,风格,构图/视角
+atmospheric perspective,大气距离感,风格,构图/视角
+panorama,全景,风格,构图/视角
+perspective,透视画法,风格,构图/视角
+rotated,经过旋转的,风格,构图/视角
+sideways,横向显示的,风格,构图/视角
+upside-down,倒挂的,风格,构图/视角

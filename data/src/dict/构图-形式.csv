@@ -1,0 +1,41 @@
+text,lang_zh,subType,dir
+afterimage,残像,风格,构图/形式
+border,边框,风格,构图/形式
+framed,画框,风格,构图/形式
+outside border,一部分画到了背景框外面,风格,构图/形式
+fading border,褪色边框,风格,构图/形式
+rounded corners,背景或画框是圆角,风格,构图/形式
+viewfinder,相机取景框,风格,构图/形式
+chart,图表,风格,构图/形式
+character chart,人设图,风格,构图/形式
+reference sheet,设定图,风格,构图/形式
+diagram,图表,风格,构图/形式
+move chart,动作演示图,风格,构图/形式
+relationship graph,关系表,风格,构图/形式
+seating chart,座次表,风格,构图/形式
+stats,属性栏/状态表,风格,构图/形式
+collage,拼贴画,风格,构图/形式
+column lineup,小图拼接,风格,构图/形式
+bust chart,胸围图,风格,构图/形式
+cropped,遭到裁剪,风格,构图/形式
+fake scrollbar,假的滚动条,风格,构图/形式
+head out of frame,头部脱框,风格,构图/形式
+out of frame,脱框,风格,构图/形式
+feet out of frame,脚部脱框,风格,构图/形式
+isometric,等轴,风格,构图/形式
+letterboxed,宽银幕格式,风格,构图/形式
+pillarboxed,柱状画布背景,风格,构图/形式
+lineup,一排人,风格,构图/形式
+mosaic art,马赛克艺术,风格,构图/形式
+photomosaic,马赛克拼图,风格,构图/形式
+negative space,大量留白,风格,构图/形式
+omake,附图,风格,构图/形式
+partially underwater shot,部分水下拍摄,风格,构图/形式
+social media composition,社交媒体整合,风格,构图/形式
+symmetry,左右对称,风格,构图/形式
+polar opposites,两极对称,风格,构图/形式
+rotational symmetry,对称旋转,风格,构图/形式
+tachi-e,立绘样式,风格,构图/形式
+trim marks,裁剪标记,风格,构图/形式
+zoom layer,人物立绘缩放(剪影)图层,风格,构图/形式
+projected inset,类似海报或杂志的插图效果,风格,构图/形式

@@ -1,0 +1,32 @@
+text,lang_zh,subType,dir
+motion blur,动态模糊,风格,画面效果
+chromatic aberration,色差,风格,画面效果
+sparkle,闪耀效果,风格,画面效果
+jpeg artifacts,JPEG 压缩失真,风格,画面效果
+blurry,模糊的,风格,画面效果
+cinematic lighting,电影光效,风格,画面效果
+glowing light,荧光,风格,画面效果
+god rays,神圣感顶光,风格,画面效果
+ray tracing,光线追踪,风格,画面效果
+reflection light,反射光,风格,画面效果
+backlighting,逆光,风格,画面效果
+blending,混合,风格,画面效果
+bloom,盛开,风格,画面效果
+chiaroscuro,明暗对比,风格,画面效果
+chromatic aberration abuse,色差滥用,风格,画面效果
+depth of field,背景虚化,风格,画面效果
+dithering,抖动,风格,画面效果
+drop shadow,立绘阴影,风格,画面效果
+film grain,胶片颗粒感/老电影滤镜,风格,画面效果
+Fujicolor,富士色彩,风格,画面效果
+halftone,半调风格,风格,画面效果
+image fill,图像填充,风格,画面效果
+motion lines,体现运动的线,风格,画面效果
+multiple monochrome,多重单色,风格,画面效果
+optical illusion,视错觉,风格,画面效果
+anaglyph,互补色,风格,画面效果
+stereogram,立体画,风格,画面效果
+scanlines,扫描线,风格,画面效果
+silhouette,剪影,风格,画面效果
+speed lines,速度线,风格,画面效果
+vignetting,晕影,风格,画面效果

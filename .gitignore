@@ -1,0 +1,8 @@
+dist
+.idea
+node_modules
+__debug__
+yarn-error.log
+.DS_Store
+RefreshAndPredload.log
+secret.json

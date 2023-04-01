@@ -1,0 +1,874 @@
+{
+  "1080": {
+    "text": "1080",
+    "subType": "quality",
+    "tags": []
+  },
+  "uhd": {
+    "text": "UHD",
+    "lang_zh": "超高清",
+    "subType": "quality",
+    "dir": "质量",
+    "tags": []
+  },
+  "1080p": {
+    "text": "1080P",
+    "subType": "quality",
+    "dir": "质量/画质",
+    "tags": []
+  },
+  "retina": {
+    "text": "retina",
+    "lang_zh": "视网膜屏",
+    "subType": "quality",
+    "dir": "质量/画质",
+    "tags": []
+  },
+  "hd": {
+    "text": "HD",
+    "subType": "quality",
+    "dir": "质量/画质",
+    "tags": []
+  },
+  "modern minimalist illustration": {
+    "text": "modern minimalist illustration",
+    "lang_zh": "现代极简主义插画",
+    "subType": "style",
+    "tags": []
+  },
+  "surrealism": {
+    "text": "Surrealism",
+    "lang_zh": "超现实主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "rococo": {
+    "text": "Rococo",
+    "lang_zh": "洛可可",
+    "subType": "style",
+    "tags": []
+  },
+  "anatomically correct": {
+    "text": "anatomically correct",
+    "lang_zh": "解剖学正确",
+    "subType": "quality",
+    "dir": "质量",
+    "tags": []
+  },
+  "color field painting": {
+    "text": "Color Field painting",
+    "lang_zh": "色块画",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "art deco": {
+    "text": "Art Deco",
+    "lang_zh": "装饰艺术",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "rococo style": {
+    "text": "rococo style",
+    "lang_zh": "洛可可风格",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "high detail": {
+    "text": "high detail",
+    "lang_zh": "高细节",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "blind box toy style": {
+    "text": "blind box toy style",
+    "lang_zh": "盲盒玩具风格",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "cubist futurism": {
+    "text": "Cubist Futurism",
+    "lang_zh": "立体派未来主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "conceptual art": {
+    "text": "Conceptual art",
+    "lang_zh": "概念艺术",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "futurism": {
+    "text": "Futurism",
+    "lang_zh": "未来主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "social realism": {
+    "text": "Social realism",
+    "lang_zh": "社会现实主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "interior architecture": {
+    "text": "interior architecture",
+    "lang_zh": "室内建筑",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "chiaroscuro": {
+    "text": "Chiaroscuro",
+    "lang_zh": "明暗对比法",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "renaissance": {
+    "text": "Renaissance",
+    "lang_zh": "文艺复兴",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "neoclassicism": {
+    "text": "Neoclassicism",
+    "lang_zh": "新古典主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "modern": {
+    "text": "modern",
+    "lang_zh": "现代",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "anime": {
+    "text": "anime",
+    "lang_zh": "动漫",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "minimalism": {
+    "text": "Minimalism",
+    "lang_zh": "极简主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "romanticism": {
+    "text": "Romanticism",
+    "lang_zh": "浪漫主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "gothic art": {
+    "text": "Gothic art",
+    "lang_zh": "哥特式艺术",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "american propaganda poster": {
+    "text": "American propaganda poster",
+    "lang_zh": "美国宣传海报",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "tonalism": {
+    "text": "Tonalism",
+    "lang_zh": "色调主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "baroque": {
+    "text": "Baroque",
+    "lang_zh": "巴洛克",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "3d rendering": {
+    "text": "3d rendering",
+    "lang_zh": "3D渲染",
+    "subType": "style",
+    "tags": []
+  },
+  "fauvism": {
+    "text": "Fauvism",
+    "lang_zh": "野兽派",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "punk woman": {
+    "text": "punk woman",
+    "lang_zh": "朋克女性",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "c4d": {
+    "text": "c4d",
+    "lang_zh": "c4d",
+    "subType": "style",
+    "tags": [
+      "3D"
+    ]
+  },
+  "expressionism": {
+    "text": "Expressionism",
+    "lang_zh": "表现主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "carl larsson": {
+    "text": "Carl Larsson",
+    "lang_zh": "卡尔·拉尔松风格的画作",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "op art": {
+    "text": "Op art",
+    "lang_zh": "视错觉艺术",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "realism": {
+    "text": "Realism",
+    "lang_zh": "现实主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "contemporary art": {
+    "text": "Contemporary art",
+    "lang_zh": "当代艺术",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "genre painting": {
+    "text": "Genre painting",
+    "lang_zh": "风俗画",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "constructivism": {
+    "text": "Constructivism",
+    "lang_zh": "构成主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "mannerism": {
+    "text": "Mannerism",
+    "lang_zh": "后期文艺复兴",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "bauhaus": {
+    "text": "Bauhaus",
+    "lang_zh": "包豪斯",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "action painting": {
+    "text": "Action painting",
+    "lang_zh": "行动绘画",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "by alfons mucha": {
+    "text": "by Alfons Mucha",
+    "lang_zh": "由阿尔方斯·穆卡制作",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "blender": {
+    "text": "blender",
+    "subType": "style",
+    "tags": [
+      "3D"
+    ]
+  },
+  "dutch golden age painting": {
+    "text": "Dutch Golden Age painting",
+    "lang_zh": "荷兰黄金时期绘画",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "pop art": {
+    "text": "Pop art",
+    "lang_zh": "波普艺术",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "monet": {
+    "text": "Monet",
+    "lang_zh": "莫奈",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "northern renaissance": {
+    "text": "Northern Renaissance",
+    "lang_zh": "北方文艺复兴",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "dadaism": {
+    "text": "Dadaism",
+    "lang_zh": "达达主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "ukiyo-e": {
+    "text": "Ukiyo-e",
+    "lang_zh": "浮世绘",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "luminism": {
+    "text": "Luminism",
+    "lang_zh": "明亮主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "hyperdetailed": {
+    "text": "hyperdetailed",
+    "lang_zh": "超写实",
+    "subType": "style",
+    "tags": []
+  },
+  "abstract expressionism": {
+    "text": "Abstract expressionism",
+    "lang_zh": "抽象表现主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "feminist woman": {
+    "text": "feminist woman",
+    "lang_zh": "女权主义",
+    "subType": "style",
+    "tags": []
+  },
+  "ccurate": {
+    "text": "ccurate",
+    "lang_zh": "准确",
+    "subType": "quality",
+    "dir": "质量",
+    "tags": []
+  },
+  "impressionism": {
+    "text": "Impressionism",
+    "lang_zh": "印象派",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "pre-raphaelite brotherhood": {
+    "text": "Pre-Raphaelite Brotherhood",
+    "lang_zh": "前拉斐尔派兄弟会",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "classicism": {
+    "text": "Classicism",
+    "lang_zh": "古典主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "ghibli-like colours": {
+    "text": "Ghibli-like colours",
+    "lang_zh": "吉卜力色彩",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "hyperrealism": {
+    "text": "Hyperrealism",
+    "lang_zh": "超现实主义细节画派",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "art nouveau": {
+    "text": "Art Nouveau",
+    "lang_zh": "新艺术运动",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "suprematism": {
+    "text": "Suprematism",
+    "lang_zh": "至高主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "abstractionism": {
+    "text": "Abstractionism",
+    "lang_zh": "抽象主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "pre-rephaëlite painting": {
+    "text": "pre-rephaëlite painting",
+    "lang_zh": "前拉斐尔派绘画",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "textured skin": {
+    "text": "textured skin",
+    "lang_zh": "质感皮肤",
+    "subType": "quality",
+    "dir": "质量",
+    "tags": []
+  },
+  "anime style": {
+    "text": "anime style",
+    "lang_zh": "动漫风格",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "post-impressionism": {
+    "text": "Post-Impressionism",
+    "lang_zh": "后印象派",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "en plein air": {
+    "text": "En plein air",
+    "lang_zh": "野外写生",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "super detail": {
+    "text": "super detail",
+    "lang_zh": "非常详细",
+    "subType": "quality",
+    "dir": "质量",
+    "tags": []
+  },
+  "high details": {
+    "text": "high details",
+    "lang_zh": "高细节",
+    "subType": "quality",
+    "dir": "质量",
+    "tags": []
+  },
+  "timeless modern": {
+    "text": "timeless modern",
+    "lang_zh": "永恒的现代",
+    "subType": "style",
+    "tags": []
+  },
+  "8k octane": {
+    "text": "8k octane",
+    "lang_zh": "8k八角渲染",
+    "subType": "style",
+    "tags": []
+  },
+  "pointillism": {
+    "text": "Pointillism",
+    "lang_zh": "点彩派",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "verism": {
+    "text": "Verism",
+    "lang_zh": "写实主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "raised fist": {
+    "text": "raised fist",
+    "lang_zh": "扬起的拳头",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "ashcan school": {
+    "text": "Ashcan School",
+    "lang_zh": "垃圾桶派",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "soft colors": {
+    "text": "soft colors",
+    "lang_zh": "柔和的颜色",
+    "subType": "style",
+    "tags": []
+  },
+  "careful line drawing": {
+    "text": "careful line drawing",
+    "lang_zh": "细心的线条绘画",
+    "subType": "style",
+    "tags": []
+  },
+  "naïve art": {
+    "text": "Naïve art",
+    "lang_zh": "原始艺术",
+    "subType": "style",
+    "tags": []
+  },
+  "pixar": {
+    "text": "Pixar",
+    "lang_zh": "皮克斯",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "cubism": {
+    "text": "Cubism",
+    "lang_zh": "立体主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "soft lighting": {
+    "text": "soft lighting",
+    "lang_zh": "柔和的灯光",
+    "subType": "style",
+    "tags": []
+  },
+  "test1": {
+    "text": "test1",
+    "subType": "normal",
+    "tags": []
+  },
+  "depth of field": {
+    "text": "Depth of field",
+    "lang_zh": "景深",
+    "subType": "style",
+    "tags": [
+      "摄影"
+    ]
+  },
+  "ultra - wide angle": {
+    "text": "Ultra - wide angle",
+    "lang_zh": "超广角",
+    "subType": "style",
+    "tags": [
+      "摄影"
+    ]
+  },
+  "portrait photography": {
+    "text": "Portrait photography",
+    "lang_zh": "人像摄影",
+    "subType": "style",
+    "tags": [
+      "摄影"
+    ]
+  },
+  "color correction": {
+    "text": "Color correction",
+    "lang_zh": "色彩校正",
+    "subType": "style",
+    "tags": [
+      "摄影"
+    ]
+  },
+  "cinematic": {
+    "text": "Cinematic",
+    "lang_zh": "电影",
+    "subType": "style",
+    "tags": [
+      "摄影",
+      "平面设计"
+    ]
+  },
+  "photorealistic": {
+    "text": "photorealistic",
+    "lang_zh": "真实感",
+    "subType": "style",
+    "tags": [
+      "摄影"
+    ]
+  },
+  "cinematography": {
+    "text": "cinematography",
+    "lang_zh": "电影摄影",
+    "subType": "style",
+    "tags": [
+      "摄影",
+      "平面设计"
+    ]
+  },
+  "retrofuturism": {
+    "text": "retrofuturism",
+    "lang_zh": "复古未来主义",
+    "subType": "style",
+    "tags": []
+  },
+  "16k": {
+    "text": "16k",
+    "subType": "quality",
+    "dir": "质量/画质",
+    "tags": []
+  },
+  "ip": {
+    "text": "IP",
+    "subType": "style",
+    "tags": [
+      "3D"
+    ]
+  },
+  "8k": {
+    "text": "8k",
+    "subType": "quality",
+    "dir": "质量/画质",
+    "tags": []
+  },
+  "pixel assets": {
+    "text": "pixel assets",
+    "lang_zh": "像素资产",
+    "subType": "style",
+    "tags": []
+  },
+  "character sheet full-length": {
+    "text": "character sheet full-length",
+    "lang_zh": "全身角色表",
+    "subType": "style",
+    "tags": []
+  },
+  "pixel art": {
+    "text": "Pixel Art",
+    "lang_zh": "像素艺术",
+    "subType": "style",
+    "tags": []
+  },
+  "illustration": {
+    "text": "illustration",
+    "lang_zh": "插画",
+    "subType": "style",
+    "tags": []
+  },
+  "japanese illustration style": {
+    "text": "Japanese illustration style",
+    "lang_zh": "日本插画风格",
+    "subType": "style",
+    "tags": []
+  },
+  "character design": {
+    "text": "Character Design",
+    "lang_zh": "角色设计",
+    "subType": "style",
+    "tags": [
+      "3D"
+    ]
+  },
+  "clay render": {
+    "text": "clay render",
+    "lang_zh": "粘土渲染",
+    "subType": "style",
+    "tags": [
+      "3D"
+    ]
+  },
+  "oc renderer": {
+    "text": "OC renderer",
+    "lang_zh": "OC渲染器",
+    "subType": "style",
+    "tags": [
+      "3D"
+    ]
+  },
+  "award winning": {
+    "text": "award winning",
+    "lang_zh": "屡获殊荣",
+    "subType": "quality",
+    "dir": "质量",
+    "tags": []
+  },
+  "artistic": {
+    "text": "artistic",
+    "lang_zh": "艺术的",
+    "subType": "style",
+    "tags": []
+  },
+  "detail": {
+    "text": "detail",
+    "lang_zh": "细节",
+    "subType": "normal",
+    "tags": []
+  },
+  "cinematic lighting": {
+    "text": "cinematic lighting",
+    "lang_zh": "电影灯光",
+    "subType": "style",
+    "tags": []
+  },
+  "3d isometric": {
+    "text": "3D Isometric",
+    "lang_zh": "3D 等距",
+    "subType": "style",
+    "tags": [
+      "3D"
+    ]
+  },
+  "best quality": {
+    "text": "best quality",
+    "lang_zh": "最佳质量",
+    "subType": "quality",
+    "dir": "质量",
+    "tags": []
+  },
+  "detail 8k": {
+    "text": "detail 8k",
+    "subType": "style",
+    "tags": []
+  },
+  "dribbble": {
+    "text": "dribbble",
+    "lang_zh": "Dribbble",
+    "subType": "style",
+    "tags": [
+      "3D",
+      "平面设计",
+      "UI"
+    ]
+  },
+  "behance": {
+    "text": "behance",
+    "lang_zh": "Behance",
+    "subType": "style",
+    "tags": [
+      "3D",
+      "UI",
+      "平面设计"
+    ]
+  },
+  "icon style": {
+    "text": "icon style",
+    "lang_zh": "图标样式",
+    "subType": "style",
+    "tags": []
+  },
+  "minimalist": {
+    "text": "minimalist",
+    "lang_zh": "极简主义",
+    "subType": "style",
+    "tags": []
+  },
+  "2d": {
+    "text": "2D",
+    "subType": "style",
+    "tags": []
+  },
+  "3d": {
+    "text": "3D",
+    "subType": "style",
+    "tags": [
+      "3D"
+    ]
+  },
+  "4k": {
+    "text": "4K",
+    "subType": "quality",
+    "dir": "质量/画质",
+    "tags": []
+  },
+  "unreal engine": {
+    "text": "unreal engine",
+    "lang_zh": "虚幻引擎",
+    "subType": "style",
+    "tags": []
+  },
+  "hyper realistic": {
+    "text": "hyper realistic",
+    "lang_zh": "超现实主义",
+    "subType": "style",
+    "tags": []
+  },
+  "isometric view": {
+    "text": "isometric view",
+    "lang_zh": "等距视图",
+    "subType": "style",
+    "tags": []
+  },
+  "damaged": {
+    "text": "damaged",
+    "lang_zh": "损坏的",
+    "subType": "normal",
+    "tags": []
+  },
+  "ruined": {
+    "text": "ruined",
+    "lang_zh": "破败的",
+    "subType": "normal",
+    "tags": []
+  },
+  "digital art": {
+    "text": "digital art",
+    "lang_zh": "数字艺术",
+    "subType": "style",
+    "tags": []
+  },
+  "high quality": {
+    "text": "high quality",
+    "lang_zh": "高质量",
+    "subType": "quality",
+    "dir": "质量",
+    "tags": []
+  },
+  "trumbledown": {
+    "text": "trumbledown",
+    "lang_zh": "摇摇欲坠",
+    "subType": "normal",
+    "tags": []
+  },
+  "apocalypse": {
+    "text": "apocalypse",
+    "lang_zh": "启示录",
+    "subType": "normal",
+    "tags": []
+  },
+  "isometric projection": {
+    "text": "isometric projection",
+    "lang_zh": "等距投影",
+    "subType": "style",
+    "tags": []
+  }
+}
