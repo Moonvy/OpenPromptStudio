@@ -28,8 +28,7 @@ export async function midjourneyParse(text: string, options?: { zh2en?: boolean 
 
         if (options?.zh2en) texts = await translateZh2En(texts)
 
-
-        texts.forEach((text, i) => {
+            texts.forEach((text, i) => {
             let word = { text, type: PromptWordType.Word, rawText: text, group: `${groupIndex}::${lv}`, lv }
             words.push(<IPromptWord>word)
         })
@@ -60,7 +59,7 @@ function split(text: string) {
 function paresCommands(text: string) {
     // 匹配带一个参数的命令
     const REG_COMMAND_ARG =
-        /(--|—)(version|v|aspect|ar|quality|q|chaos|seed|stop|style|stylize|no|iw|width|w|height|h+) ([\w\.:]+)/g
+        /(--|—)(version|v|aspect|ar|quality|q|chaos|seed|sameseed|stop|style|stylize|s|no|iw|width|w|height|h+) ([\w\.:]+)/g
     // 匹配任意无命令
     const REG_ALL = /(--|—)([a-zA-Z0-9]+)/g
 
