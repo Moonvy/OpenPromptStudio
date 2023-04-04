@@ -13,8 +13,19 @@
 - 轻松的排序、隐藏提示词
 - 把提示词可视化结果导出为图片
 - 常用提示词词典
+- 通过 Notion 管理提示词词典
 
 
+
+
+## 如何修改提示词词典
+
+1. 在 [./data/src](https://github.com/Moonvy/OpenPromptStudio/tree/master/data/src) 中编辑 `.csv` 文件，你可以用 Excel、Numbers 或者纯文本编辑器编辑。
+
+2. 在 Notion 中编辑（[./data/src/notion/fromNotion.js](https://github.com/Moonvy/OpenPromptStudio/data/src/notion/fromNotion.js) ）
+
+
+运行 `npm run fetch` 把 2 个来源的数据整理在一起
 
 
 
