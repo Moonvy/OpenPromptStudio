@@ -68,7 +68,12 @@
                             <span class="groupLv" v-if="group.groupLv && group.groupLv > 1">{{ group.groupLv }}</span>
                         </div>
                     </div>
-                    <PromptList v-for="promptList in group.lists" :key="promptList.data.id" :list="promptList">
+                    <PromptList
+                        v-for="promptList in group.lists"
+                        :key="promptList.data.id"
+                        :list="promptList"
+                        @update="doExportPrompt()"
+                    >
                         <div class="name-bar">
                             <div class="name" :class="[`type-${promptList.data.id}`]" :title="promptList.data.name">
                                 <span class="content">{{ promptList.data.name ?? promptList.data.id }}</span>
@@ -392,7 +397,7 @@ import debounce from "lodash/debounce"
 import { PromptItem } from "../../Sub/PromptItem"
 import { useClipboard } from "@vueuse/core"
 let { copy } = useClipboard()
-import { copyBlobToClipboard } from 'copy-image-clipboard'
+import { copyBlobToClipboard } from "copy-image-clipboard"
 import { toPng, toJpeg, toBlob, toPixelData, toSvg } from "html-to-image"
 import { getImageSize } from "html-to-image/src/util"
 // @ts-ignore
@@ -489,13 +494,11 @@ export default Vue.extend({
                 })
                 this.isPNGExporting = false
 
-
-                if(enablePngExportCopy){
+                if (enablePngExportCopy) {
                     copyBlobToClipboard(re!)
-                }else {
+                } else {
                     download(re, `${this.promptWork.data.name}-OPS-Prompts_${width}x${height}.png`)
                 }
-
             } catch (e) {
                 console.error(e)
                 this.isPNGExporting = false

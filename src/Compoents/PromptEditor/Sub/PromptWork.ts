@@ -131,6 +131,8 @@ export class PromptWork {
             i++
         }
         if (commands.length > 0) finText += ` ${commands.join(", ")}`
+
+        // console.log("exportPrompts")
         return finText.trim()
     }
     /** 翻译全部提示词 */
