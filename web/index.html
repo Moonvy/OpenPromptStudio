@@ -11,5 +11,19 @@
     <body>
         <div id="app-root"></div>
         <script type="module" src="./index.ts"></script>
+
+        <script>
+            var _hmt = _hmt || []
+            ;(function () {
+                if (location.host == "moonvy.com") {
+                    setTimeout(function () {
+                        var hm = document.createElement("script")
+                        hm.src = "https://hm.baidu.com/hm.js?fd3db016b6568341ded3a8934ed6688c"
+                        var s = document.getElementsByTagName("script")[0]
+                        s.parentNode.insertBefore(hm, s)
+                    }, 1000)
+                }
+            })()
+        </script>
     </body>
 </html>
