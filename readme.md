@@ -28,4 +28,10 @@
 运行 `npm run fetch` 把 2 个来源的数据整理在一起
 
 
+## 更好的体验
 
+你可以在 [zeroG 浏览器](https://moonvy.com/zeroG/) 里让 OPS
+ 与 Discord 在一个无限画布中使用，获得更好的体验
+![截屏2023-04-06 15.51.23.png](./doc%2Fassets%2F%E6%88%AA%E5%B1%8F2023-04-06%2015.51.23.png)
+
+ 
