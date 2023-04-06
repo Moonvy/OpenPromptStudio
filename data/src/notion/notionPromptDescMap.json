@@ -4,6 +4,39 @@
     "subType": "quality",
     "tags": []
   },
+  "cycles render": {
+    "text": "Cycles Render",
+    "subType": "style",
+    "tags": []
+  },
+  "cyclesrender": {
+    "text": "CyclesRender",
+    "subType": "style",
+    "tags": []
+  },
+  "blender 3d": {
+    "text": "blender 3d",
+    "subType": "style",
+    "tags": []
+  },
+  "glassmorphism": {
+    "text": "Glassmorphism",
+    "lang_zh": "玻璃形态",
+    "subType": "style",
+    "tags": []
+  },
+  "glass morphism": {
+    "text": "Glass Morphism",
+    "lang_zh": "玻璃形态",
+    "subType": "style",
+    "tags": []
+  },
+  "abstract": {
+    "text": "abstract",
+    "lang_zh": "抽象",
+    "subType": "style",
+    "tags": []
+  },
   "uhd": {
     "text": "UHD",
     "lang_zh": "超高清",
@@ -220,7 +253,6 @@
     "text": "punk woman",
     "lang_zh": "朋克女性",
     "subType": "style",
-    "dir": "绘画/风格",
     "tags": []
   },
   "c4d": {

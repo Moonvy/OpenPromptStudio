@@ -3,6 +3,33 @@
   "text": "1080",
   "subType": "quality"
  },
+ "cycles render": {
+  "text": "Cycles Render",
+  "subType": "style"
+ },
+ "cyclesrender": {
+  "text": "CyclesRender",
+  "subType": "style"
+ },
+ "blender 3d": {
+  "text": "blender 3d",
+  "subType": "style"
+ },
+ "glassmorphism": {
+  "text": "Glassmorphism",
+  "lang_zh": "玻璃形态",
+  "subType": "style"
+ },
+ "glass morphism": {
+  "text": "Glass Morphism",
+  "lang_zh": "玻璃形态",
+  "subType": "style"
+ },
+ "abstract": {
+  "text": "abstract",
+  "lang_zh": "抽象",
+  "subType": "style"
+ },
  "uhd": {
   "text": "UHD",
   "lang_zh": "超高清",
@@ -187,8 +214,7 @@
  "punk woman": {
   "text": "punk woman",
   "lang_zh": "朋克女性",
-  "subType": "style",
-  "dir": "绘画/风格"
+  "subType": "style"
  },
  "c4d": {
   "text": "c4d",
@@ -4880,5 +4906,22 @@
   "lang_zh": "高清模型",
   "subType": "command",
   "desc": "使用早期的替代模型来生成更大、更不一致的图像。该算法可能适用于抽象和风景图像"
+ },
+ "--repeat": {
+  "text": "--repeat",
+  "lang_zh": "重复",
+  "subType": "command",
+  "desc": "重复",
+  "sampleCmds": [
+   "1",
+   "3"
+  ],
+  "dir": "命令/重复"
+ },
+ "—repeat": {
+  "text": "—repeat",
+  "lang_zh": "重复",
+  "subType": "command",
+  "desc": "重复"
  }
 }

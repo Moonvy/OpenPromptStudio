@@ -90,7 +90,12 @@ const Commands = [
         zh: "高清模型",
         desc: "使用早期的替代模型来生成更大、更不一致的图像。该算法可能适用于抽象和风景图像",
     },
-
+    {
+        keys: ["--repeat"],
+        zh: "重复",
+        sampleCmds: ["1", "3" ],
+        desc: "重复",
+    },
 ]
 
 export default function () {
