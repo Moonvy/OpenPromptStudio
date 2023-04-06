@@ -93,8 +93,8 @@
         opacity: 0;
         pointer-events: none;
         transform: none;
-        &.dict-word{
-            opacity: .5;
+        &.dict-word {
+            opacity: 0.5;
         }
     }
 
@@ -265,7 +265,9 @@ export default Vue.extend({
                 this.doEditDone()
             }
         },
-        onBlur() {},
+        onBlur() {
+            this.doEditDone()
+        },
         onBlurLang() {},
         async doEditDone() {
             if (this.item.state.isEdit == "text") {
