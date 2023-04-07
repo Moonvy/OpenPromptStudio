@@ -18,11 +18,11 @@
 
 ## 如何连接的我的 Noiton 来管理自己的词典
 
-![ ](./doc/assets/notion-me.gif)
-
 OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使用 Notion 管理相对简单，可自定义程度也很高。
 
-### 复制「演示-AIGC 提示词库」
+![ ](./doc/assets/notion-me.gif)
+
+### 1. 复制「演示-AIGC 提示词库」
 
 复制我们的演示文档的自己的 Notion 空间中
 
@@ -37,7 +37,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 | subType | 提示词在 OPS 中的分类（`普通`、`风格`、`质量`、`命令`） |
 | dir     | 词典中的分类，子分类用`/`分隔如：`风格/绘画风格`        |
 
-### 创建自己的 Noiton 集成插件（integrations）
+### 2. 创建自己的 Noiton 集成插件（integrations）
 
 要让 OPS 连接到自己的 Notion 数据库，需要创建一个自己的集成（integrations）。OPS 会通过此集成的权限连接到你的数据库。
 
@@ -51,7 +51,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 -   集成扩展创建完毕后，复制 Token 秘钥保存下来，你将使用此 Token 作为访问凭证，请妥善保管不要在公开场合泄露。
     ![](./doc/assets/Myintegrations-3@2x.jpeg)
 
-### 在 OPS 中配置 Notion
+### 3. 在 OPS 中配置 Notion
 
 在 OPS 右上角打开提示词词典，鼠标放在「连接我的 Noiton」按钮上，展开设置面板
 
@@ -89,6 +89,6 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 2. 在 [Notion](https://www.notion.so/) 中编辑（[./data/src/notion/fromNotion.js](https://github.com/Moonvy/OpenPromptStudio/tree/master/data/src/notion/fromNotion.js) ）
 
-
 ### 翻译服务
+
 请连接自己的翻译服务
