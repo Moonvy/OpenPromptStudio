@@ -1,7 +1,7 @@
 <template>
     <div class="IndexPage">
         <nav>
-            <a class="logo" href="/apps/ops/"><b>OPS</b>/OpenPromptStudio</a>
+            <a class="logo" href="https://github.com/Moonvy/OpenPromptStudio"><b>OPS</b>/OpenPromptStudio</a>
             <a class="icon-link" href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
                 <Icon icon="radix-icons:github-logo"
             /></a>
@@ -29,7 +29,7 @@
             <a href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
                 <img class="icon" src="/icon.svg" /> OpenPromptStudio / v{{ verison }} /
             </a>
-            <a href="/"> made by <img src="./assets/logo_full_cn.svg" /></a>
+            <a href="https://moonvy.com/?homepage"> made by <img src="./assets/logo_full_cn.svg" /></a>
         </footer>
     </div>
 </template>

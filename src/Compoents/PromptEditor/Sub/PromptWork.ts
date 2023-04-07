@@ -118,7 +118,7 @@ export class PromptWork {
                     }
                 }
             }
-            finText += chars.join(", ")
+            finText += chars.join(" , ")
             if (len > 0) {
                 if (i < len - 1) {
                     finText += ` ::${group.groupLv == 1 ? "" : group.groupLv} `
@@ -130,7 +130,7 @@ export class PromptWork {
             }
             i++
         }
-        if (commands.length > 0) finText += ` ${commands.join(", ")}`
+        if (commands.length > 0) finText += ` ${commands.join(" , ")}`
 
         // console.log("exportPrompts")
         return finText.trim()

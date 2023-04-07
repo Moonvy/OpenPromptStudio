@@ -97,6 +97,7 @@ export default {
         doDelete() {
             this.close()
             this.promptList.removePrompt(this.item)
+            this.bindEl.__vue__.$emit("update")
         },
         open({ item, el, event, promptList }) {
             this.bindEl = el
