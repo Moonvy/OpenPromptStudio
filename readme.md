@@ -41,14 +41,17 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 要让 OPS 连接到自己的 Notion 数据库，需要创建一个自己的集成（integrations）。OPS 会通过此集成的权限连接到你的数据库。
 
--   打开 Notion 集成开发页面 [www.notion.so/my-integrations】(https://www.notion.so/my-integrations)  
+-   打开 Notion 集成开发页面 [www.notion.so/my-integrations](https://www.notion.so/my-integrations)  
     点击 「+ new integrations」按钮创建一个新集成插件
+
     ![](./doc/assets/Myintegrations-1@2x.jpeg)
 
 -   在集成插件页面中选择允许访问的 Notion 工作区（Workspace），你的 Notion 数据库需要创建在此工作区下，OPS 才能通过集成插件访问。
+
     ![](./doc/assets/Myintegrations-2@2x.jpeg)
 
 -   集成扩展创建完毕后，复制 Token 秘钥保存下来，你将使用此 Token 作为访问凭证，请妥善保管不要在公开场合泄露。
+
     ![](./doc/assets/Myintegrations-3@2x.jpeg)
 
 ### 3. 在 OPS 中配置 Notion
