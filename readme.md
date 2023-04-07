@@ -50,17 +50,22 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
     ![](./doc/assets/Myintegrations-2@2x.jpeg)
 
--   集成扩展创建完毕后，复制 Token 秘钥保存下来，你将使用此 Token 作为访问凭证，请妥善保管不要在公开场合泄露。
+-   集成插件创建完毕后，复制 Token 秘钥保存下来，你将使用此 Token 作为访问凭证，请妥善保管不要在公开场合泄露。
 
     ![](./doc/assets/Myintegrations-3@2x.jpeg)
+
+-   **在 Notion 数据库连接集成插件**  
+    集成插件创建后，还需要在你的 Notion 数据库的菜单中连接到你的集成插件：
+
+    ![](./doc/assets/Myintegrations-4@2x.jpg)
 
 ### 3. 在 OPS 中配置 Notion
 
 在 OPS 右上角打开提示词词典，鼠标放在「连接我的 Noiton」按钮上，展开设置面板
 
--   「Integrations Token」 里面填入前面我们生成的集成 Token 秘钥（秘钥只会保存在浏览器本地（localStorage），不会被上传到任何地方）
+-  「Integrations Token」 里面填入前面我们生成的集成 Token 秘钥（秘钥只会保存在浏览器本地（localStorage），不会被上传到任何地方）
 
--   「Database ID」里粘贴你 Notion 数据库的访问地址
+-  「Database ID」里粘贴你 Notion 数据库的访问地址
 
 -   然后点击「载入」按钮
 
@@ -71,7 +76,6 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 在 Notion 数据库菜单中点击 「Copy link to view」 就可以了，粘贴 Notion 数据库地址到 OPS 的配置输入框后会自动提取 `DatabaseID`
 
 ![获取 Notion 数据库地址](./doc/assets/notion-me-config-2.jpg)
- 
 
 ## 更好的体验
 

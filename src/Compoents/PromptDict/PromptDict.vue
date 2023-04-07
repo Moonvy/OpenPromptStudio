@@ -141,7 +141,7 @@
                 margin-bottom: 8px;
             }
             .help {
-                color: #5a5a5a;
+                color: #4b4894;
                 position: absolute;
                 top: 12px;
                 display: flex;
@@ -149,10 +149,13 @@
                .iconify{
                    margin-right: 4px;
                }
+                a{
+                    font-weight: bold;
+                }
             }
             a {
                 font-size: 13px;
-                color: #5a5a5a;
+                color: #4b4894;
                 text-decoration: none;
                 &:hover {
                     color: #4545b2;
