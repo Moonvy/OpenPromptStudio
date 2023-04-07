@@ -129,3 +129,15 @@ input,
     --font-size-1: 14px;
     --font-size-2: 16px;
 }
+
+.v-popper--theme-tooltip {
+    .v-popper__inner {
+        background: rgba(19, 22, 26, 0.84);
+        backdrop-filter: blur(20px);
+        font-size: 13px;
+    }
+
+    .v-popper__arrow-outer {
+        border-color: rgba(19, 22, 26, 0.84);
+    }
+}

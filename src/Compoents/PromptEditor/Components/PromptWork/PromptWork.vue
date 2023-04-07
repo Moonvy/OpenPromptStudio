@@ -30,26 +30,41 @@
                     </button>
 
                     <div class="button-group">
-                        <button @click="doDisableAll()" title="全部禁用" class="icon">
+                        <button @click="doDisableAll()" v-tooltip="'全部禁用'" class="icon">
                             <Icon icon="radix-icons:shadow-none" />
                         </button>
-                        <button @click="doClear()" title="清空" class="icon">
+                        <button
+                            @click="doSwitchIO()"
+                            v-tooltip="'用输出替换输入'"
+                            class="icon"
+                            :class="{ disabled: outputText == inputText }"
+                        >
+                            <Icon icon="radix-icons:arrow-up" />
+                        </button>
+                        <button
+                            @click="doClear()"
+                            v-tooltip="'清空输入'"
+                            class="icon"
+                            :class="{ disabled: inputText?.length == '' }"
+                        >
                             <Icon icon="radix-icons:crumpled-paper" />
                         </button>
                     </div>
                     <div class="button-group">
-                        <button @click="toPng" title="导出 PNG 图片"><Icon icon="fluent:image-16-regular" /></button>
-                        <button @click="toPng({ scale: 2 })" title="导出 PNG 图片（2X）">
+                        <button @click="toPng" v-tooltip="`导出 PNG 图片`">
+                            <Icon icon="fluent:image-16-regular" />
+                        </button>
+                        <button @click="toPng({ scale: 2 })" v-tooltip="`导出 PNG 图片（2X）`">
                             <Icon icon="fluent:hd-24-regular" />
                         </button>
                     </div>
                 </div>
                 <div class="line more-options">
-                    <select v-model="inputParser" class="parser-select">
+                    <select v-model="inputParser" class="parser-select" v-tooltip="`提示词语法类型`">
                         <option value="midjourney">Midjourney</option>
                         <option value="stable-diffusion" disabled>Stable-Diffusion (WIP)</option>
                     </select>
-                    <button @click="doDeleteWorkspace()" title="删除工作区" class="icon">
+                    <button @click="doDeleteWorkspace()" v-tooltip="`删除工作区`" class="icon">
                         <Icon icon="radix-icons:trash" />
                     </button>
                 </div>
@@ -262,6 +277,7 @@
             white-space: normal;
             word-wrap: break-word;
             margin-top: 8px;
+            min-height: 1em;
             .pl {
                 color: #7a8b7e;
             }
@@ -311,6 +327,10 @@
                     .iconify {
                         margin-right: 0;
                         font-size: var(--font-size-2);
+                    }
+                    &.disabled {
+                        opacity: 0.4;
+                        pointer-events: none;
                     }
                 }
             }
@@ -447,6 +467,9 @@ export default Vue.extend({
             this.inputText = ""
             await this.doImportByInput()
             this.doExportPrompt()
+        },
+        doSwitchIO() {
+            this.inputText = this.promptWork.exportPrompts()
         },
         doDisableAll() {
             this.promptWork.disableAll()

@@ -10,7 +10,7 @@
         @click="onClick"
         @contextmenu.prevent="$emit('contextmenu', { el: $el, item, event: $event })"
         @mousedown="onMousedown"
-        :title="item.data.word.desc"
+        v-tooltip="item.data.word.desc"
     >
         <div class="content">
             <div class="displayName name">

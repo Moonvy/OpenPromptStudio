@@ -133,7 +133,7 @@ export class PromptWork {
             }
             i++
         }
-        if (commands.length > 0) finText += ` ${commands.join(" , ")}`
+        if (commands.length > 0) finText += ` ${commands.join(" ")}`
 
         // console.log("exportPrompts")
         return finText.trim()

@@ -1,6 +1,6 @@
 {
     "name": "@moonvy/open-prompt-studio",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "license": "MIT",
     "type": "module",
     "scripts": {
@@ -37,6 +37,7 @@
         "cors": "2.8.5",
         "downloadjs": "^1.4.7",
         "express": "4.18.2",
+        "floating-vue": "1.0.0-beta.19",
         "fzz": "*",
         "html-to-image": "1.11.11",
         "http-proxy-agent": "5.0.0",
