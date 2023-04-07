@@ -58,7 +58,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 在 OPS 右上角打开提示词词典，鼠标放在「连接我的 Noiton」按钮上，展开设置面板
 
--「Integrations Token」 里面填入前面我们生成的集成 Token 秘钥（秘钥只会保存在浏览器本地（localStorage），不会被上传到任何地方）
+-   「Integrations Token」 里面填入前面我们生成的集成 Token 秘钥（秘钥只会保存在浏览器本地（localStorage），不会被上传到任何地方）
 
 -   「Database ID」里粘贴你 Notion 数据库的访问地址
 
