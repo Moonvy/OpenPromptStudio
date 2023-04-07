@@ -146,10 +146,10 @@
                 top: 12px;
                 display: flex;
                 place-items: center;
-               .iconify{
-                   margin-right: 4px;
-               }
-                a{
+                .iconify {
+                    margin-right: 4px;
+                }
+                a {
                     font-weight: bold;
                 }
             }
@@ -249,10 +249,9 @@ export default Vue.extend({
     watch: {
         databaseId(val: string) {
             if (val.startsWith("https://")) {
-                let url = new URL(val)
-                let databaseId = url.pathname?.split("/")?.[2]
-
-                if (databaseId && databaseId.length == 32) {
+                let re = /\/([0-9a-f]{32})/.exec(val)
+                if (re?.[1]?.length == 32) {
+                    let databaseId = re?.[1]
                     ;(this as any).databaseId = databaseId
                 } else {
                     ;(this as any).databaseId = ""
