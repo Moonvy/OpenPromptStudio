@@ -26,9 +26,13 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 复制我们的演示文档的自己的 Notion 空间中
 
--   [演示-AIGC 提示词库](https://moonvy.notion.site/b768c5c1852f4e2fbaee1b4a99f26d49?v=346e91e8114648c59079eeea2d9d56c7)
+-   [**演示-AIGC 提示词库**](https://moonvy.notion.site/b768c5c1852f4e2fbaee1b4a99f26d49?v=346e91e8114648c59079eeea2d9d56c7)
+
+![](./doc/assets/notion-demo.jpg)
 
 保持表头定义： `text`, `subType`、`dir`、`lang_zh` 不要变（或者你可以新建一个 Notion 数据库，只要有这些表头 OPS 就能连接的这个数据库）
+
+#### Notion 表头定义
 
 | 表头    | 作用                                                    |
 | ------- | ------------------------------------------------------- |
@@ -63,9 +67,9 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 在 OPS 右上角打开提示词词典，鼠标放在「连接我的 Noiton」按钮上，展开设置面板
 
--  「Integrations Token」 里面填入前面我们生成的集成 Token 秘钥（秘钥只会保存在浏览器本地（localStorage），不会被上传到任何地方）
+-   「Integrations Token」 里面填入前面我们生成的集成 Token 秘钥（秘钥只会保存在浏览器本地（localStorage），不会被上传到任何地方）
 
--  「Database ID」里粘贴你 Notion 数据库的访问地址
+-   「Database ID」里粘贴你 Notion 数据库的访问地址
 
 -   然后点击「载入」按钮
 
