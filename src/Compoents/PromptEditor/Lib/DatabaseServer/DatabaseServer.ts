@@ -1,3 +1,5 @@
+import { fetchFromNotion } from "./lib/fetchFromNotion"
+
 export interface IPromptDefineItem {
     text: string
     subType?: string
@@ -10,6 +12,7 @@ export interface IPromptDefineItem {
 
 export class DatabaseServer {
     localPromptDefineMap: { [key: string]: IPromptDefineItem } = {}
+    notionPromptDefineMap: { [key: string]: IPromptDefineItem } = {}
     isReady: null | Promise<boolean> = null
     constructor() {}
     async ready() {
@@ -38,9 +41,21 @@ export class DatabaseServer {
         return <any>reuslt
     }
 
-    async getPromptsDefine() {
+    async getPromptsDefine(options?: { onlyMyNotion?: boolean }) {
         await this.ready()
-        return this.localPromptDefineMap
+        if (options?.onlyMyNotion) {
+            return this.notionPromptDefineMap
+        } else {
+            return this.localPromptDefineMap
+        }
+    }
+
+    async fetchNotion(options: { apiKey: string; databaseId: string }) {
+        console.log("fetchNotion options", options)
+        let { defineMap, me } = await fetchFromNotion(options)
+        this.notionPromptDefineMap = defineMap
+        Object.assign(this.localPromptDefineMap, defineMap)
+        return { defineMap, me }
     }
 }
 

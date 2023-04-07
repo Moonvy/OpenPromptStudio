@@ -1,6 +1,36 @@
 <!-- Created on 2023/03/31 - 12:10 -->
 <template>
     <div class="PromptDict">
+        <div class="notion-settings">
+            <button class="notion-me" @click="doGotoNotionMe">
+                <Icon icon="logos:notion-icon" />
+                {{ notionName ?? (loading ? "连接中..." : "连接我的 Notion") }}
+            </button>
+
+            <div class="notion-config">
+                <div class="line checkbox">
+                    <label for="enableNotion">启用我的 Notion</label>
+                    <input id="enableNotion" v-model="enableMyNotion" type="checkbox" />
+                </div>
+                <div class="line"><label>Integration Token</label> <input v-model="apiKey" type="text" /></div>
+                <div class="line"><label>Database ID </label> <input v-model="databaseId" type="text" /></div>
+                <div class="line checkbox">
+                    <label for="onlyMyNotion">仅使用此数据库 </label>
+                    <input id="onlyMyNotion" v-model="onlyMyNotion" type="checkbox" />
+                    <div class="desc">忽略默认词典</div>
+                </div>
+                <div class="line buttons">
+                    <button
+                        class="full"
+                        :class="{ disabled: !notioConfigActive || loading || !enableMyNotion }"
+                        @click="reloadData()"
+                    >
+                        {{ loading ? "载入中..." : "载入" }}
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <div class="dir-buttons" v-if="dict">
             <button v-for="dir in dict" :class="{ active: dir == activeDir }" @click="doChangeActiveDir(dir)">
                 {{ dir.name }}
@@ -73,6 +103,91 @@
             border: 2px solid #e9e9e9;
         }
     }
+
+    .notion-settings {
+        .notion-me {
+            position: absolute;
+            right: 60px;
+            top: 16px;
+            font-size: 13px;
+            z-index: 222;
+        }
+
+        .notion-config {
+            opacity: 0;
+            right: 57px;
+            top: 13px;
+            /* padding-top: 100px; */
+            width: 420px;
+            height: auto;
+            background: #ffffff;
+            position: absolute;
+            z-index: 100;
+            padding: 20px;
+            padding-top: 49px;
+            border-radius: 4px;
+            box-shadow: -2px 0 64px rgba(6, 5, 73, 0.1215686275);
+            transition: all 0.2s ease;
+            pointer-events: none;
+            .line:not(:last-child) {
+                margin-bottom: 8px;
+            }
+
+            label {
+                display: inline-flex;
+                font-size: 13px;
+                color: #5a5a5a;
+                width: 140px;
+                place-content: flex-end;
+                white-space: nowrap;
+                margin-right: 12px;
+            }
+
+            input {
+                background: #e9e9e975;
+                width: auto;
+                flex: auto;
+            }
+
+            .full {
+                width: auto;
+                flex: auto;
+                place-content: center;
+            }
+
+            .line {
+                display: flex;
+                place-items: center;
+                place-content: flex-start;
+            }
+
+            .line.checkbox {
+                input {
+                    flex: none;
+                }
+            }
+            .desc {
+                flex: auto;
+                font-size: 13px;
+                color: #c9c9c9;
+                text-align: right;
+            }
+            .buttons {
+                place-content: center;
+
+                button.disabled {
+                    pointer-events: none;
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        &:hover .notion-config {
+            transition: all 0.4s ease;
+            opacity: 1;
+            pointer-events: auto;
+        }
+    }
 }
 </style>
 <script lang="ts">
@@ -80,23 +195,100 @@ import Vue, { PropType } from "vue"
 import { getDictData, IDictDir } from "./getDictData"
 import vPromptItem from "../../Compoents/PromptEditor/Components/PromptItem/PromptItem.vue"
 import { PromptItem } from "../PromptEditor/Sub/PromptItem"
+import { useDatabaseServer } from "../PromptEditor/Lib/DatabaseServer/DatabaseServer"
+import { useStorage } from "@vueuse/core"
+
+const apiKey = useStorage<string>("ops-notion-apiKey", "")
+const databaseId = useStorage<string>("ops-notion-databaseId", "")
+const onlyMyNotion = useStorage("ops-notion-onlyMyNotion", false)
+const enableMyNotion = useStorage("ops-notion-enableMyNotion", true)
 
 export default Vue.extend({
     data() {
-        getDictData().then((dict) => {
-            ;(<any>this).dict = dict
-            ;(<any>this).activeDir = dict[0]
-        })
         return {
             dict: <IDictDir[] | null>null,
             activeDir: <IDictDir | null>null,
+            apiKey,
+            databaseId,
+            onlyMyNotion,
+            enableMyNotion,
+            notionName: <string | null>null,
+            notionUrl: <string | null>null,
+            loading: false,
+        }
+    },
+    watch: {
+        databaseId(val: string) {
+            if (val.startsWith("https://")) {
+                let url = new URL(val)
+                let databaseId = url.pathname?.split("/")?.[2]
+
+                if (databaseId && databaseId.length == 32) {
+                    ;(this as any).databaseId = databaseId
+                } else {
+                    ;(this as any).databaseId = ""
+                }
+            } else {
+                if (val && val.length != 32) {
+                    ;(this as any).databaseId = ""
+                }
+            }
+        },
+    },
+    created() {
+        this.loadData()
+        let databaseServer = useDatabaseServer()
+        console.log("[PromptDict]", this, databaseServer)
+        if (this.notioConfigActive) {
+            this.reloadData()
         }
     },
     methods: {
+        loadData() {
+            getDictData(onlyMyNotion.value).then((dict) => {
+                ;(<any>this).dict = dict
+                ;(<any>this).activeDir = dict[0]
+            })
+        },
+
+        async reloadData() {
+            if (enableMyNotion.value) {
+                await this.fetchNotion()
+            }
+            this.loadData()
+        },
+
+        async fetchNotion() {
+            try {
+                console.log("[Notion] fetchNotion")
+                this.loading = true
+                this.notionName = null
+                this.notionUrl = null
+                let databaseServer = useDatabaseServer()
+                let re = await databaseServer.fetchNotion({
+                    apiKey: apiKey.value,
+                    databaseId: databaseId.value,
+                })
+                this.notionName = re?.me?.name
+                this.notionUrl = re?.me?.url
+            } catch (e) {
+                console.error("[Notion]", e)
+                if (/Make sure the relevant pages and databases are shared with your integration/.test(e.message)) {
+                    alert(`Notion 连接错误：` + e)
+                } else {
+                    alert(
+                        `Notion 连接错误：没有 Notion 数据库的访问权限。请在此 Notion 数据库页面菜单的 'Connections' 中添加你的集成应用`
+                    )
+                }
+            } finally {
+                this.loading = false
+            }
+        },
+
         doApplyWord(item: PromptItem) {
             let activeInputEl: any = document.body.querySelector(".PromptWork.active")
             if (!activeInputEl) activeInputEl = document.body.querySelector(".PromptWork")
-            console.log("activeInputEl", activeInputEl)
+            // console.log("activeInputEl", activeInputEl)
             if (activeInputEl) {
                 let vueIns = activeInputEl.__vue__
                 let insertText = item.data.word.rawText ?? item.data.word.text
@@ -113,6 +305,10 @@ export default Vue.extend({
         doChangeActiveDir(dir: any) {
             this.activeDir = dir
         },
+
+        doGotoNotionMe() {
+            if (this.notionUrl) window.open(this.notionUrl)
+        },
     },
     components: { PromptItem: vPromptItem },
 
@@ -121,6 +317,10 @@ export default Vue.extend({
             if (this.activeDir) {
                 return [this.activeDir, ...this.activeDir.children]
             }
+        },
+
+        notioConfigActive() {
+            return !!(this.databaseId && this.apiKey)
         },
     },
 })

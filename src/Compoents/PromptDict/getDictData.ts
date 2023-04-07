@@ -2,9 +2,9 @@ import { PromptItem } from "../PromptEditor/Sub/PromptItem"
 
 import { useDatabaseServer } from "../PromptEditor/Lib/DatabaseServer/DatabaseServer"
 
-export async function getDictData(): Promise<IDictDir[]> {
+export async function getDictData(onlyMyNotion?: boolean): Promise<IDictDir[]> {
     let database = useDatabaseServer()
-    let define = await database.getPromptsDefine()
+    let define = await database.getPromptsDefine({ onlyMyNotion })
 
     let dirMap: any = {}
     for (let key in define) {

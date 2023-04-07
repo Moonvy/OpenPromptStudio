@@ -5,7 +5,6 @@ export class PromptEditorClass {
         server: location.host.startsWith("localhost")
             ? "http://localhost:19212/prompt-studio"
             : "https://indexfs.moonvy.com:19213/prompt-studio",
-
         enablePngExportFixed: false,
         enablePngExportCopy: false,
     }

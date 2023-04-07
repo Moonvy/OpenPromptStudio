@@ -3,7 +3,7 @@ const Commands = [
         keys: ["--version", "--v"],
         zh: "版本",
         desc: "模型版本",
-        sampleCmds: ["4", "5", "niji"],
+        sampleCmds: ["4", "5", "niji" ],
     },
     {
         keys: ["--aspect", "--ar"],
@@ -72,6 +72,7 @@ const Commands = [
     },
     {
         keys: ["--niji"],
+        sampleCmds: ["", "5" ],
         zh: "动漫模型",
         desc: "另一种模型专注于动漫风格的图像",
     },
