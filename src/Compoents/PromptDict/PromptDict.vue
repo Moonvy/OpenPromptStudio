@@ -313,20 +313,16 @@ export default Vue.extend({
             }
         },
 
-        doApplyWord(item: PromptItem) {
+        async doApplyWord(item: PromptItem) {
             let activeInputEl: any = document.body.querySelector(".PromptWork.active")
             if (!activeInputEl) activeInputEl = document.body.querySelector(".PromptWork")
-            // console.log("activeInputEl", activeInputEl)
+            console.log("activeInputEl", activeInputEl)
+
             if (activeInputEl) {
-                let vueIns = activeInputEl.__vue__
                 let insertText = item.data.word.rawText ?? item.data.word.text
-                if (vueIns.inputText == "") {
-                    vueIns.inputText = insertText
-                } else {
-                    vueIns.inputText += ", " + insertText
-                }
-                vueIns.onUserInputDebounce()
-                activeInputEl.querySelector("textarea.input")?.focus()
+                let vueIns = activeInputEl.__vue__
+                await vueIns.promptWork.reflowPrompts(insertText)
+                vueIns.doExportPrompt()
             }
         },
 

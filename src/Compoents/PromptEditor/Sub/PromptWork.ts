@@ -10,6 +10,7 @@ export interface IPromptWorkData {
     name: string
     id: string
     initText?: string
+    parser?: string
 }
 
 interface IPromptGroup {
@@ -40,6 +41,7 @@ export class PromptWork {
     /** 导入提示词 */
     async importPrompts(text: string, options: { parser: "midjourney" | "stable-diffusion" }) {
         let { words } = await parsePrompts(text, { zh2en: true, ...options })
+        this.data.parser = options.parser
         // 分组
         let groupList: { [group: string]: IPromptWord[] } = {}
         let noGroup: IPromptWord[] = []
@@ -100,6 +102,7 @@ export class PromptWork {
             return listMap
         }
     }
+
     /** 导出提示词 */
     exportPrompts() {
         let finText = ""
@@ -118,7 +121,7 @@ export class PromptWork {
                     }
                 }
             }
-            finText += chars.join(" , ")
+            finText += chars.filter((x) => x != "").join(", ")
             if (len > 0) {
                 if (i < len - 1) {
                     finText += ` ::${group.groupLv == 1 ? "" : group.groupLv} `
@@ -135,6 +138,15 @@ export class PromptWork {
         // console.log("exportPrompts")
         return finText.trim()
     }
+
+    async reflowPrompts(addPrompt?: string) {
+        let prompt = this.exportPrompts()
+        if (addPrompt) {
+            prompt += " , " + addPrompt
+        }
+        await this.importPrompts(prompt, { parser: <any>this.data.parser ?? "midjourney" })
+    }
+
     /** 翻译全部提示词 */
     async translate() {
         let needTranslateItems: PromptItem[] = []
