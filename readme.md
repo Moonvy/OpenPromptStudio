@@ -66,15 +66,12 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 ![](./doc/assets/notion-me-config-1.jpg)
 
-#### 获取 Notion 数据库的访问地址（Database ID）
+#### 获取 Notion 数据库的访问地址（`DatabaseID`）
 
-在 Notion 数据库菜单中点击 「Copy link to view」 就可以了
+在 Notion 数据库菜单中点击 「Copy link to view」 就可以了，粘贴 Notion 数据库地址到 OPS 的配置输入框后会自动提取 `DatabaseID`
 
 ![获取 Notion 数据库地址](./doc/assets/notion-me-config-2.jpg)
-
-现在我们在 [演示-AIGC 提示词库](https://www.notion.so/) 中管理提示词字典，之后开发让用户连接自己的 [Notion](https://www.notion.so/) 数据库的功能，让用户能更好的管理属于自己的词典。
-
-运行 `npm run fetch` 把 2 个来源的数据整理在一起
+ 
 
 ## 更好的体验
 
