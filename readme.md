@@ -43,7 +43,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 [**📕 演示-AIGC 提示词库**](https://moonvy.notion.site/b768c5c1852f4e2fbaee1b4a99f26d49?v=346e91e8114648c59079eeea2d9d56c7)
  
 <p align="center">
-    <img width="800" src="./doc/assets/notion-demo.jpg">
+    <img width="600" src="./doc/assets/notion-demo.jpg">
 </p>
 
 
@@ -69,14 +69,14 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 点击 「+ new integrations」按钮创建一个新集成插件
  
 <p align="center">
-    <img width="800" src="./doc/assets/Myintegrations-1@2x.jpeg">
+    <img width="600" src="./doc/assets/Myintegrations-1@2x.jpeg">
 </p>
 
 #### 2.2 创建集成插件
 在集成插件页面中选择允许访问的 Notion 工作区（Workspace），你的 Notion 数据库需要创建在此工作区下，OPS 才能通过集成插件访问。
 
 <p align="center">
-    <img width="800" src="./doc/assets/Myintegrations-2@2x.jpeg">
+    <img width="600" src="./doc/assets/Myintegrations-2@2x.jpeg">
 </p>
 
 
@@ -84,7 +84,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 集成插件创建完毕后，复制 Token 秘钥保存下来，你将使用此 Token 作为访问凭证，请妥善保管不要在公开场合泄露。
 
 <p align="center">
-    <img width="800" src="./doc/assets/Myintegrations-3@2x.jpeg">
+    <img width="600" src="./doc/assets/Myintegrations-3@2x.jpeg">
 </p>
 
 
@@ -94,7 +94,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
  
 
 <p align="center">
-    <img width="800" src="https://user-images.githubusercontent.com/82231420/230757501-7630d405-adcc-4611-aa8a-07875ce5a932.jpg">
+    <img width="600" src="https://user-images.githubusercontent.com/82231420/230757501-7630d405-adcc-4611-aa8a-07875ce5a932.jpg">
 </p>
 
 
@@ -110,9 +110,10 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
  
 <p align="center">
-    <img width="800" src="./doc/assets/notion-me-config-1.jpg">
+    <img width="600" src="https://user-images.githubusercontent.com/82231420/230758301-57f5304e-b83b-4ee6-a91c-0c030e84213a.png">
 </p>
 
+ 
 
 
 #### 获取 Notion 数据库的访问地址（`DatabaseID`）
@@ -120,8 +121,10 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 在 Notion 数据库菜单中点击 「Copy link to view」 就可以了，粘贴 Notion 数据库地址到 OPS 的配置输入框后会自动提取 `DatabaseID`
 
 <p align="center">
-    <img width="800" src="./doc/assets/notion-me-config-2.jpg">
+    <img width="600" src="https://user-images.githubusercontent.com/82231420/230758271-c2ee8ba3-e694-45db-a209-55c4d1744171.png">
 </p>
+ 
+
 
  
 
