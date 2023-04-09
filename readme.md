@@ -8,7 +8,7 @@
     <img width="1430" alt="OPS-cover" src="https://user-images.githubusercontent.com/82231420/230757122-5cf5659e-9e1a-4288-80fd-84ec229a063e.png">
 </p>
 
-[**立即试试** moonvy.com/apps/ops/](https://moonvy.com/apps/ops/)
+[**🥣 立即试试** moonvy.com/apps/ops/](https://moonvy.com/apps/ops/)
 
 这是一个旨在把 AIGC 提示词（现在支持 Midjourney）可视化并提供编辑功能的工具，有以下特性
 
@@ -40,7 +40,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 复制我们的演示文档的自己的 Notion 工作区中
 
-[**演示-AIGC 提示词库**](https://moonvy.notion.site/b768c5c1852f4e2fbaee1b4a99f26d49?v=346e91e8114648c59079eeea2d9d56c7)
+[**📕 演示-AIGC 提示词库**](https://moonvy.notion.site/b768c5c1852f4e2fbaee1b4a99f26d49?v=346e91e8114648c59079eeea2d9d56c7)
  
 <p align="center">
     <img width="800" src="./doc/assets/notion-demo.jpg">
@@ -65,7 +65,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 #### 2.1 打开集成开发页面
 
-打开 Notion 的集成开发页面 [www.notion.so/my-integrations](https://www.notion.so/my-integrations)   
+打开 Notion 的集成开发页面 [🔗 www.notion.so/my-integrations](https://www.notion.so/my-integrations)   
 点击 「+ new integrations」按钮创建一个新集成插件
  
 <p align="center">
