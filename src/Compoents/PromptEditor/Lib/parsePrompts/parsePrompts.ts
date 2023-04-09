@@ -1,5 +1,7 @@
-import { midjourneyParse } from "./parsers/Midjourney"
+import { midjourneyParse, midjourneyStringify } from "./parsers/Midjourney"
+import {stableDiffusionWebUIParse, stableDiffusionWebUIStringify} from "./parsers/StableDiffusionWebUI"
 import { useDatabaseServer } from "../DatabaseServer/DatabaseServer"
+import { IPromptGroup } from "../../Sub/PromptWork"
 
 export interface IPromptWord {
     id: string
@@ -10,9 +12,11 @@ export interface IPromptWord {
     langText?: string
     subType?: string
     desc?: string
+    link?: string
     args?: string[]
     dir?: string
     lv?: number
+    alv?: number
     isEg?: boolean
 }
 export enum PromptWordType {
@@ -24,13 +28,15 @@ export interface IPromptParseResult {
 
 export async function parsePrompts(
     text: string,
-    options: { parser: "midjourney" | "stable-diffusion"; minify?: boolean; zh2en?: boolean } = {
+    options: { parser: string; minify?: boolean; zh2en?: boolean } = {
         parser: "midjourney",
     }
 ): Promise<IPromptParseResult> {
     let words: IPromptWord[]
     if (options.parser === "midjourney") {
         words = await midjourneyParse(text, options)
+    } else if (options.parser === "stable-diffusion-webui") {
+        words = await stableDiffusionWebUIParse(text, options)
     } else {
         throw new Error(`err ParsePrompts not support this parser:${options.parser}`)
     }
@@ -65,6 +71,18 @@ export async function parsePrompts(
     })
     // console.log("parsePrompts words", JSON.stringify(result, null, 2))
     return result
+}
+
+export function stringifyPrompts(groups: IPromptGroup[] = [], options: { parser: string }) {
+    let prompts: string
+    if (options.parser === "midjourney") {
+        prompts = midjourneyStringify(groups)
+    } else if (options.parser === "stable-diffusion-webui") {
+        prompts = stableDiffusionWebUIStringify(groups)
+    } else {
+        throw new Error(`err ParsePrompts not support this parser:${options.parser}`)
+    }
+    return prompts
 }
 
 function wordsDeduplicat(words: IPromptWord[]): IPromptWord[] {

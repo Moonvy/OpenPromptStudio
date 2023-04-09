@@ -1,6 +1,6 @@
 {
     "name": "@moonvy/open-prompt-studio",
-    "version": "1.1.6",
+    "version": "1.2.0",
     "license": "MIT",
     "type": "module",
     "scripts": {

@@ -1,6 +1,6 @@
 import { PromptList } from "./PromptList"
 import { uuid } from "fzz"
-import { IPromptWord, parsePrompts } from "../Lib/parsePrompts/parsePrompts"
+import { IPromptWord, parsePrompts, stringifyPrompts } from "../Lib/parsePrompts/parsePrompts"
 import { SubTypeDisplayMap } from "../../../Lang/tempLang"
 import { chinesePercentage } from "../Lib/chinesePercentage"
 import { PromptItem } from "./PromptItem"
@@ -13,7 +13,7 @@ export interface IPromptWorkData {
     parser?: string
 }
 
-interface IPromptGroup {
+export interface IPromptGroup {
     id: string
     name?: string
     groupLv?: number
@@ -39,7 +39,7 @@ export class PromptWork {
     }
 
     /** 导入提示词 */
-    async importPrompts(text: string, options: { parser: "midjourney" | "stable-diffusion" }) {
+    async importPrompts(text: string, options: { parser: string }) {
         let { words } = await parsePrompts(text, { zh2en: true, ...options })
         this.data.parser = options.parser
         // 分组
@@ -105,38 +105,7 @@ export class PromptWork {
 
     /** 导出提示词 */
     exportPrompts() {
-        let finText = ""
-        let commands: string[] = []
-        let i = 0,
-            len = this.groups.length
-        for (let group of this.groups) {
-            let chars: string[] = []
-            for (let list of group.lists) {
-                for (let item of list.items) {
-                    if (item.data.disabled) continue
-                    if (item.data.word.subType === "command") {
-                        commands.push(item.data.word.rawText!)
-                    } else {
-                        chars.push(item.data.word.rawText!)
-                    }
-                }
-            }
-            finText += chars.filter((x) => x != "").join(", ")
-            if (len > 0) {
-                if (i < len - 1) {
-                    finText += ` ::${group.groupLv == 1 ? "" : group.groupLv} `
-                } else {
-                    if (group.groupLv && group.groupLv != 1) {
-                        finText += ` ::${group.groupLv} `
-                    }
-                }
-            }
-            i++
-        }
-        if (commands.length > 0) finText += ` ${commands.join(" ")}`
-
-        // console.log("exportPrompts")
-        return finText.trim()
+        return stringifyPrompts(this.groups, { parser: this.data.parser ?? "midjourney" })
     }
 
     async reflowPrompts(addPrompt?: string) {

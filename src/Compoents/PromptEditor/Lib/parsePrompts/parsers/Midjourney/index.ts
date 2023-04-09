@@ -1,5 +1,6 @@
 import { IPromptWord, PromptWordType } from "../../ParsePrompts"
 import { translateZh2En } from "../../../translatePrompts"
+import { IPromptGroup } from "../../../../Sub/PromptWork"
 
 export async function midjourneyParse(text: string, options?: { zh2en?: boolean }): Promise<IPromptWord[]> {
     let re = paresCommands(text)
@@ -49,6 +50,41 @@ export async function midjourneyParse(text: string, options?: { zh2en?: boolean 
     })
     // console.log("midjourneyParse words", JSON.stringify(words))
     return words
+}
+
+export function midjourneyStringify(groups: IPromptGroup[] = []) {
+    let finText = ""
+    let commands: string[] = []
+    let i = 0,
+        len = groups.length
+    for (let group of groups) {
+        let chars: string[] = []
+        for (let list of group.lists) {
+            for (let item of list.items) {
+                if (item.data.disabled) continue
+                if (item.data.word.subType === "command") {
+                    commands.push(item.data.word.rawText!)
+                } else {
+                    chars.push(item.data.word.rawText!)
+                }
+            }
+        }
+        finText += chars.filter((x) => x != "").join(", ")
+        if (len > 0) {
+            if (i < len - 1) {
+                finText += ` ::${group.groupLv == 1 ? "" : group.groupLv} `
+            } else {
+                if (group.groupLv && group.groupLv != 1) {
+                    finText += ` ::${group.groupLv} `
+                }
+            }
+        }
+        i++
+    }
+    if (commands.length > 0) finText += ` ${commands.join(" ")}`
+
+    // console.log("exportPrompts")
+    return finText.trim()
 }
 
 function split(text: string) {

@@ -10,7 +10,7 @@
         @click="onClick"
         @contextmenu.prevent="$emit('contextmenu', { el: $el, item, event: $event })"
         @mousedown="onMousedown"
-        v-tooltip="item.data.word.desc"
+        v-tooltip="{ content: item.data.word.desc, delay: 500 }"
     >
         <div class="content">
             <div class="displayName name">
@@ -38,6 +38,9 @@
                 >
                 <span v-else> {{ langName }}</span>
             </div>
+        </div>
+        <div class="link" v-if="item.data?.word?.link" @click.stop="doOpenUrl(item.data.word.link)" @mousedown.stop>
+            <Icon icon="radix-icons:link-2" />
         </div>
         <div class="dnd-slots">
             <div class="dnd-slot-pre"></div>
@@ -186,6 +189,32 @@
             }
         }
     }
+
+    .link {
+        display: none;
+        position: absolute;
+        right: -14px;
+        top: -14px;
+        background: linear-gradient(#285edb, #504f94);
+        height: 24px;
+        width: 24px;
+        place-content: center;
+        place-items: center;
+        border-radius: 280px;
+        box-shadow: 0 2px 4px rgba(86, 82, 199, 0.2392156863);
+        box-shadow: 0 2px 2px rgba(51, 54, 67, 0.2509803922);
+        font-size: 16px;
+        transition: all 0.2s ease;
+    }
+    &:hover {
+        .link {
+            display: flex;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
 }
 
 .dnd-ing {
@@ -238,6 +267,9 @@ export default Vue.extend({
             if (e.detail > 1) {
                 e.preventDefault()
             }
+        },
+        doOpenUrl(url: string) {
+            window.open(url)
         },
         doFoucs() {
             setTimeout(() => {
@@ -305,7 +337,7 @@ export default Vue.extend({
         },
         displayLv(): number | undefined {
             let word: IPromptWord = (<any>this.item).data.word
-            if (word.lv && word.lv > 1) {
+            if (word.lv && word.lv != 1) {
                 return word.lv
             }
         },

@@ -16,9 +16,9 @@
             <div class="title">
                 <Icon icon="mingcute:book-4-fill" />
                 提示词词典
-                <a class="github-dict" href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
-                    <Icon icon="radix-icons:github-logo" />一起维护词典</a
-                >
+                <!--                <a class="github-dict" href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">-->
+                <!--                    <Icon icon="radix-icons:github-logo" />一起维护词典</a-->
+                <!--                >-->
                 <button class="icon close-button" @click="toggleDictPad(false)">
                     <Icon icon="radix-icons:cross-1" />
                 </button>
@@ -157,9 +157,9 @@
                 font-weight: normal;
                 color: #7a78dc;
                 &:hover {
-                  text-decoration: underline;
+                    text-decoration: underline;
                 }
-                .iconify{
+                .iconify {
                     margin-right: 4px;
                 }
             }

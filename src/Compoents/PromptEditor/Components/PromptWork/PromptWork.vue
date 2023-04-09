@@ -62,7 +62,7 @@
                 <div class="line more-options">
                     <select v-model="inputParser" class="parser-select" v-tooltip="`提示词语法类型`">
                         <option value="midjourney">Midjourney</option>
-                        <option value="stable-diffusion" disabled>Stable-Diffusion (WIP)</option>
+                        <option value="stable-diffusion-webui">stable-diffusion-webui</option>
                     </select>
                     <button @click="doDeleteWorkspace()" v-tooltip="`删除工作区`" class="icon">
                         <Icon icon="radix-icons:trash" />
@@ -342,6 +342,11 @@
 
             .more-options {
                 margin-top: auto;
+                .parser-select {
+                    margin-left: auto;
+                    width: auto;
+                    padding-right: 35px;
+                }
             }
         }
     }
@@ -434,7 +439,7 @@ export default Vue.extend({
         return {
             inputText: "",
             outputText: "",
-            inputParser: "midjourney",
+            inputParser: this.promptWork?.data?.parser ?? "midjourney",
             isPNGExporting: false,
         }
     },
@@ -444,6 +449,12 @@ export default Vue.extend({
         }, 300)
         this.inputText = this.promptWork.data.initText ?? ""
         this.doImportByInput()
+    },
+    watch: {
+        inputParser(val) {
+            this.promptWork.data.parser = val
+            this.doImportByInput()
+        },
     },
     methods: {
         async doImportByInput() {
