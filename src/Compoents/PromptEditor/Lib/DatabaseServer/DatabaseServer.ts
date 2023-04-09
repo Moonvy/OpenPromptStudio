@@ -7,6 +7,7 @@ export interface IPromptDefineItem {
     dir?: string
     lang_zh?: string
     sampleCmds?: string[]
+    isAlias?: boolean
     tags?: string[]
 }
 

@@ -1,6 +1,6 @@
 {
     "name": "@moonvy/open-prompt-studio",
-    "version": "1.2.0",
+    "version": "1.2.2",
     "license": "MIT",
     "type": "module",
     "scripts": {
@@ -16,7 +16,6 @@
         "@types/jest": "29.4.0",
         "@types/lodash": "4.14.189",
         "@types/node": "16",
-        "@vitalets/google-translate-api": "9.1.0",
         "@vitejs/plugin-legacy": "1.8.2",
         "@vitejs/plugin-vue2": "1.1.2",
         "autoprefixer": "10.4.14",

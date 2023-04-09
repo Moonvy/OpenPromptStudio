@@ -10,6 +10,7 @@ export async function getDictData(onlyMyNotion?: boolean): Promise<IDictDir[]> {
     for (let key in define) {
         let item = define[key]
         let dirPath = item.dir
+        if (item.isAlias) continue
         if (dirPath) {
             let newWords
             if (item.subType == "command") {
