@@ -1,10 +1,14 @@
 # 🥣 OPS/OpenPromptStudio
 
-## 提示词工作室 | 可视化编辑提示词
+## 提示词工作室 | 可视化编辑提示词 
 
-[立即试试 moonvy.com/apps/ops/ ](https://moonvy.com/apps/ops/)
 
-![](./doc%2Fassets%2F%E6%88%AA%E5%B1%8F2023-04-02%2001.31.05.png)
+
+<p align="center">
+    <img width="1430" alt="OPS-cover" src="https://user-images.githubusercontent.com/82231420/230757122-5cf5659e-9e1a-4288-80fd-84ec229a063e.png">
+</p>
+
+[**🥣 立即试试** moonvy.com/apps/ops/](https://moonvy.com/apps/ops/)
 
 这是一个旨在把 AIGC 提示词（现在支持 Midjourney）可视化并提供编辑功能的工具，有以下特性
 
@@ -16,6 +20,16 @@
 -   常用提示词词典
 -   通过 Notion 管理提示词词典
 
+
+
+## 使用教程
+ 
+<a href="https://www.bilibili.com/video/BV15N411P7D3/?spm_id_from=333.337.search-card.all.click&vd_source=1f6edbc8e03c44932da52d02c0c11c1c" target="_blank">
+ <img width="300" alt="OPS-cover" src="https://user-images.githubusercontent.com/82231420/230757939-dde301f1-bf68-4455-83c6-f7dd2214c68b.png">
+</a>
+
+[📺 B站视频教程](https://www.bilibili.com/video/BV15N411P7D3/?spm_id_from=333.337.search-card.all.click&vd_source=1f6edbc8e03c44932da52d02c0c11c1c)
+
 ## 如何连接的我的 Noiton 来管理自己的词典
 
 OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使用 Notion 管理相对简单，可自定义程度也很高。
@@ -24,11 +38,14 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 ### 1. 复制「演示-AIGC 提示词库」
 
-复制我们的演示文档的自己的 Notion 空间中
+复制我们的演示文档的自己的 Notion 工作区中
 
--   [**演示-AIGC 提示词库**](https://moonvy.notion.site/b768c5c1852f4e2fbaee1b4a99f26d49?v=346e91e8114648c59079eeea2d9d56c7)
+[**📕 演示-AIGC 提示词库**](https://moonvy.notion.site/b768c5c1852f4e2fbaee1b4a99f26d49?v=346e91e8114648c59079eeea2d9d56c7)
+ 
+<p align="center">
+    <img width="720" src="./doc/assets/notion-demo.jpg">
+</p>
 
-![](./doc/assets/notion-demo.jpg)
 
 保持表头定义： `text`, `subType`、`dir`、`lang_zh` 不要变（或者你可以新建一个 Notion 数据库，只要有这些表头 OPS 就能连接的这个数据库）
 
@@ -45,23 +62,41 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 要让 OPS 连接到自己的 Notion 数据库，需要创建一个自己的集成（integrations）。OPS 会通过此集成的权限连接到你的数据库。
 
--   打开 Notion 集成开发页面 [www.notion.so/my-integrations](https://www.notion.so/my-integrations)  
-    点击 「+ new integrations」按钮创建一个新集成插件
 
-    ![](./doc/assets/Myintegrations-1@2x.jpeg)
+#### 2.1 打开集成开发页面
 
--   在集成插件页面中选择允许访问的 Notion 工作区（Workspace），你的 Notion 数据库需要创建在此工作区下，OPS 才能通过集成插件访问。
+打开 Notion 的集成开发页面 [🔗 www.notion.so/my-integrations](https://www.notion.so/my-integrations)   
+点击 「+ new integrations」按钮创建一个新集成插件
+ 
+<p align="center">
+    <img width="720" src="./doc/assets/Myintegrations-1@2x.jpeg">
+</p>
 
-    ![](./doc/assets/Myintegrations-2@2x.jpeg)
+#### 2.2 创建集成插件
+在集成插件页面中选择允许访问的 Notion 工作区（Workspace），你的 Notion 数据库需要创建在此工作区下，OPS 才能通过集成插件访问。
 
--   集成插件创建完毕后，复制 Token 秘钥保存下来，你将使用此 Token 作为访问凭证，请妥善保管不要在公开场合泄露。
+<p align="center">
+    <img width="720" src="./doc/assets/Myintegrations-2@2x.jpeg">
+</p>
 
-    ![](./doc/assets/Myintegrations-3@2x.jpeg)
 
--   **在 Notion 数据库连接集成插件**  
-    集成插件创建后，还需要在你的 Notion 数据库的菜单中连接到你的集成插件：
+#### 2.3 获取集成插件 Token 密钥
+集成插件创建完毕后，复制 Token 秘钥保存下来，你将使用此 Token 作为访问凭证，请妥善保管不要在公开场合泄露。
 
-    ![](./doc/assets/Myintegrations-4@2x.jpg)
+<p align="center">
+    <img width="720" src="./doc/assets/Myintegrations-3@2x.jpeg">
+</p>
+
+
+#### 2.4 在数据库页面链接到你的集成
+
+集成插件创建后，还需要在你的 Notion 数据库的菜单中连接到你的集成插件：
+ 
+
+<p align="center">
+    <img width="720" src="https://user-images.githubusercontent.com/82231420/230757501-7630d405-adcc-4611-aa8a-07875ce5a932.jpg">
+</p>
+
 
 ### 3. 在 OPS 中配置 Notion
 
@@ -73,18 +108,26 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 -   然后点击「载入」按钮
 
-![](./doc/assets/notion-me-config-1.jpg)
+ 
+<p align="center">
+    <img width="720" src="https://user-images.githubusercontent.com/82231420/230758301-57f5304e-b83b-4ee6-a91c-0c030e84213a.png">
+</p>
+
 
 #### 获取 Notion 数据库的访问地址（`DatabaseID`）
 
 在 Notion 数据库菜单中点击 「Copy link to view」 就可以了，粘贴 Notion 数据库地址到 OPS 的配置输入框后会自动提取 `DatabaseID`
 
-![获取 Notion 数据库地址](./doc/assets/notion-me-config-2.jpg)
+<p align="center">
+    <img width="720" src="https://user-images.githubusercontent.com/82231420/230758271-c2ee8ba3-e694-45db-a209-55c4d1744171.png">
+</p>
+ 
 
 ## 更好的体验
 
 你可以在 [zeroG 浏览器](https://moonvy.com/zeroG/) 里让 OPS
 与 Discord 在一个无限画布中使用，获得更好的体验
+
 ![截屏2023-04-06 15.51.23.png](./doc%2Fassets%2F%E6%88%AA%E5%B1%8F2023-04-06%2015.51.23.png)
 
 ## 开发者
