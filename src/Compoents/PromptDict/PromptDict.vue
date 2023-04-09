@@ -1,8 +1,13 @@
 <!-- Created on 2023/03/31 - 12:10 -->
 <template>
     <div class="PromptDict">
-        <div class="notion-settings">
-            <button class="notion-me" @click="doGotoNotionMe">
+        <div class="notion-settings" :class="{ isHoverButton }">
+            <button
+                class="notion-me"
+                @click="doGotoNotionMe"
+                @mousemove="setNotionHover(true)"
+                @mouseleave="setNotionHover(false)"
+            >
                 <Icon icon="logos:notion-icon" />
                 {{ notionName ?? (loading ? "连接中..." : "连接我的 Notion") }}
             </button>
@@ -63,6 +68,7 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
+
     .dir-buttons {
         display: flex;
         flex-wrap: wrap;
@@ -115,16 +121,17 @@
     .notion-settings {
         .notion-me {
             position: absolute;
-            right: 60px;
-            top: 16px;
+            right: 57px;
+            top: 14px;
             font-size: 13px;
             z-index: 222;
+            height: 32px;
         }
 
         .notion-config {
             opacity: 0;
-            right: 57px;
-            top: 13px;
+            right: 54px;
+            top: 11px;
             /* padding-top: 100px; */
             width: 420px;
             height: auto;
@@ -211,8 +218,9 @@
             }
         }
 
-        &:hover .notion-config {
-            transition: all 0.4s ease;
+        &.isHoverButton:hover .notion-config,
+        .notion-config:hover {
+            transition: all 0.2s ease;
             opacity: 1;
             pointer-events: auto;
         }
@@ -226,6 +234,7 @@ import vPromptItem from "../../Compoents/PromptEditor/Components/PromptItem/Prom
 import { PromptItem } from "../PromptEditor/Sub/PromptItem"
 import { useDatabaseServer } from "../PromptEditor/Lib/DatabaseServer/DatabaseServer"
 import { useStorage } from "@vueuse/core"
+import { debounce } from "lodash"
 
 const apiKey = useStorage<string>("ops-notion-apiKey", "")
 const databaseId = useStorage<string>("ops-notion-databaseId", "")
@@ -244,6 +253,7 @@ export default Vue.extend({
             notionName: <string | null>null,
             notionUrl: <string | null>null,
             loading: false,
+            isHoverButton: false,
         }
     },
     watch: {
@@ -316,7 +326,7 @@ export default Vue.extend({
         async doApplyWord(item: PromptItem) {
             let activeInputEl: any = document.body.querySelector(".PromptWork.active")
             if (!activeInputEl) activeInputEl = document.body.querySelector(".PromptWork")
-            console.log("activeInputEl", activeInputEl)
+            // console.log("activeInputEl", activeInputEl)
 
             if (activeInputEl) {
                 let insertText = item.data.word.rawText ?? item.data.word.text
@@ -333,6 +343,10 @@ export default Vue.extend({
         doGotoNotionMe() {
             if (this.notionUrl) window.open(this.notionUrl)
         },
+
+        setNotionHover: debounce(function (this: any, v: boolean) {
+            this.isHoverButton = v
+        }, 400),
     },
     components: { PromptItem: vPromptItem },
 
