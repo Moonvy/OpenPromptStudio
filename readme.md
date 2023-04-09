@@ -1,8 +1,6 @@
 # 🥣 OPS/OpenPromptStudio
 
-## 提示词工作室 | 可视化编辑提示词 
-
-
+## 提示词工作室 | 可视化编辑提示词
 
 <p align="center">
     <img width="1430" alt="OPS-cover" src="https://user-images.githubusercontent.com/82231420/230757122-5cf5659e-9e1a-4288-80fd-84ec229a063e.png">
@@ -20,15 +18,13 @@
 -   常用提示词词典
 -   通过 Notion 管理提示词词典
 
-
-
 ## 使用教程
- 
+
 <a href="https://www.bilibili.com/video/BV15N411P7D3/?spm_id_from=333.337.search-card.all.click&vd_source=1f6edbc8e03c44932da52d02c0c11c1c" target="_blank">
  <img width="300" alt="OPS-cover" src="https://user-images.githubusercontent.com/82231420/230757939-dde301f1-bf68-4455-83c6-f7dd2214c68b.png">
 </a>
 
-[📺 B站视频教程](https://www.bilibili.com/video/BV15N411P7D3/?spm_id_from=333.337.search-card.all.click&vd_source=1f6edbc8e03c44932da52d02c0c11c1c)
+[📺 B 站视频教程](https://www.bilibili.com/video/BV15N411P7D3/?spm_id_from=333.337.search-card.all.click&vd_source=1f6edbc8e03c44932da52d02c0c11c1c)
 
 ## 如何连接的我的 Noiton 来管理自己的词典
 
@@ -41,11 +37,10 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 复制我们的演示文档的自己的 Notion 工作区中
 
 [**📕 演示-AIGC 提示词库**](https://moonvy.notion.site/b768c5c1852f4e2fbaee1b4a99f26d49?v=346e91e8114648c59079eeea2d9d56c7)
- 
+
 <p align="center">
     <img width="720" src="./doc/assets/notion-demo.jpg">
 </p>
-
 
 保持表头定义： `text`, `subType`、`dir`、`lang_zh` 不要变（或者你可以新建一个 Notion 数据库，只要有这些表头 OPS 就能连接的这个数据库）
 
@@ -57,46 +52,44 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 | lang_zh | 对应的中文翻译                                          |
 | subType | 提示词在 OPS 中的分类（`普通`、`风格`、`质量`、`命令`） |
 | dir     | 词典中的分类，子分类用`/`分隔如：`风格/绘画风格`        |
+| alias   | 别名，可以有多个，用`,` 分隔                            |
 
 ### 2. 创建自己的 Noiton 集成插件（integrations）
 
 要让 OPS 连接到自己的 Notion 数据库，需要创建一个自己的集成（integrations）。OPS 会通过此集成的权限连接到你的数据库。
 
-
 #### 2.1 打开集成开发页面
 
-打开 Notion 的集成开发页面 [🔗 www.notion.so/my-integrations](https://www.notion.so/my-integrations)   
+打开 Notion 的集成开发页面 [🔗 www.notion.so/my-integrations](https://www.notion.so/my-integrations)  
 点击 「+ new integrations」按钮创建一个新集成插件
- 
+
 <p align="center">
     <img width="720" src="./doc/assets/Myintegrations-1@2x.jpeg">
 </p>
 
 #### 2.2 创建集成插件
+
 在集成插件页面中选择允许访问的 Notion 工作区（Workspace），你的 Notion 数据库需要创建在此工作区下，OPS 才能通过集成插件访问。
 
 <p align="center">
     <img width="720" src="./doc/assets/Myintegrations-2@2x.jpeg">
 </p>
 
-
 #### 2.3 获取集成插件 Token 密钥
+
 集成插件创建完毕后，复制 Token 秘钥保存下来，你将使用此 Token 作为访问凭证，请妥善保管不要在公开场合泄露。
 
 <p align="center">
     <img width="720" src="./doc/assets/Myintegrations-3@2x.jpeg">
 </p>
 
-
 #### 2.4 在数据库页面链接到你的集成
 
 集成插件创建后，还需要在你的 Notion 数据库的菜单中连接到你的集成插件：
- 
 
 <p align="center">
     <img width="720" src="https://user-images.githubusercontent.com/82231420/230757501-7630d405-adcc-4611-aa8a-07875ce5a932.jpg">
 </p>
-
 
 ### 3. 在 OPS 中配置 Notion
 
@@ -108,11 +101,9 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 -   然后点击「载入」按钮
 
- 
 <p align="center">
     <img width="720" src="https://user-images.githubusercontent.com/82231420/230758301-57f5304e-b83b-4ee6-a91c-0c030e84213a.png">
 </p>
-
 
 #### 获取 Notion 数据库的访问地址（`DatabaseID`）
 
@@ -121,7 +112,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 <p align="center">
     <img width="720" src="https://user-images.githubusercontent.com/82231420/230758271-c2ee8ba3-e694-45db-a209-55c4d1744171.png">
 </p>
- 
+
 
 ## 更好的体验
 
