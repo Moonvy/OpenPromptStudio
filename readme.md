@@ -123,7 +123,13 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 ## 开发者
 
+本地运行需要 NodeJS 环境
+
 运行打开后访问 `localhost:12833/apps/ops/`
+
+### Docker
+如果你不想安装 NodeJS 环境，可以使用 Docker 运行，参考 [./docker](https://github.com/Moonvy/OpenPromptStudio/tree/master/docker/)
+
 
 ### 如何修改默认提示词词典
 
@@ -131,6 +137,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 2. 在 [Notion](https://www.notion.so/) 中编辑（[./data/src/notion/fromNotion.js](https://github.com/Moonvy/OpenPromptStudio/tree/master/data/src/notion/fromNotion.js) ）
 
+
 ### 翻译服务
 
-请连接自己的翻译服务
+由于可靠的翻译 API 都是收费的，请连接自己的翻译服务
