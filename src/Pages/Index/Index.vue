@@ -178,7 +178,7 @@ export default Vue.extend({
         return {
             showDictPad: false,
             needDictPad: false,
-            verison: pkg.version,
+            version: pkg.version,
         }
     },
     methods: {
