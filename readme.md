@@ -26,9 +26,9 @@
 
 [📺 B 站视频教程](https://www.bilibili.com/video/BV15N411P7D3/?spm_id_from=333.337.search-card.all.click&vd_source=1f6edbc8e03c44932da52d02c0c11c1c)
 
-## 如何连接的我的 Noiton 来管理自己的词典
+## 如何连接的我的 Notion 来管理自己的词典
 
-OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使用 Notion 管理相对简单，可自定义程度也很高。
+OPS 支持使用 [Notion](https://www.notion.so/) 来管理自己的词典，使用 Notion 管理相对简单，可自定义程度也很高。
 
 ![ ](./doc/assets/notion-me.gif)
 
@@ -54,7 +54,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 | dir     | 词典中的分类，子分类用`/`分隔如：`风格/绘画风格`        |
 | alias   | 别名，可以有多个，用`,` 分隔                            |
 
-### 2. 创建自己的 Noiton 集成插件（integrations）
+### 2. 创建自己的 Notion 集成插件（integrations）
 
 要让 OPS 连接到自己的 Notion 数据库，需要创建一个自己的集成（integrations）。OPS 会通过此集成的权限连接到你的数据库。
 
@@ -93,7 +93,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 ### 3. 在 OPS 中配置 Notion
 
-在 OPS 右上角打开提示词词典，鼠标放在「连接我的 Noiton」按钮上，展开设置面板
+在 OPS 右上角打开提示词词典，鼠标放在「连接我的 Notion」按钮上，展开设置面板
 
 -   「Integrations Token」 里面填入前面我们生成的集成 Token 秘钥（秘钥只会保存在浏览器本地（localStorage），不会被上传到任何地方）
 
