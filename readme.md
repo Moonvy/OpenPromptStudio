@@ -113,7 +113,6 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
     <img width="720" src="https://user-images.githubusercontent.com/82231420/230758271-c2ee8ba3-e694-45db-a209-55c4d1744171.png">
 </p>
 
-
 ## 更好的体验
 
 你可以在 [zeroG 浏览器](https://moonvy.com/zeroG/) 里让 OPS
@@ -133,4 +132,15 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 ### 翻译服务
 
-请连接自己的翻译服务
+在 `./server` 文件夹中有一个翻译服务的简单实现，调用腾讯翻译
+你需要申请一个[腾讯机器翻译的账号](https://bobtranslate.com/service/translate/tencent.html)（每月免费额度 500 万字）  
+然后在项目根目录创建一个 `.env` 文件写入你的的 `SECRET_ID` 与 `SECRET_KEY`
+
+`.env`：
+
+```node
+TENCENT_SECRET_ID = "AKIDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+TENCENT_SECRET_KEY = "a5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+```
+
+然后运行 `npm run serve` 启动本地翻译服务
