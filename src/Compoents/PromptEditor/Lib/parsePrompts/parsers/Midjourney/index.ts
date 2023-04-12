@@ -88,8 +88,8 @@ export function midjourneyStringify(groups: IPromptGroup[] = []) {
 }
 
 function split(text: string) {
-    // 使用正则表达式匹配被大括号包含的内容以及其他以逗号分隔的内容
-    const REG_SPLIT = /{[^}]*}|[^{,，\s]+/g;
+    // 使用正则表达式匹配被大括号包含的内容以及其他以符号分隔的内容
+    const REG_SPLIT = /{[^}]*}|[^{,，|\[\]\(\)\n]+/g;
     let matches = text.match(REG_SPLIT) || [];
     return matches.map(word => word.trim());
 }
