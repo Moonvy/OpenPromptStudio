@@ -88,14 +88,17 @@ export function midjourneyStringify(groups: IPromptGroup[] = []) {
 }
 
 function split(text: string) {
-    return text.split(/[,，|{}\[\]\(\)\n]/).map((word) => word.trim())
+    // 使用正则表达式匹配被大括号包含的内容以及其他以符号分隔的内容
+    const REG_SPLIT = /{[^}]*}|[^{,，|\[\]\(\)\n]+/g;
+    let matches = text.match(REG_SPLIT) || [];
+    return matches.map(word => word.trim());
 }
 
 /** 解析命令 */
 function paresCommands(text: string) {
     // 匹配带一个参数的命令
     const REG_COMMAND_ARG =
-        /(--|—)(version|v|aspect|ar|quality|q|chaos|seed|sameseed|stop|style|stylize|s|no|niji|repeat|iw|width|w|height|h+) ([\w\.:]+)/g
+        /(--|—)(version|v|aspect|ar|quality|q|chaos|c|seed|sameseed|stop|style|stylize|s|no|niji|repeat|iw|width|w|height|h+) ([\w\.:]+)/g
     // 匹配任意无命令
     const REG_ALL = /(--|—)([a-zA-Z0-9]+)/g
 
