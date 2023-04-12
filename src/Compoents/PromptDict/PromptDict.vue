@@ -79,11 +79,16 @@
         overflow: hidden;
         height: auto;
         flex: none;
-        width: max-content;
+        width: auto;
+        background: #d5d7ef;
         button {
             background: #d5d7ef;
             color: #4545b2;
             border-radius: 0;
+            flex: auto;
+            min-width: 72px;
+            white-space: nowrap;
+            place-content: center;
             &.active {
                 background: #4545b2;
                 color: #d5d7ef;

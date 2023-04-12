@@ -419,6 +419,7 @@ import vPromptItem from "../PromptItem/PromptItem.vue"
 import vAddButton from "./Components/AddButton.vue"
 import vPromptList from "../PromptList/PromptList.vue"
 import debounce from "lodash/debounce"
+import throttle from "lodash/throttle"
 import { PromptItem } from "../../Sub/PromptItem"
 import { useClipboard } from "@vueuse/core"
 let { copy } = useClipboard()
@@ -444,20 +445,29 @@ export default Vue.extend({
         }
     },
     created() {
+        ;(<any>this).doImportByInputThrottle = debounce(
+            () => {
+                this.doImportByInput()
+            },
+            30,
+            { maxWait: 50 }
+        )
         ;(<any>this).doAddInputDebounce = debounce(() => {
-            this.doImportByInput()
+            this.doImportByInputThrottle()
         }, 300)
         this.inputText = this.promptWork.data.initText ?? ""
-        this.doImportByInput()
+        this.doImportByInputThrottle()
     },
     watch: {
         inputParser(val) {
             this.promptWork.data.parser = val
-            this.doImportByInput()
+            this.doImportByInputThrottle()
         },
     },
     methods: {
+        doImportByInputThrottle() {},
         async doImportByInput() {
+            console.log("[doImportByInput]")
             await this.promptWork.importPrompts(this.inputText, { parser: <any>this.inputParser })
             this.doExportPrompt()
         },
@@ -467,7 +477,7 @@ export default Vue.extend({
         },
         async onUserInput() {
             setTimeout(() => {
-                ;(<any>this).doImportByInput()
+                ;(<any>this).doImportByInputThrottle()
             }, 0)
         },
         async onUserInputDebounce() {
@@ -476,7 +486,7 @@ export default Vue.extend({
         },
         async doClear() {
             this.inputText = ""
-            await this.doImportByInput()
+            await this.doImportByInputThrottle()
             this.doExportPrompt()
         },
         doSwitchIO() {

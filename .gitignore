@@ -6,3 +6,4 @@ yarn-error.log
 .DS_Store
 RefreshAndPredload.log
 secret.json
+.env
