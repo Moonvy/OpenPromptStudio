@@ -106,6 +106,10 @@
             font-weight: bold;
             color: #7e7e7e;
             text-shadow: 0 1px rgba(255, 255, 255, 0.4901960784);
+
+            &::marker {
+                color: rgba(126, 126, 126, 0.5);
+            }
         }
         .list {
             display: flex;
