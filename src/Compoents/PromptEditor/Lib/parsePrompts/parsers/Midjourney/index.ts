@@ -1,4 +1,4 @@
-import { IPromptWord, PromptWordType } from "../../ParsePrompts"
+import { IPromptWord, PromptWordType } from "../../parsePrompts"
 import { translateZh2En } from "../../../translatePrompts"
 import { IPromptGroup } from "../../../../Sub/PromptWork"
 
