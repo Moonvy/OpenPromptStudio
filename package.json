@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "start": "npm-run-all --parallel dev server",
+        "start": "npm-run-all --parallel dev serve",
         "dev": "vite dev --host",
         "build": "vite build",
         "preview": "vite serve",
