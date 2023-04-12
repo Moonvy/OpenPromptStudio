@@ -14,7 +14,7 @@
     },
     "devDependencies": {
         "@iconify/vue2": "2.1.0",
-        "@notionhq/client": "2.2.3",
+        "@notionhq/client": "2.2.4",
         "@types/express": "4.17.17",
         "@types/jest": "29.4.0",
         "@types/lodash": "4.14.189",
