@@ -27,7 +27,7 @@
         </section>
         <footer>
             <a href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
-                <img class="icon" src="/icon.svg" /> OpenPromptStudio / v{{ verison }} /
+                <img class="icon" src="/icon.svg" /> OpenPromptStudio / v{{ version }} /
             </a>
             <a href="https://moonvy.com/?homepage"> made by <img src="./assets/logo_full_cn.svg" /></a>
         </footer>
@@ -178,7 +178,7 @@ export default Vue.extend({
         return {
             showDictPad: false,
             needDictPad: false,
-            verison: pkg.version,
+            version: pkg.version,
         }
     },
     methods: {
