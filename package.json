@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "start":"npm run dev | npm run serve",
+        "start": "npm-run-all --parallel dev server",
         "dev": "vite dev --host",
         "build": "vite build",
         "preview": "vite serve",
@@ -45,6 +45,7 @@
         "html-to-image": "1.11.11",
         "jiti": "1.16.0",
         "lodash": "4.17.21",
+        "npm-run-all": "4.1.5",
         "postcss": "8.4.21",
         "tencentcloud-sdk-nodejs": "4.0.578",
         "v-tooltip": "2.1.3",
