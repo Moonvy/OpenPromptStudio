@@ -113,6 +113,7 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
     <img width="720" src="https://user-images.githubusercontent.com/82231420/230758271-c2ee8ba3-e694-45db-a209-55c4d1744171.png">
 </p>
 
+
 ## 更好的体验
 
 你可以在 [zeroG 浏览器](https://moonvy.com/zeroG/) 里让 OPS
@@ -122,13 +123,22 @@ OPS 支持使用 [Noiton](https://www.notion.so/) 来管理自己的词典，使
 
 ## 开发者
 
+本地运行需要 NodeJS 环境
+
+使用 `npm run start` 运行
+
 运行打开后访问 `localhost:12833/apps/ops/`
+
+### Docker
+如果你不想安装 NodeJS 环境，可以使用 Docker 运行，参考 [./docker](https://github.com/Moonvy/OpenPromptStudio/tree/master/docker/)
+
 
 ### 如何修改默认提示词词典
 
 1. 在 [./data/src](https://github.com/Moonvy/OpenPromptStudio/tree/master/data/src) 中编辑 `.csv` 文件，你可以用 Excel、Numbers 或者纯文本编辑器编辑。
 
 2. 在 [Notion](https://www.notion.so/) 中编辑（[./data/src/notion/fromNotion.js](https://github.com/Moonvy/OpenPromptStudio/tree/master/data/src/notion/fromNotion.js) ）
+
 
 ### 翻译服务
 
