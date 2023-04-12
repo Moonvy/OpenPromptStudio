@@ -4,4 +4,4 @@ COPY ["package.json", "package-lock.json*", "./"]
 RUN  npm install --registry http://registry.npmmirror.com  --force
 COPY . .
 EXPOSE 12833
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "start"]
