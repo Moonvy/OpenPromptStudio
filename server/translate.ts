@@ -18,7 +18,7 @@ export async function translate(input: {
             console.log("[translate]", input.text.length + "words.", { input, re })
         }
     } catch (e) {
-        console.log('[translate] translate failed.', input, e)
+        console.error('[translate] translate failed.', input, e)
     }
     return re
 }
