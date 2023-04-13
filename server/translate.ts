@@ -9,11 +9,16 @@ export async function translate(input: {
 }): Promise<string | undefined> {
     if (input.text == "") return ""
     let re
-    if (input?.server === "google") {
-        // todo
-    } else if (input?.server === "tencent") {
-        re = await tencentTranslate({ text: input.text, from: input?.from, to: input?.to })
-        console.log("[translate]", input.text.length + "words.", { input, re })
+
+    try {
+        if (input?.server === "google") {
+            // todo
+        } else if (input?.server === "tencent") {
+            re = await tencentTranslate({ text: input.text, from: input?.from, to: input?.to })
+            console.log("[translate]", input.text.length + "words.", { input, re })
+        }
+    } catch (e) {
+        console.log('[translate] translate failed.', input, e)
     }
     return re
 }
