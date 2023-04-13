@@ -21,14 +21,20 @@
                 <label for="ope-expf2"> 导出 PNG 到剪贴板</label>
             </div>
 
-            <div class="server-select">
+            <div
+                class="server-select"
+                v-tooltip="
+                    `调用翻译接口会有不小的成本开销，我们做了适当限制\n当同时使用用户过多时会不稳定，请见谅\n想要更好的翻译体验可以在本项目 Github 页获得本地部署的方法`
+                "
+            >
                 <Icon icon="ic:baseline-g-translate" />
                 <div class="lable">
                     {{ t("翻译服务：") }}
                 </div>
                 <select v-model="promptEditor.data.server">
-                    <option value="http://localhost:19212/prompt-studio">本地测试</option>
+                    <option value="http://localhost:19212/prompt-studio">本地翻译接口</option>
                     <option value="https://indexfs.moonvy.com:19213/prompt-studio">腾讯翻译</option>
+                    <option value="https://indexfs.moonvy.com:19213/prompt-studio2">腾讯翻译 2</option>
                     <option value="https://indexfs.moonvy.com:19213/prompt-studio/ai" disabled>
                         OpenAI GPT-3.5 (WIP)
                     </option>
