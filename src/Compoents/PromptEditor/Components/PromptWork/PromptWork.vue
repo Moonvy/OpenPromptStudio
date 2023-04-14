@@ -80,7 +80,7 @@
                     <div class="PromptGroupTitle" v-if="promptWork.groups.length > 1">
                         <div class="name">
                             <input value="权重组" /> <span v-if="group.name">{{ group.name }}</span>
-                            <span class="groupLv" v-if="group.groupLv && group.groupLv > 1">{{ group.groupLv }}</span>
+                            <span class="groupLv" v-if="group.groupLv && group.groupLv != 1">{{ group.groupLv }}</span>
                         </div>
                     </div>
                     <PromptList

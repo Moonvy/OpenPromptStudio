@@ -17,7 +17,7 @@ export async function midjourneyParse(text: string, options?: { zh2en?: boolean 
         let lv = 1
         let nextText = textListByWeight[groupIndex + 1]
         if (nextText) {
-            const REG_Weight = /^[0-9]+/
+            const REG_Weight = /^[\.\-0-9]+/
             let weightText = REG_Weight.exec(nextText)?.[0]
             if (weightText) {
                 textListByWeight[groupIndex + 1] = nextText.slice(weightText.length)
