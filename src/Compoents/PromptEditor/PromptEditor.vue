@@ -11,6 +11,7 @@
 
         <div class="operate-tool" ref="operate-tool">
             <button @click="doAddWorkspace"><Icon icon="radix-icons:card-stack-plus" /> 添加工作区</button>
+            <button @click="doCopyWorkspaceUrl"><Icon icon="radix-icons:link-2" /> 复制链接</button>
 
             <div class="pngout-option checkbox">
                 <input id="ope-expf" type="checkbox" v-model="promptEditor.data.enablePngExportFixed" />
@@ -155,6 +156,7 @@
     .operate-tool {
         margin: 20px;
         display: flex;
+        gap: 6px;
         .checkbox {
             margin-left: 32px;
         }
@@ -184,17 +186,18 @@
     }
 }
 </style>
-<script lang="ts">
-import Vue, { PropType } from "vue"
+<script>
+import Vue from "vue"
 import { PromptEditorClass } from "./PromptEditorClass"
 import PromptWork from "./Components/PromptWork/PromptWork.vue"
 import { dndInit } from "./Lib/DnD"
-
-export default Vue.extend({
+import { useClipboard } from "@vueuse/core"
+let { copy } = useClipboard()
+export default {
+    props: ["initPrompts"],
     data() {
         dndInit()
-        let promptEditor = new PromptEditorClass()
-
+        let promptEditor = new PromptEditorClass({ initPrompts: this.initPrompts })
         return { promptEditor, adDelay: false }
     },
     components: { PromptWork },
@@ -206,7 +209,7 @@ export default Vue.extend({
         "promptEditor.data.server": {
             immediate: true,
             handler(val) {
-                ;(<any>globalThis).__OPS_SERVER = val
+                globalThis.__OPS_SERVER = val
             },
         },
     },
@@ -214,13 +217,19 @@ export default Vue.extend({
         doAddWorkspace() {
             this.promptEditor.addWorkspace()
             setTimeout(() => {
-                ;(this.$refs["operate-tool"] as any).scrollIntoView({
+                this.$refs["operate-tool"].scrollIntoView({
                     behavior: "smooth",
                 })
             }, 100)
         },
+        doCopyWorkspaceUrl() {
+            let prompts = this.promptEditor.works.map((w) => w.exportPrompts())
+            let q = encodeURIComponent(JSON.stringify(prompts))
+            let url = `${location.origin + location.pathname}?prompts=${q}`
+            copy(url)
+        },
 
-        doDeletePromptWork(promptWork: any) {
+        doDeletePromptWork(promptWork) {
             this.promptEditor.removeWorkspace(promptWork)
         },
     },
@@ -231,5 +240,5 @@ export default Vue.extend({
             }
         },
     },
-})
+}
 </script>

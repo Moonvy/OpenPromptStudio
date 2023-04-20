@@ -11,7 +11,7 @@
                 <button class="icon dict-button"><Icon icon="mingcute:book-4-fill" /></button>
             </div>
         </nav>
-        <PromptEditor />
+        <PromptEditor ref="PromptEditor" :init-prompts="initPrompts" />
         <section class="PromptDictPad" v-if="needDictPad" v-show="showDictPad">
             <div class="title">
                 <Icon icon="mingcute:book-4-fill" />
@@ -179,6 +179,7 @@ export default Vue.extend({
             showDictPad: false,
             needDictPad: false,
             version: pkg.version,
+            initPrompts: null,
         }
     },
     methods: {
@@ -186,10 +187,29 @@ export default Vue.extend({
             this.showDictPad = show ?? !this.showDictPad
             if (this.showDictPad) this.needDictPad = true
         },
+
+        getPromptsFromUrlQuery() {
+            if (this.$route?.query?.prompts) {
+                try {
+                    let prompts = JSON.parse(<any>this.$route.query.prompts)
+                    console.log("[getPromptsFromUrlQuery]:", prompts)
+                    this.initPrompts = prompts
+
+                    let newQuery = Object.assign({}, this.$route.query)
+                    delete newQuery.prompts
+                    this.$router.replace({ query: newQuery })
+                } catch (e) {
+                    console.error(e)
+                }
+            }
+        },
     },
     components: {
-        PromptEditor: vPromptEditor,
+        PromptEditor: <any>vPromptEditor,
         PromptDict: vPromptDict,
+    },
+    created() {
+        this.getPromptsFromUrlQuery()
     },
 })
 </script>
