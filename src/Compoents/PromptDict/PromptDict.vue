@@ -26,7 +26,10 @@
                     <input id="enableNotion" v-model="enableMyNotion" type="checkbox" />
                 </div>
                 <div class="line"><label>Integration Token</label> <input v-model="apiKey" type="text" /></div>
-                <div class="line"><label>Database ID </label> <input v-model="databaseId" type="text" /></div>
+                <div class="line" v-tooltip="databaseId">
+                    <label>Database ID </label> <input v-model="input_databaseId" type="text" />
+                </div>
+
                 <div class="line checkbox">
                     <label for="onlyMyNotion">仅使用此数据库 </label>
                     <input id="onlyMyNotion" v-model="onlyMyNotion" type="checkbox" />
@@ -52,7 +55,7 @@
 
         <div class="active-dir" v-if="activeDir">
             <details class="sub-dir" v-for="subDir in activeSubDirs" open :key="subDir.name">
-                <summary class="name" v-show="subDir.name != activeDir.name" >
+                <summary class="name" v-show="subDir.name != activeDir.name">
                     <span class="title">{{ subDir.name }}</span>
                     <span class="len">{{ subDir.words.length }}</span>
                 </summary>
@@ -126,12 +129,10 @@
                 font-size: 12px;
                 font-weight: normal;
                 font-family: "JetBrains Mono";
-
             }
 
             &::marker {
                 color: rgba(126, 126, 126, 0.5);
-
             }
         }
         .list {
@@ -259,50 +260,53 @@
     }
 }
 </style>
-<script lang="ts">
-import Vue, { PropType } from "vue"
-import { getDictData, IDictDir } from "./getDictData"
+<script>
+import { getDictData } from "./getDictData"
 import vPromptItem from "../../Compoents/PromptEditor/Components/PromptItem/PromptItem.vue"
-import { PromptItem } from "../PromptEditor/Sub/PromptItem"
 import { useDatabaseServer } from "../PromptEditor/Lib/DatabaseServer/DatabaseServer"
 import { useStorage } from "@vueuse/core"
 import { debounce } from "lodash"
 
-const apiKey = useStorage<string>("ops-notion-apiKey", "")
-const databaseId = useStorage<string>("ops-notion-databaseId", "")
+const apiKey = useStorage("ops-notion-apiKey", "")
+const databaseId = useStorage("ops-notion-databaseId", "")
 const onlyMyNotion = useStorage("ops-notion-onlyMyNotion", false)
 const enableMyNotion = useStorage("ops-notion-enableMyNotion", true)
 
-export default Vue.extend({
+export default {
     data() {
         return {
-            dict: <IDictDir[] | null>null,
-            activeDir: <IDictDir | null>null,
+            dict: null,
+            activeDir: null,
             apiKey,
             databaseId,
+            input_databaseId: databaseId.value,
             onlyMyNotion,
             enableMyNotion,
-            notionName: <string | null>null,
-            notionUrl: <string | null>null,
+            notionName: null,
+            notionUrl: null,
             loading: false,
             isHoverButton: false,
         }
     },
     watch: {
-        databaseId(val: string) {
-            if (val.startsWith("https://")) {
-                let re = /\/([0-9a-f]{32})/.exec(val)
-                if (re?.[1]?.length == 32) {
-                    let databaseId = re?.[1]
-                    ;(this as any).databaseId = databaseId
+        input_databaseId: {
+            handler(val) {
+                if (val.startsWith("https://")) {
+                    let re = /\/([0-9a-f]{32})/.exec(val)
+                    if (re?.[1]?.length == 32) {
+                        let databaseId = re?.[1]
+                        console.log("found databaseId", databaseId, re)
+                        this.input_databaseId = databaseId
+                    } else {
+                        this.input_databaseId = ""
+                    }
                 } else {
-                    ;(this as any).databaseId = ""
+                    if (val && val.length != 32) {
+                        this.input_databaseId = ""
+                    }
                 }
-            } else {
-                if (val && val.length != 32) {
-                    ;(this as any).databaseId = ""
-                }
-            }
+                this.databaseId = val
+            },
         },
     },
     created() {
@@ -316,8 +320,8 @@ export default Vue.extend({
     methods: {
         loadData() {
             getDictData(onlyMyNotion.value).then((dict) => {
-                ;(<any>this).dict = dict
-                ;(<any>this).activeDir = dict[0]
+                this.dict = dict
+                this.activeDir = dict[0]
             })
         },
 
@@ -355,8 +359,8 @@ export default Vue.extend({
             }
         },
 
-        async doApplyWord(item: PromptItem) {
-            let activeInputEl: any = document.body.querySelector(".PromptWork.active")
+        async doApplyWord(item) {
+            let activeInputEl = document.body.querySelector(".PromptWork.active")
             if (!activeInputEl) activeInputEl = document.body.querySelector(".PromptWork")
             // console.log("activeInputEl", activeInputEl)
 
@@ -368,7 +372,7 @@ export default Vue.extend({
             }
         },
 
-        doChangeActiveDir(dir: any) {
+        doChangeActiveDir(dir) {
             this.activeDir = dir
         },
 
@@ -376,7 +380,7 @@ export default Vue.extend({
             if (this.notionUrl) window.open(this.notionUrl)
         },
 
-        setNotionHover: debounce(function (this: any, v: boolean) {
+        setNotionHover: debounce(function (v) {
             this.isHoverButton = v
         }, 400),
     },
@@ -393,5 +397,5 @@ export default Vue.extend({
             return !!(this.databaseId && this.apiKey)
         },
     },
-})
+}
 </script>
