@@ -2,9 +2,9 @@ import { PromptWork } from "./Sub/PromptWork"
 
 export class PromptEditorClass {
     data = {
-        server: location.host.startsWith("localhost")
-            ? "http://localhost:19212/prompt-studio"
-            : "https://indexfs.moonvy.com:19213/prompt-studio",
+        server: location.host.startsWith("moonvy.com")
+            ? "https://indexfs.moonvy.com:19213/prompt-studio"
+            : "http://localhost:19212/prompt-studio",
         enablePngExportFixed: false,
         enablePngExportCopy: false,
     }
