@@ -6,13 +6,15 @@ import path from "path"
 import { resolve } from "path"
 import progress from "vite-plugin-progress"
 import * as process from "process"
+import * as dotenv from "dotenv"
+dotenv.config()
 
 // https://vitejs.dev/config/
 let config = {
     root: "./web",
     base: "/apps/ops/",
     server: {
-        port: 12833,
+        port: Number(process.env.PORT) || 12833,
     },
     worker: {
         format: "es",
@@ -40,6 +42,16 @@ let config = {
             "@/": path.resolve(__dirname, "../../Old/moonvy-web/src/"),
         },
     },
+    define: {
+      'process.env': {
+        PORT: process.env.PORT || "",
+        EXTERNAL_HOST: process.env.EXTERNAL_HOST || "",
+        TRANSLATE_HOST: process.env.TRANSLATE_HOST || "",
+        TRANSLATE_PORT: process.env.TRANSLATE_PORT || "",
+        TRANSLATE_EXTERNAL_HOST: process.env.TRANSLATE_EXTERNAL_HOST || "",
+        TRANSLATE_EXTERNAL_PORT: process.env.TRANSLATE_EXTERNAL_PORT || "",
+      }
+    }
 }
 // ------------- [vite build] ------------
 if (process.env.NODE_ENV == "production") {
