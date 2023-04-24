@@ -149,14 +149,17 @@ OPS 支持使用 [Notion](https://www.notion.so/) 来管理自己的词典，使
 `.env`：
 
 ```env
-# 对外暴露的 hostname 用于访问
+# 工具服务端口，不设置默认为 12833
+PORT="12833"
+# 对外暴露的 hostname 用于代理访问
 EXTERNAL_HOST="localhost"
+
 
 # 本地翻译服务是额外的一个配置，所以需要额外配置生效
 
-# 翻译服务 port 可以不设置
+# 翻译服务 port 可以不设置，不设置默认为 19212
 TRANSLATE_PORT="19212"
-# 对外暴露的 翻译服务 port 用于 docker
+# 对外暴露的 翻译服务 port 用于 docker 环境
 #TRANSLATE_EXTERNAL_PORT="39011"
 
 # 翻译机配置 https://bobtranslate.com/service/translate/tencent.html

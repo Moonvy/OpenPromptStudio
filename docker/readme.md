@@ -47,12 +47,15 @@ services:
   open-prompt-studio:
     container_name: 'open-prompt-studio'
     image: 'open-prompt-studio:latest' # build by https://github.com/Moonvy/OpenPromptStudio
-    ports:
-      - '39010:12833'
-      - '39011:19212'
     environment:
-      - EXTERNAL_HOST=192.168.1.100
+      - TENCENT_SECRET_ID=AKIDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      - TENCENT_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      - EXTERNAL_HOST=192.168.50.60 # 外部访问地址，也可以是域名
+      - TRANSLATE_PORT=19212
       - TRANSLATE_EXTERNAL_PORT=39011
+    ports:
+      - '39011:19212' # TRANSLATE_EXTERNAL_PORT:TRANSLATE_PORT
+      - '39010:12833' # EXTERNAL_PORT:PORT
     restart:  on-failure:3 # always on-failure:3 or unless-stopped default "no"
   # open-prompt-studio end
 ```

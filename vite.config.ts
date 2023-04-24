@@ -14,7 +14,7 @@ let config = {
     root: "./web",
     base: "/apps/ops/",
     server: {
-        port: 12833,
+        port: Number(process.env.PORT) || 12833,
     },
     worker: {
         format: "es",
