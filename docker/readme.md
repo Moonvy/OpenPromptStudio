@@ -18,7 +18,7 @@ docker run -d -p 12833:12833 -p 39011:39011 --name open-prompt-studio open-promp
 
 访问 [http://localhost:12833](http://localhost:12833) 就可以了
 
-重新映射端口
+重新映射端口  
 默认使用以下端口，如有需要可以在 docker 中重新映射
 
 -   Web 访问端口：12833

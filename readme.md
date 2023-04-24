@@ -159,4 +159,4 @@ TENCENT_SECRET_KEY="a5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 #### 自部署
 
-如果要部署到自己的服务器，请在 `.env` 文件中配置翻译服务的访问地址： `LOCAL_TRANSLATE_HOST`，如 `192.168.50.222:3000`或者`https://mySite.com`，在 Web 页中会根据此地址发起请求
+如果要部署到自己的服务器，请在 `.env` 文件中配置翻译服务的访问地址： `LOCAL_TRANSLATE_HOST`，如 `192.168.50.222:3000`或者`https://mySite.com`，在 Web 页中会根据此地址发起请求，请根据你部署后实际访问地址来配置。
