@@ -44,8 +44,11 @@ let config = {
     },
     define: {
       'process.env': {
+        PORT: process.env.PORT || "",
         EXTERNAL_HOST: process.env.EXTERNAL_HOST || "",
+        TRANSLATE_HOST: process.env.TRANSLATE_HOST || "",
         TRANSLATE_PORT: process.env.TRANSLATE_PORT || "19212",
+        TRANSLATE_EXTERNAL_HOST: process.env.TRANSLATE_EXTERNAL_HOST || "19212",
         TRANSLATE_EXTERNAL_PORT: process.env.TRANSLATE_EXTERNAL_PORT || "39011",
       }
     }

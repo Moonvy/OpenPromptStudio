@@ -19,8 +19,8 @@ export async function translatePrompts(testList: string[], options?: { server?: 
         })
 
         let host = (<any>globalThis).__OPS_SERVER
-        if (process.env.EXTERNAL_HOST){
-            host = String(host).replace(/localhost/, process.env.EXTERNAL_HOST)
+        if (process.env.TRANSLATE_EXTERNAL_HOST){
+            host = String(host).replace(/localhost/, process.env.TRANSLATE_EXTERNAL_HOST)
             if (process.env.TRANSLATE_EXTERNAL_PORT) {
                 host = host.replace(/:19212/, `:${process.env.TRANSLATE_EXTERNAL_PORT}`)
             }
