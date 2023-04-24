@@ -155,8 +155,10 @@ PORT="12833"
 # 本地翻译服务是额外的一个配置，所以需要额外配置生效
 # 翻译服务 port 可以不设置，不设置默认为 19212
 TRANSLATE_PORT="19212"
-# 可以不设置，自动获取
+# 可以不设置，自动获取，如果是本地网络访问请设置为 ip
 TRANSLATE_HOST="localhost"
+# 非本机访问，请设置为部署服务的 ip 地址或者域名
+TRANSLATE_EXTERNAL_HOST
 
 # 翻译机配置 https://bobtranslate.com/service/translate/tencent.html
 TENCENT_SECRET_ID="AKIDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
