@@ -19,6 +19,12 @@ export async function translatePrompts(testList: string[], options?: { server?: 
         })
 
         let host = (<any>globalThis).__OPS_SERVER
+        if (process.env.EXTERNAL_HOST){
+            host = String(host).replace(/localhost/, process.env.EXTERNAL_HOST)
+            if (process.env.TRANSLATE_EXTERNAL_PORT) {
+                host = host.replace(/:19212/, `:${process.env.TRANSLATE_EXTERNAL_PORT}`)
+            }
+        }
         let orgWords = reqList.map((req) => req[0])
         if (orgWords.length == 0) return  resultList.map((x) => x[1])
         let re = await axios.post(`${options?.server ?? `${host}/translate/prompts`}`, {

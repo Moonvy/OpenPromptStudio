@@ -60,7 +60,7 @@ OPS 支持使用 [Notion](https://www.notion.so/) 来管理自己的词典，使
 
 #### 2.1 打开集成开发页面
 
-打开 Notion 的集成开发页面 [🔗 www.notion.so/my-integrations](https://www.notion.so/my-integrations)  
+打开 Notion 的集成开发页面 [🔗 www.notion.so/my-integrations](https://www.notion.so/my-integrations)
 点击 「+ new integrations」按钮创建一个新集成插件
 
 <p align="center">
@@ -143,14 +143,25 @@ OPS 支持使用 [Notion](https://www.notion.so/) 来管理自己的词典，使
 ### 翻译服务
 
 在 `./server` 文件夹中有一个翻译服务的简单实现，调用腾讯翻译
-你需要申请一个[腾讯机器翻译的账号](https://bobtranslate.com/service/translate/tencent.html)（每月免费额度 500 万字）  
+你需要申请一个[腾讯机器翻译的账号](https://bobtranslate.com/service/translate/tencent.html)（每月免费额度 500 万字）
 然后在项目根目录创建一个 `.env` 文件写入你的的 `SECRET_ID` 与 `SECRET_KEY`
 
 `.env`：
 
-```node
-TENCENT_SECRET_ID = "AKIDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-TENCENT_SECRET_KEY = "a5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+```env
+# 对外暴露的 hostname 用于访问
+EXTERNAL_HOST="localhost"
+
+# 本地翻译服务是额外的一个配置，所以需要额外配置生效
+
+# 翻译服务 port 可以不设置
+TRANSLATE_PORT="19212"
+# 对外暴露的 翻译服务 port 用于 docker
+#TRANSLATE_EXTERNAL_PORT="39011"
+
+# 翻译机配置 https://bobtranslate.com/service/translate/tencent.html
+TENCENT_SECRET_ID="AKIDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+TENCENT_SECRET_KEY="a5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 ```
 
-然后运行 `npm run serve` 启动本地翻译服务
+然后运行 `npm run serve` 启动 `OPS 服务` 和 `本地翻译服务`
