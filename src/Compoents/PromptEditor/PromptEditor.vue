@@ -189,12 +189,11 @@
 }
 </style>
 <script>
-import Vue from "vue"
 import { PromptEditorClass } from "./PromptEditorClass"
 import PromptWork from "./Components/PromptWork/PromptWork.vue"
 import { dndInit } from "./Lib/DnD"
 import { useClipboard } from "@vueuse/core"
-let { copy } = useClipboard()
+let { copy } = useClipboard({ legacy: true })
 export default {
     props: ["initPrompts"],
     data() {

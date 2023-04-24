@@ -237,7 +237,7 @@ import { IPromptWord } from "../../Lib/parsePrompts/parsePrompts"
 import { useClipboard } from "@vueuse/core"
 import initDnd from "./dnd"
 import { PromptList } from "../../Sub/PromptList"
-let { copy } = useClipboard()
+let { copy } = useClipboard({ legacy: true })
 export default Vue.extend({
     props: {
         item: { type: Object as PropType<PromptItem>, required: true },

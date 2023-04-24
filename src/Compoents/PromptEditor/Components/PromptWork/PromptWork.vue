@@ -419,10 +419,9 @@ import vPromptItem from "../PromptItem/PromptItem.vue"
 import vAddButton from "./Components/AddButton.vue"
 import vPromptList from "../PromptList/PromptList.vue"
 import debounce from "lodash/debounce"
-import throttle from "lodash/throttle"
 import { PromptItem } from "../../Sub/PromptItem"
 import { useClipboard } from "@vueuse/core"
-let { copy } = useClipboard()
+let { copy } = useClipboard({ legacy: true })
 import { copyBlobToClipboard } from "copy-image-clipboard"
 import { toPng, toJpeg, toBlob, toPixelData, toSvg } from "html-to-image"
 import { getImageSize } from "html-to-image/src/util"
