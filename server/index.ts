@@ -23,15 +23,7 @@ app.post("/prompt-studio/translate/prompts", async (req: any, res: any) => {
     }
 })
 
-const port = process.env.TRANSLATE_PORT || 19212
-
-if (process.env.TRANSLATE_HOST) {
-    const host = process.env.TRANSLATE_HOST || "localhost"
-    app.listen({port: port, host: host}, () => {
-        console.log(`translate Server started on port ${port} TRANSLATE_HOST: ${process.env.TRANSLATE_HOST}`)
-    })
-} else {
-    app.listen(port, () => {
-        console.log(`translate server started on port ${port}`)
-    })
-}
+const port = 39011
+app.listen(port, () => {
+    console.log(`translate server started on port ${port}`)
+})

@@ -1,7 +1,6 @@
 import { defineConfig } from "vite"
 import vue from "@vitejs/plugin-vue2"
 import legacy from "@vitejs/plugin-legacy"
-import fs from "fs"
 import path from "path"
 import { resolve } from "path"
 import progress from "vite-plugin-progress"
@@ -14,7 +13,8 @@ let config = {
     root: "./web",
     base: "/apps/ops/",
     server: {
-        port: Number(process.env.PORT) || 12833,
+        port: 12833,
+        host: "0.0.0.0",
     },
     worker: {
         format: "es",
@@ -43,15 +43,8 @@ let config = {
         },
     },
     define: {
-      'process.env': {
-        PORT: process.env.PORT || "",
-        EXTERNAL_HOST: process.env.EXTERNAL_HOST || "",
-        TRANSLATE_HOST: process.env.TRANSLATE_HOST || "",
-        TRANSLATE_PORT: process.env.TRANSLATE_PORT || "",
-        TRANSLATE_EXTERNAL_HOST: process.env.TRANSLATE_EXTERNAL_HOST || "",
-        TRANSLATE_EXTERNAL_PORT: process.env.TRANSLATE_EXTERNAL_PORT || "",
-      }
-    }
+        "process.env.LOCAL_TRANSLATE_HOST": `"${process.env.LOCAL_TRANSLATE_HOST}"` || "false",
+    },
 }
 // ------------- [vite build] ------------
 if (process.env.NODE_ENV == "production") {

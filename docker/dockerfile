@@ -2,6 +2,10 @@ FROM node:18-alpine3.16
 WORKDIR /app
 COPY ["package.json", "package-lock.json*", "./"]
 RUN  npm install --registry http://registry.npmmirror.com  --force
-COPY . .
+COPY ./src ./src
+COPY ./web ./web
+COPY ./server ./server
+COPY ./data/localPromptDefineMap.json ./data/localPromptDefineMap.json
+COPY package.json tsconfig.json tsconfig.base.json vite.config.ts  ./
 EXPOSE 12833 39011
 CMD ["npm", "run", "start"]

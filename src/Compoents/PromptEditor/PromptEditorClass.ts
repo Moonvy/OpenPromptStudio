@@ -1,10 +1,18 @@
 import { PromptWork } from "./Sub/PromptWork"
 
+const LOCAL_TRANSLATE_SERVER = process.env.LOCAL_TRANSLATE_HOST
+    ? `${
+          process.env.LOCAL_TRANSLATE_HOST.startsWith("http")
+              ? process.env.LOCAL_TRANSLATE_HOST
+              : "//" + process.env.LOCAL_TRANSLATE_HOST
+      }/prompt-studio`
+    : "http://localhost:19212/prompt-studio"
+
 export class PromptEditorClass {
     data = {
         server: location.host.startsWith("moonvy.com")
             ? "https://indexfs.moonvy.com:19213/prompt-studio"
-            : "http://localhost:19212/prompt-studio",
+            : LOCAL_TRANSLATE_SERVER,
         enablePngExportFixed: false,
         enablePngExportCopy: false,
     }

@@ -113,7 +113,6 @@ OPS 支持使用 [Notion](https://www.notion.so/) 来管理自己的词典，使
     <img width="720" src="https://user-images.githubusercontent.com/82231420/230758271-c2ee8ba3-e694-45db-a209-55c4d1744171.png">
 </p>
 
-
 ## 更好的体验
 
 你可以在 [zeroG 浏览器](https://moonvy.com/zeroG/) 里让 OPS
@@ -130,15 +129,14 @@ OPS 支持使用 [Notion](https://www.notion.so/) 来管理自己的词典，使
 运行打开后访问 `localhost:12833/apps/ops/`
 
 ### Docker
-如果你不想安装 NodeJS 环境，可以使用 Docker 运行，参考 [./docker](https://github.com/Moonvy/OpenPromptStudio/tree/master/docker/)
 
+如果你不想安装 NodeJS 环境，可以使用 Docker 运行，参考 [./docker](https://github.com/Moonvy/OpenPromptStudio/tree/master/docker/)
 
 ### 如何修改默认提示词词典
 
 1. 在 [./data/src](https://github.com/Moonvy/OpenPromptStudio/tree/master/data/src) 中编辑 `.csv` 文件，你可以用 Excel、Numbers 或者纯文本编辑器编辑。
 
 2. 在 [Notion](https://www.notion.so/) 中编辑（[./data/src/notion/fromNotion.js](https://github.com/Moonvy/OpenPromptStudio/tree/master/data/src/notion/fromNotion.js) ）
-
 
 ### 翻译服务
 
@@ -149,20 +147,16 @@ OPS 支持使用 [Notion](https://www.notion.so/) 来管理自己的词典，使
 `.env`：
 
 ```env
-# 工具服务端口，不设置默认为 12833
-PORT="12833"
-
-# 本地翻译服务是额外的一个配置，所以需要额外配置生效
-# 翻译服务 port 可以不设置，不设置默认为 19212
-TRANSLATE_PORT="19212"
-# 可以不设置，自动获取，如果是本地网络访问请设置为 ip
-TRANSLATE_HOST="localhost"
-# 非本机访问，请设置为部署服务的 ip 地址或者域名
-TRANSLATE_EXTERNAL_HOST
-
 # 翻译机配置 https://bobtranslate.com/service/translate/tencent.html
 TENCENT_SECRET_ID="AKIDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 TENCENT_SECRET_KEY="a5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
+# 自定义翻译服务地址 [可选] (如果你部署在服务器上，通过此配置指定 Web 端访问翻译服务的地址)
+# LOCAL_TRANSLATE_HOST="192.168.50.222:3000"
 ```
 
 然后运行 `npm run serve` 启动 `OPS 服务` 和 `本地翻译服务`
+
+#### 自部署
+
+如果要部署到自己的服务器，请在 `.env` 文件中配置翻译服务的访问地址： `LOCAL_TRANSLATE_HOST`，如 `192.168.50.222:3000`或者`https://mySite.com`，在 Web 页中会根据此地址发起请求
