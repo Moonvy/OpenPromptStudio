@@ -189,7 +189,7 @@
 }
 </style>
 <script>
-import { PromptEditorClass } from "./PromptEditorClass"
+import { LOCAL_TRANSLATE_SERVER, PromptEditorClass } from "./PromptEditorClass"
 import PromptWork from "./Components/PromptWork/PromptWork.vue"
 import { dndInit } from "./Lib/DnD"
 import { useClipboard } from "@vueuse/core"
@@ -200,7 +200,7 @@ export default {
         dndInit()
         let promptEditor = new PromptEditorClass({ initPrompts: this.initPrompts })
         return {
-            LocalTrasnslateServer: promptEditor.data.server,
+            LocalTrasnslateServer: LOCAL_TRANSLATE_SERVER,
             promptEditor,
             adDelay: false,
         }

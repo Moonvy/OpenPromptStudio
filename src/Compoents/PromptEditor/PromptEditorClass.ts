@@ -1,6 +1,6 @@
 import { PromptWork } from "./Sub/PromptWork"
 
-const LOCAL_TRANSLATE_SERVER = process.env.LOCAL_TRANSLATE_HOST
+export const LOCAL_TRANSLATE_SERVER = process.env.LOCAL_TRANSLATE_HOST
     ? `${
           process.env.LOCAL_TRANSLATE_HOST.startsWith("http")
               ? process.env.LOCAL_TRANSLATE_HOST
