@@ -35,15 +35,11 @@ let config = {
         },
         reportCompressedSize: false,
     },
-    resolve: {
-        alias: {
-            "@ui": path.resolve(__dirname, "../../Old/moonvy-web/src/UIKit"),
-            "@rc": path.resolve(__dirname, "../../Sub/richang/src"),
-            "@/": path.resolve(__dirname, "../../Old/moonvy-web/src/"),
-        },
-    },
+    resolve: {},
     define: {
-        "process.env.LOCAL_TRANSLATE_HOST": `"${process.env.LOCAL_TRANSLATE_HOST}"` || "false",
+        "process.env.LOCAL_TRANSLATE_HOST": process.env.LOCAL_TRANSLATE_HOST
+            ? `"${process.env.LOCAL_TRANSLATE_HOST}"`
+            : "false",
     },
 }
 // ------------- [vite build] ------------

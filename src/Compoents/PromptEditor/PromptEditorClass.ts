@@ -6,7 +6,9 @@ export const LOCAL_TRANSLATE_SERVER = process.env.LOCAL_TRANSLATE_HOST
               ? process.env.LOCAL_TRANSLATE_HOST
               : "//" + process.env.LOCAL_TRANSLATE_HOST
       }/prompt-studio`
-    : "http://localhost:19212/prompt-studio"
+    : "http://localhost:39011/prompt-studio"
+
+
 
 export class PromptEditorClass {
     data = {
