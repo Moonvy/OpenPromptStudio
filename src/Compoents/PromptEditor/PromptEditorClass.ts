@@ -4,7 +4,7 @@ export const LOCAL_TRANSLATE_SERVER = process.env.LOCAL_TRANSLATE_HOST
     ? `${
           process.env.LOCAL_TRANSLATE_HOST.startsWith("http")
               ? process.env.LOCAL_TRANSLATE_HOST
-              : "//" + process.env.LOCAL_TRANSLATE_HOST
+              : "http://" + process.env.LOCAL_TRANSLATE_HOST
       }/prompt-studio`
     : "http://localhost:39011/prompt-studio"
 
