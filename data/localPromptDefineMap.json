@@ -1,855 +1,477 @@
 {
- "ahegao": {
-  "text": "ahegao",
-  "lang_zh": "高潮脸",
+ "1girl": {
+  "text": "1girl",
+  "lang_zh": "一个女孩",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/状态"
  },
- "anger vein": {
-  "text": "anger vein",
-  "lang_zh": "青筋",
+ "cute girl": {
+  "text": "cute girl",
+  "lang_zh": "可爱女孩",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/状态"
  },
- "angry": {
-  "text": "angry",
-  "lang_zh": "生气的",
+ "out of flame": {
+  "text": "out of flame",
+  "lang_zh": "火焰背景",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/背景"
  },
- "annoyed": {
-  "text": "annoyed",
-  "lang_zh": "苦恼的",
+ "blacklight": {
+  "text": "blacklight",
+  "lang_zh": "背后有光",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/背景"
  },
- "blush": {
-  "text": "blush",
-  "lang_zh": "脸红的",
+ "street view": {
+  "text": "street view",
+  "lang_zh": "街景",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/背景"
  },
- "blush stickers": {
-  "text": "blush stickers",
-  "lang_zh": "表情贴纸",
+ "white background": {
+  "text": "white background",
+  "lang_zh": "白背景",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/背景"
  },
- "bored": {
-  "text": "bored",
-  "lang_zh": "无聊的",
+ "mecha": {
+  "text": "mecha",
+  "lang_zh": "机甲",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/背景"
  },
- "bright pupils": {
-  "text": "bright pupils",
-  "lang_zh": "明亮的瞳孔",
+ "exoskeleton ": {
+  "text": "exoskeleton ",
+  "lang_zh": "外骨骼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/背景"
  },
- "cheek bulge": {
-  "text": "cheek bulge",
-  "lang_zh": "鼓着腮帮",
+ "god rays": {
+  "text": "god rays",
+  "lang_zh": "神降光芒",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/背景"
  },
- "cheek pinching": {
-  "text": "cheek pinching",
-  "lang_zh": "捏脸颊",
+ "amber eyes": {
+  "text": "amber eyes",
+  "lang_zh": "琥珀色眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "cheek poking": {
-  "text": "cheek poking",
-  "lang_zh": "戳脸颊",
+ "aqua eyes": {
+  "text": "aqua eyes",
+  "lang_zh": "吐舌鬼脸",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "cheek pull": {
-  "text": "cheek pull",
-  "lang_zh": "扯脸颊",
+ "blank eyes": {
+  "text": "blank eyes",
+  "lang_zh": "白眼球",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "cheek-to-cheek": {
-  "text": "cheek-to-cheek",
-  "lang_zh": "脸贴脸",
+ "bloodshot eyes": {
+  "text": "bloodshot eyes",
+  "lang_zh": "布满血丝的眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "chin grab": {
-  "text": "chin grab",
-  "lang_zh": "抬下巴",
+ "button eyes": {
+  "text": "button eyes",
+  "lang_zh": "纽扣眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "clenched teeth": {
-  "text": "clenched teeth",
-  "lang_zh": "咬牙",
+ "closed eyes": {
+  "text": "closed eyes",
+  "lang_zh": "闭上眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "closed mouth": {
-  "text": "closed mouth",
-  "lang_zh": "闭嘴",
+ "color contact lenses": {
+  "text": "color contact lenses",
+  "lang_zh": "美瞳",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "color drain": {
-  "text": "color drain",
-  "lang_zh": "惊讶到掉色",
+ "colored eyelashes": {
+  "text": "colored eyelashes",
+  "lang_zh": "彩色睫毛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "confused": {
-  "text": "confused",
-  "lang_zh": "疑惑",
+ "constricted pupils": {
+  "text": "constricted pupils",
+  "lang_zh": "瞳孔收缩",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "covering": {
-  "text": "covering",
-  "lang_zh": "挡住脸",
+ "crazy eyes": {
+  "text": "crazy eyes",
+  "lang_zh": "疯狂的眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "covering eyes": {
-  "text": "covering eyes",
-  "lang_zh": "遮住眼睛",
+ "cross-eyed": {
+  "text": "cross-eyed",
+  "lang_zh": "斗鸡眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "covering mouth": {
-  "text": "covering mouth",
-  "lang_zh": "挡住嘴巴",
+ "crying with eyes open": {
+  "text": "crying with eyes open",
+  "lang_zh": "睁着眼落泪",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "crazy": {
-  "text": "crazy",
-  "lang_zh": "疯狂",
+ "dashed eyes": {
+  "text": "dashed eyes",
+  "lang_zh": "黑眼圈中的水平线",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "crazy smile": {
-  "text": "crazy smile",
-  "lang_zh": "疯狂地笑",
+ "devil eyes": {
+  "text": "devil eyes",
+  "lang_zh": "恶魔眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "crying": {
-  "text": "crying",
-  "lang_zh": "哭",
+ "devil pupils": {
+  "text": "devil pupils",
+  "lang_zh": "魔瞳",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "depressed": {
-  "text": "depressed",
-  "lang_zh": "郁闷",
+ "diamond-shaped pupils": {
+  "text": "diamond-shaped pupils",
+  "lang_zh": "钻石形瞳孔",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "despair": {
-  "text": "despair",
-  "lang_zh": "绝望",
+ "dilated pupils": {
+  "text": "dilated pupils",
+  "lang_zh": "瞳孔扩张",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "determined": {
-  "text": "determined",
-  "lang_zh": "下定决心",
+ "empty eyes": {
+  "text": "empty eyes",
+  "lang_zh": "眼睛没有亮点",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "disappointed": {
-  "text": "disappointed",
-  "lang_zh": "失望的",
+ "eye reflection": {
+  "text": "eye reflection",
+  "lang_zh": "眼睛反射",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "disdain": {
-  "text": "disdain",
-  "lang_zh": "蔑视",
+ "eyeball": {
+  "text": "eyeball",
+  "lang_zh": "盯着看",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "disgust": {
-  "text": "disgust",
-  "lang_zh": "恶心",
+ "eyebrows behind hair": {
+  "text": "eyebrows behind hair",
+  "lang_zh": "挡在头发下的眉毛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "doyagao": {
-  "text": "doyagao",
-  "lang_zh": "得意脸",
+ "eyes closed": {
+  "text": "eyes closed",
+  "lang_zh": "闭眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "drooling": {
-  "text": "drooling",
-  "lang_zh": "流口水",
+ "flower-shaped pupils": {
+  "text": "flower-shaped pupils",
+  "lang_zh": "花形瞳孔",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "drunk": {
-  "text": "drunk",
-  "lang_zh": "喝醉的",
+ "furrowed brow": {
+  "text": "furrowed brow",
+  "lang_zh": "下眉毛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "ear blush": {
-  "text": "ear blush",
-  "lang_zh": "耳红",
+ "glaring": {
+  "text": "glaring",
+  "lang_zh": "轻蔑/怒视",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "embarrassed": {
-  "text": "embarrassed",
-  "lang_zh": "尴尬",
+ "glowing eyes": {
+  "text": "glowing eyes",
+  "lang_zh": "发光眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "endured face": {
-  "text": "endured face",
-  "lang_zh": "忍耐的表情",
+ "gradient eyes": {
+  "text": "gradient eyes",
+  "lang_zh": "渐变瞳色",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "envy": {
-  "text": "envy",
-  "lang_zh": "嫉妒",
+ "gradient_eyes": {
+  "text": "gradient_eyes",
+  "lang_zh": "渐变眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "evil": {
-  "text": "evil",
-  "lang_zh": "邪恶",
+ "half-closed eye": {
+  "text": "half-closed eye",
+  "lang_zh": "眼睛半闭",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "evil smile": {
-  "text": "evil smile",
-  "lang_zh": "坏笑",
+ "half-closed eyes": {
+  "text": "half-closed eyes",
+  "lang_zh": "眼睛半闭",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "excited": {
-  "text": "excited",
-  "lang_zh": "兴奋",
+ "happy tears": {
+  "text": "happy tears",
+  "lang_zh": "开心的眼泪",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "expressionless": {
-  "text": "expressionless",
-  "lang_zh": "无口",
+ "heart-shaped eyes": {
+  "text": "heart-shaped eyes",
+  "lang_zh": "心形眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "expressionless eyes": {
-  "text": "expressionless eyes",
-  "lang_zh": "失神",
+ "heart-shaped pupils": {
+  "text": "heart-shaped pupils",
+  "lang_zh": "爱心形瞳孔",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "expressions": {
-  "text": "expressions",
-  "lang_zh": "表情",
+ "heterochromia": {
+  "text": "heterochromia",
+  "lang_zh": "异色瞳",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "facepalm": {
-  "text": "facepalm",
-  "lang_zh": "以手掩面",
+ "hollow eyes": {
+  "text": "hollow eyes",
+  "lang_zh": "漆黑的眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "face-to-face": {
-  "text": "face-to-face",
-  "lang_zh": "脸贴脸",
+ "horizontal pupils": {
+  "text": "horizontal pupils",
+  "lang_zh": "一字型瞳孔",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "facial hair": {
-  "text": "facial hair",
-  "lang_zh": "胡子",
+ "longeyelashes": {
+  "text": "longeyelashes",
+  "lang_zh": "长睫毛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "facing another": {
-  "text": "facing another",
-  "lang_zh": "面对面贴近",
+ "mismatched pupils": {
+  "text": "mismatched pupils",
+  "lang_zh": "双眼瞳异色",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "fang": {
-  "text": "fang",
-  "lang_zh": "虎牙",
+ "mismatched sclera": {
+  "text": "mismatched sclera",
+  "lang_zh": "双眼白异色",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "fang out": {
-  "text": "fang out",
-  "lang_zh": "露出虎牙",
+ "mole under eye": {
+  "text": "mole under eye",
+  "lang_zh": "眼下痣",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "fangs": {
-  "text": "fangs",
-  "lang_zh": "尖牙",
+ "multicolored eyes": {
+  "text": "multicolored eyes",
+  "lang_zh": "多色的黑眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "fingersmile": {
-  "text": "fingersmile",
-  "lang_zh": "手比划笑脸",
+ "no pupils": {
+  "text": "no pupils",
+  "lang_zh": "没有眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "flustered": {
-  "text": "flustered",
-  "lang_zh": "慌乱的",
+ "one eye closed": {
+  "text": "one eye closed",
+  "lang_zh": "一只眼睛闭着",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "food on face": {
-  "text": "food on face",
-  "lang_zh": "食物在脸上",
+ "orange eyes": {
+  "text": "orange eyes",
+  "lang_zh": "橙色的眼镜",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "forced smile": {
-  "text": "forced smile",
-  "lang_zh": "强迫笑",
+ "pac-man eyes": {
+  "text": "pac-man eyes",
+  "lang_zh": "吃豆人形眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "forehead": {
-  "text": "forehead",
-  "lang_zh": "额头",
+ "pink eyes": {
+  "text": "pink eyes",
+  "lang_zh": "粉红色的眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "forehead-to-forehead": {
-  "text": "forehead-to-forehead",
-  "lang_zh": "额头贴额头",
+ "pupils sparkling": {
+  "text": "pupils sparkling",
+  "lang_zh": "闪闪发光瞳",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "frown": {
-  "text": "frown",
-  "lang_zh": "皱眉",
+ "purple eyes": {
+  "text": "purple eyes",
+  "lang_zh": "紫眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "frustrated": {
-  "text": "frustrated",
-  "lang_zh": "沮丧",
+ "raised eyebrows": {
+  "text": "raised eyebrows",
+  "lang_zh": "挑眉",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "full blush": {
-  "text": "full blush",
-  "lang_zh": "整张脸泛红",
+ "red eyes": {
+  "text": "red eyes",
+  "lang_zh": "红眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "full-face blush": {
-  "text": "full-face blush",
-  "lang_zh": "整张脸泛红",
+ "ringed eyes": {
+  "text": "ringed eyes",
+  "lang_zh": "眼圈",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "fume": {
-  "text": "fume",
-  "lang_zh": "气得冒烟",
+ "rolling eyes": {
+  "text": "rolling eyes",
+  "lang_zh": "眼睛抬头",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "glasgow smile": {
-  "text": "glasgow smile",
-  "lang_zh": "格拉斯哥微笑",
+ "sanpaku": {
+  "text": "sanpaku",
+  "lang_zh": "三白眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "glint": {
-  "text": "glint",
-  "lang_zh": "强烈情感",
+ "slit pupils": {
+  "text": "slit pupils",
+  "lang_zh": "竖瞳孔/猫眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "gloom (expression)": {
-  "text": "gloom (expression)",
-  "lang_zh": "消沉(表情)",
+ "snake pupils": {
+  "text": "snake pupils",
+  "lang_zh": "蛇瞳",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "grimace": {
-  "text": "grimace",
-  "lang_zh": "厌恶的怪相",
+ "solid circle eyes": {
+  "text": "solid circle eyes",
+  "lang_zh": "实心圆眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "grin": {
-  "text": "grin",
-  "lang_zh": "露齿而笑",
+ "sparkling eyes": {
+  "text": "sparkling eyes",
+  "lang_zh": "星星眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "guilt": {
-  "text": "guilt",
-  "lang_zh": "有罪的",
+ "star-shaped pupils": {
+  "text": "star-shaped pupils",
+  "lang_zh": "星形眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "happy": {
-  "text": "happy",
-  "lang_zh": "快乐/幸福",
+ "streaming tears": {
+  "text": "streaming tears",
+  "lang_zh": "流泪",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "heart in eye": {
-  "text": "heart in eye",
-  "lang_zh": "眼里冒爱心",
+ "symbol-shaped pupils": {
+  "text": "symbol-shaped pupils",
+  "lang_zh": "符号眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "heavy breathing": {
-  "text": "heavy breathing",
-  "lang_zh": "喘粗气",
+ "tareme": {
+  "text": "tareme",
+  "lang_zh": "下垂的眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "holding breath": {
-  "text": "holding breath",
-  "lang_zh": "憋气",
+ "tears": {
+  "text": "tears",
+  "lang_zh": "眼泪",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "horrified": {
-  "text": "horrified",
-  "lang_zh": "恐惧表情",
+ "tsurime": {
+  "text": "tsurime",
+  "lang_zh": "吊眼角",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "jealous": {
-  "text": "jealous",
-  "lang_zh": "嫉妒的",
+ "upturned eyes": {
+  "text": "upturned eyes",
+  "lang_zh": "上翘的眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "jitome": {
-  "text": "jitome",
-  "lang_zh": "轻蔑的眼神",
+ "white eyes": {
+  "text": "white eyes",
+  "lang_zh": "白眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "kubrick stare": {
-  "text": "kubrick stare",
-  "lang_zh": "库布里克凝视",
+ "wide eyes": {
+  "text": "wide eyes",
+  "lang_zh": "睁大眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "laughing": {
-  "text": "laughing",
-  "lang_zh": "在笑的",
+ "wide-eyed": {
+  "text": "wide-eyed",
+  "lang_zh": "睁开眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "licking lips": {
-  "text": "licking lips",
-  "lang_zh": "舔嘴唇",
+ "wince": {
+  "text": "wince",
+  "lang_zh": "闭一只眼",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "light blush": {
-  "text": "light blush",
-  "lang_zh": "淡淡的腮红",
+ "x-shaped pupils": {
+  "text": "x-shaped pupils",
+  "lang_zh": "X 形眼睛",
   "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
- "light smile": {
-  "text": "light smile",
-  "lang_zh": "浅笑",
+ "yellow eyes": {
+  "text": "yellow eyes",
+  "lang_zh": "金眼",
   "subType": "normal",
-  "dir": "普通/表情"
- },
- "lonely": {
-  "text": "lonely",
-  "lang_zh": "孤独的",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "long tongue": {
-  "text": "long tongue",
-  "lang_zh": "长舌头",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "makeup": {
-  "text": "makeup",
-  "lang_zh": "浓装",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "moaning": {
-  "text": "moaning",
-  "lang_zh": "呻吟",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "mouth hold": {
-  "text": "mouth hold",
-  "lang_zh": "嘴咬住",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "naughty": {
-  "text": "naughty",
-  "lang_zh": "下流的表情",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "naughty face": {
-  "text": "naughty face",
-  "lang_zh": "下流的表情",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "nervous": {
-  "text": "nervous",
-  "lang_zh": "不安的",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "nervous smile": {
-  "text": "nervous smile",
-  "lang_zh": "不安地微笑",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "no nose": {
-  "text": "no nose",
-  "lang_zh": "没有鼻子",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "nose blush": {
-  "text": "nose blush",
-  "lang_zh": "害羞",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "nosebleed": {
-  "text": "nosebleed",
-  "lang_zh": "鼻血",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "open mouth": {
-  "text": "open mouth",
-  "lang_zh": "张口",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "oral invitation": {
-  "text": "oral invitation",
-  "lang_zh": "伸出舌头",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "pain": {
-  "text": "pain",
-  "lang_zh": "疼痛",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "panicking": {
-  "text": "panicking",
-  "lang_zh": "恐慌的",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "parted lips": {
-  "text": "parted lips",
-  "lang_zh": "嘴唇微张",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "pensive": {
-  "text": "pensive",
-  "lang_zh": "沉思的",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "pout": {
-  "text": "pout",
-  "lang_zh": "努嘴",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "puckered lips": {
-  "text": "puckered lips",
-  "lang_zh": "撅起的嘴唇",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "raised eyebrow": {
-  "text": "raised eyebrow",
-  "lang_zh": "扬起的眉毛",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "rape face": {
-  "text": "rape face",
-  "lang_zh": "强硬的表情",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "red lips": {
-  "text": "red lips",
-  "lang_zh": "朱唇",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "sad": {
-  "text": "sad",
-  "lang_zh": "悲伤的",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "sad smile": {
-  "text": "sad smile",
-  "lang_zh": "苦笑",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "saliva": {
-  "text": "saliva",
-  "lang_zh": "唾液",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "saliva trail": {
-  "text": "saliva trail",
-  "lang_zh": "唾液拉丝",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "scared": {
-  "text": "scared",
-  "lang_zh": "害怕的",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "scowl": {
-  "text": "scowl",
-  "lang_zh": "怒视/嫌弃/不满",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "screaming": {
-  "text": "screaming",
-  "lang_zh": "尖叫",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "seductive smile": {
-  "text": "seductive smile",
-  "lang_zh": "诱人的微笑",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "serious": {
-  "text": "serious",
-  "lang_zh": "严肃的",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "shaded": {
-  "text": "shaded",
-  "lang_zh": "阴沉脸",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "shy": {
-  "text": "shy",
-  "lang_zh": "害羞的",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "sigh": {
-  "text": "sigh",
-  "lang_zh": "叹气",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "skin fang": {
-  "text": "skin fang",
-  "lang_zh": "虎牙状",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "sleepy": {
-  "text": "sleepy",
-  "lang_zh": "困乏的",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "smelling": {
-  "text": "smelling",
-  "lang_zh": "闻",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "smile": {
-  "text": "smile",
-  "lang_zh": "微笑",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "smiley": {
-  "text": "smiley",
-  "lang_zh": "笑脸",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "smirk": {
-  "text": "smirk",
-  "lang_zh": "傻笑/得意的笑",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "smug": {
-  "text": "smug",
-  "lang_zh": "得意脸",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "sobbing": {
-  "text": "sobbing",
-  "lang_zh": "啜泣",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "spit take": {
-  "text": "spit take",
-  "lang_zh": "惊讶或无语到喷了",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "stifled laugh": {
-  "text": "stifled laugh",
-  "lang_zh": "憋笑",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "sulking": {
-  "text": "sulking",
-  "lang_zh": "闷闷不乐",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "surprised": {
-  "text": "surprised",
-  "lang_zh": "惊讶",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "tearing up": {
-  "text": "tearing up",
-  "lang_zh": "要哭的表情",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "teeth": {
-  "text": "teeth",
-  "lang_zh": "牙",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "thinking": {
-  "text": "thinking",
-  "lang_zh": "思考",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "tired": {
-  "text": "tired",
-  "lang_zh": "累",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "tongue": {
-  "text": "tongue",
-  "lang_zh": "舌头",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "tongue out": {
-  "text": "tongue out",
-  "lang_zh": "吐舌头",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "torogao": {
-  "text": "torogao",
-  "lang_zh": "诱惑的表情",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "troll": {
-  "text": "troll",
-  "lang_zh": "嚣张脸",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "tsundere": {
-  "text": "tsundere",
-  "lang_zh": "傲娇",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "turn pale": {
-  "text": "turn pale",
-  "lang_zh": "脸色苍白",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "unconscious": {
-  "text": "unconscious",
-  "lang_zh": "失神",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "upper teeth": {
-  "text": "upper teeth",
-  "lang_zh": "露出上排牙齿",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "upset": {
-  "text": "upset",
-  "lang_zh": "气愤",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "v-shaped eyebrows": {
-  "text": "v-shaped eyebrows",
-  "lang_zh": "V形眉(表高傲或愤怒)",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "worried": {
-  "text": "worried",
-  "lang_zh": "担忧的",
-  "subType": "normal",
-  "dir": "普通/表情"
- },
- "yandere": {
-  "text": "yandere",
-  "lang_zh": "病娇",
-  "subType": "normal",
-  "dir": "普通/表情"
+  "dir": "普通/眼睛"
  },
  "animal ears": {
   "text": "animal ears",
@@ -1054,24 +676,6 @@
   "lang_zh": "狼耳朵",
   "subType": "normal",
   "dir": "普通/耳朵"
- },
- "jacket": {
-  "text": "jacket",
-  "lang_zh": "夹克",
-  "subType": "normal",
-  "dir": "普通/服装"
- },
- "1girl": {
-  "text": "1girl",
-  "lang_zh": "一个女孩",
-  "subType": "normal",
-  "dir": "普通/个体"
- },
- "cute girl": {
-  "text": "cute girl",
-  "lang_zh": "可爱女孩",
-  "subType": "normal",
-  "dir": "普通/个体"
  },
  "absurdly long hair": {
   "text": "absurdly long hair",
@@ -2687,425 +2291,863 @@
   "subType": "normal",
   "dir": "普通/头饰"
  },
- "amber eyes": {
-  "text": "amber eyes",
-  "lang_zh": "琥珀色眼",
+ "ahegao": {
+  "text": "ahegao",
+  "lang_zh": "高潮脸",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "aqua eyes": {
-  "text": "aqua eyes",
-  "lang_zh": "吐舌鬼脸",
+ "anger vein": {
+  "text": "anger vein",
+  "lang_zh": "青筋",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "blank eyes": {
-  "text": "blank eyes",
-  "lang_zh": "白眼球",
+ "angry": {
+  "text": "angry",
+  "lang_zh": "生气的",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "bloodshot eyes": {
-  "text": "bloodshot eyes",
-  "lang_zh": "布满血丝的眼睛",
+ "annoyed": {
+  "text": "annoyed",
+  "lang_zh": "苦恼的",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "button eyes": {
-  "text": "button eyes",
-  "lang_zh": "纽扣眼",
+ "blush": {
+  "text": "blush",
+  "lang_zh": "脸红的",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "closed eyes": {
-  "text": "closed eyes",
-  "lang_zh": "闭上眼睛",
+ "blush stickers": {
+  "text": "blush stickers",
+  "lang_zh": "表情贴纸",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "color contact lenses": {
-  "text": "color contact lenses",
-  "lang_zh": "美瞳",
+ "bored": {
+  "text": "bored",
+  "lang_zh": "无聊的",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "colored eyelashes": {
-  "text": "colored eyelashes",
-  "lang_zh": "彩色睫毛",
+ "bright pupils": {
+  "text": "bright pupils",
+  "lang_zh": "明亮的瞳孔",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "constricted pupils": {
-  "text": "constricted pupils",
-  "lang_zh": "瞳孔收缩",
+ "cheek bulge": {
+  "text": "cheek bulge",
+  "lang_zh": "鼓着腮帮",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "crazy eyes": {
-  "text": "crazy eyes",
-  "lang_zh": "疯狂的眼睛",
+ "cheek pinching": {
+  "text": "cheek pinching",
+  "lang_zh": "捏脸颊",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "cross-eyed": {
-  "text": "cross-eyed",
-  "lang_zh": "斗鸡眼",
+ "cheek poking": {
+  "text": "cheek poking",
+  "lang_zh": "戳脸颊",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "crying with eyes open": {
-  "text": "crying with eyes open",
-  "lang_zh": "睁着眼落泪",
+ "cheek pull": {
+  "text": "cheek pull",
+  "lang_zh": "扯脸颊",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "dashed eyes": {
-  "text": "dashed eyes",
-  "lang_zh": "黑眼圈中的水平线",
+ "cheek-to-cheek": {
+  "text": "cheek-to-cheek",
+  "lang_zh": "脸贴脸",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "devil eyes": {
-  "text": "devil eyes",
-  "lang_zh": "恶魔眼",
+ "chin grab": {
+  "text": "chin grab",
+  "lang_zh": "抬下巴",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "devil pupils": {
-  "text": "devil pupils",
-  "lang_zh": "魔瞳",
+ "clenched teeth": {
+  "text": "clenched teeth",
+  "lang_zh": "咬牙",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "diamond-shaped pupils": {
-  "text": "diamond-shaped pupils",
-  "lang_zh": "钻石形瞳孔",
+ "closed mouth": {
+  "text": "closed mouth",
+  "lang_zh": "闭嘴",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "dilated pupils": {
-  "text": "dilated pupils",
-  "lang_zh": "瞳孔扩张",
+ "color drain": {
+  "text": "color drain",
+  "lang_zh": "惊讶到掉色",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "empty eyes": {
-  "text": "empty eyes",
-  "lang_zh": "眼睛没有亮点",
+ "confused": {
+  "text": "confused",
+  "lang_zh": "疑惑",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "eye reflection": {
-  "text": "eye reflection",
-  "lang_zh": "眼睛反射",
+ "covering": {
+  "text": "covering",
+  "lang_zh": "挡住脸",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "eyeball": {
-  "text": "eyeball",
-  "lang_zh": "盯着看",
+ "covering eyes": {
+  "text": "covering eyes",
+  "lang_zh": "遮住眼睛",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "eyebrows behind hair": {
-  "text": "eyebrows behind hair",
-  "lang_zh": "挡在头发下的眉毛",
+ "covering mouth": {
+  "text": "covering mouth",
+  "lang_zh": "挡住嘴巴",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "eyes closed": {
-  "text": "eyes closed",
-  "lang_zh": "闭眼",
+ "crazy": {
+  "text": "crazy",
+  "lang_zh": "疯狂",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "flower-shaped pupils": {
-  "text": "flower-shaped pupils",
-  "lang_zh": "花形瞳孔",
+ "crazy smile": {
+  "text": "crazy smile",
+  "lang_zh": "疯狂地笑",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "furrowed brow": {
-  "text": "furrowed brow",
-  "lang_zh": "下眉毛",
+ "crying": {
+  "text": "crying",
+  "lang_zh": "哭",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "glaring": {
-  "text": "glaring",
-  "lang_zh": "轻蔑/怒视",
+ "depressed": {
+  "text": "depressed",
+  "lang_zh": "郁闷",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "glowing eyes": {
-  "text": "glowing eyes",
-  "lang_zh": "发光眼睛",
+ "despair": {
+  "text": "despair",
+  "lang_zh": "绝望",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "gradient eyes": {
-  "text": "gradient eyes",
-  "lang_zh": "渐变瞳色",
+ "determined": {
+  "text": "determined",
+  "lang_zh": "下定决心",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "gradient_eyes": {
-  "text": "gradient_eyes",
-  "lang_zh": "渐变眼",
+ "disappointed": {
+  "text": "disappointed",
+  "lang_zh": "失望的",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "half-closed eye": {
-  "text": "half-closed eye",
-  "lang_zh": "眼睛半闭",
+ "disdain": {
+  "text": "disdain",
+  "lang_zh": "蔑视",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "half-closed eyes": {
-  "text": "half-closed eyes",
-  "lang_zh": "眼睛半闭",
+ "disgust": {
+  "text": "disgust",
+  "lang_zh": "恶心",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "happy tears": {
-  "text": "happy tears",
-  "lang_zh": "开心的眼泪",
+ "doyagao": {
+  "text": "doyagao",
+  "lang_zh": "得意脸",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "heart-shaped eyes": {
-  "text": "heart-shaped eyes",
-  "lang_zh": "心形眼",
+ "drooling": {
+  "text": "drooling",
+  "lang_zh": "流口水",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "heart-shaped pupils": {
-  "text": "heart-shaped pupils",
-  "lang_zh": "爱心形瞳孔",
+ "drunk": {
+  "text": "drunk",
+  "lang_zh": "喝醉的",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "heterochromia": {
-  "text": "heterochromia",
-  "lang_zh": "异色瞳",
+ "ear blush": {
+  "text": "ear blush",
+  "lang_zh": "耳红",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "hollow eyes": {
-  "text": "hollow eyes",
-  "lang_zh": "漆黑的眼睛",
+ "embarrassed": {
+  "text": "embarrassed",
+  "lang_zh": "尴尬",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "horizontal pupils": {
-  "text": "horizontal pupils",
-  "lang_zh": "一字型瞳孔",
+ "endured face": {
+  "text": "endured face",
+  "lang_zh": "忍耐的表情",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "longeyelashes": {
-  "text": "longeyelashes",
-  "lang_zh": "长睫毛",
+ "envy": {
+  "text": "envy",
+  "lang_zh": "嫉妒",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "mismatched pupils": {
-  "text": "mismatched pupils",
-  "lang_zh": "双眼瞳异色",
+ "evil": {
+  "text": "evil",
+  "lang_zh": "邪恶",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "mismatched sclera": {
-  "text": "mismatched sclera",
-  "lang_zh": "双眼白异色",
+ "evil smile": {
+  "text": "evil smile",
+  "lang_zh": "坏笑",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "mole under eye": {
-  "text": "mole under eye",
-  "lang_zh": "眼下痣",
+ "excited": {
+  "text": "excited",
+  "lang_zh": "兴奋",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "multicolored eyes": {
-  "text": "multicolored eyes",
-  "lang_zh": "多色的黑眼睛",
+ "expressionless": {
+  "text": "expressionless",
+  "lang_zh": "无口",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "no pupils": {
-  "text": "no pupils",
-  "lang_zh": "没有眼睛",
+ "expressionless eyes": {
+  "text": "expressionless eyes",
+  "lang_zh": "失神",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "one eye closed": {
-  "text": "one eye closed",
-  "lang_zh": "一只眼睛闭着",
+ "expressions": {
+  "text": "expressions",
+  "lang_zh": "表情",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "orange eyes": {
-  "text": "orange eyes",
-  "lang_zh": "橙色的眼镜",
+ "facepalm": {
+  "text": "facepalm",
+  "lang_zh": "以手掩面",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "pac-man eyes": {
-  "text": "pac-man eyes",
-  "lang_zh": "吃豆人形眼",
+ "face-to-face": {
+  "text": "face-to-face",
+  "lang_zh": "脸贴脸",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "pink eyes": {
-  "text": "pink eyes",
-  "lang_zh": "粉红色的眼睛",
+ "facial hair": {
+  "text": "facial hair",
+  "lang_zh": "胡子",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "pupils sparkling": {
-  "text": "pupils sparkling",
-  "lang_zh": "闪闪发光瞳",
+ "facing another": {
+  "text": "facing another",
+  "lang_zh": "面对面贴近",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "purple eyes": {
-  "text": "purple eyes",
-  "lang_zh": "紫眼",
+ "fang": {
+  "text": "fang",
+  "lang_zh": "虎牙",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "raised eyebrows": {
-  "text": "raised eyebrows",
-  "lang_zh": "挑眉",
+ "fang out": {
+  "text": "fang out",
+  "lang_zh": "露出虎牙",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "red eyes": {
-  "text": "red eyes",
-  "lang_zh": "红眼",
+ "fangs": {
+  "text": "fangs",
+  "lang_zh": "尖牙",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "ringed eyes": {
-  "text": "ringed eyes",
-  "lang_zh": "眼圈",
+ "fingersmile": {
+  "text": "fingersmile",
+  "lang_zh": "手比划笑脸",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "rolling eyes": {
-  "text": "rolling eyes",
-  "lang_zh": "眼睛抬头",
+ "flustered": {
+  "text": "flustered",
+  "lang_zh": "慌乱的",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "sanpaku": {
-  "text": "sanpaku",
-  "lang_zh": "三白眼",
+ "food on face": {
+  "text": "food on face",
+  "lang_zh": "食物在脸上",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "slit pupils": {
-  "text": "slit pupils",
-  "lang_zh": "竖瞳孔/猫眼",
+ "forced smile": {
+  "text": "forced smile",
+  "lang_zh": "强迫笑",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "snake pupils": {
-  "text": "snake pupils",
-  "lang_zh": "蛇瞳",
+ "forehead": {
+  "text": "forehead",
+  "lang_zh": "额头",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "solid circle eyes": {
-  "text": "solid circle eyes",
-  "lang_zh": "实心圆眼睛",
+ "forehead-to-forehead": {
+  "text": "forehead-to-forehead",
+  "lang_zh": "额头贴额头",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "sparkling eyes": {
-  "text": "sparkling eyes",
-  "lang_zh": "星星眼",
+ "frown": {
+  "text": "frown",
+  "lang_zh": "皱眉",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "star-shaped pupils": {
-  "text": "star-shaped pupils",
-  "lang_zh": "星形眼睛",
+ "frustrated": {
+  "text": "frustrated",
+  "lang_zh": "沮丧",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "streaming tears": {
-  "text": "streaming tears",
-  "lang_zh": "流泪",
+ "full blush": {
+  "text": "full blush",
+  "lang_zh": "整张脸泛红",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "symbol-shaped pupils": {
-  "text": "symbol-shaped pupils",
-  "lang_zh": "符号眼",
+ "full-face blush": {
+  "text": "full-face blush",
+  "lang_zh": "整张脸泛红",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "tareme": {
-  "text": "tareme",
-  "lang_zh": "下垂的眼睛",
+ "fume": {
+  "text": "fume",
+  "lang_zh": "气得冒烟",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "tears": {
-  "text": "tears",
-  "lang_zh": "眼泪",
+ "glasgow smile": {
+  "text": "glasgow smile",
+  "lang_zh": "格拉斯哥微笑",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "tsurime": {
-  "text": "tsurime",
-  "lang_zh": "吊眼角",
+ "glint": {
+  "text": "glint",
+  "lang_zh": "强烈情感",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "upturned eyes": {
-  "text": "upturned eyes",
-  "lang_zh": "上翘的眼睛",
+ "gloom (expression)": {
+  "text": "gloom (expression)",
+  "lang_zh": "消沉(表情)",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "white eyes": {
-  "text": "white eyes",
-  "lang_zh": "白眼",
+ "grimace": {
+  "text": "grimace",
+  "lang_zh": "厌恶的怪相",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "wide eyes": {
-  "text": "wide eyes",
-  "lang_zh": "睁大眼睛",
+ "grin": {
+  "text": "grin",
+  "lang_zh": "露齿而笑",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "wide-eyed": {
-  "text": "wide-eyed",
-  "lang_zh": "睁开眼睛",
+ "guilt": {
+  "text": "guilt",
+  "lang_zh": "有罪的",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "wince": {
-  "text": "wince",
-  "lang_zh": "闭一只眼",
+ "happy": {
+  "text": "happy",
+  "lang_zh": "快乐/幸福",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "x-shaped pupils": {
-  "text": "x-shaped pupils",
-  "lang_zh": "X 形眼睛",
+ "heart in eye": {
+  "text": "heart in eye",
+  "lang_zh": "眼里冒爱心",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
  },
- "yellow eyes": {
-  "text": "yellow eyes",
-  "lang_zh": "金眼",
+ "heavy breathing": {
+  "text": "heavy breathing",
+  "lang_zh": "喘粗气",
   "subType": "normal",
-  "dir": "普通/眼睛"
+  "dir": "普通/表情"
+ },
+ "holding breath": {
+  "text": "holding breath",
+  "lang_zh": "憋气",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "horrified": {
+  "text": "horrified",
+  "lang_zh": "恐惧表情",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "jealous": {
+  "text": "jealous",
+  "lang_zh": "嫉妒的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "jitome": {
+  "text": "jitome",
+  "lang_zh": "轻蔑的眼神",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "kubrick stare": {
+  "text": "kubrick stare",
+  "lang_zh": "库布里克凝视",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "laughing": {
+  "text": "laughing",
+  "lang_zh": "在笑的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "licking lips": {
+  "text": "licking lips",
+  "lang_zh": "舔嘴唇",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "light blush": {
+  "text": "light blush",
+  "lang_zh": "淡淡的腮红",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "light smile": {
+  "text": "light smile",
+  "lang_zh": "浅笑",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "lonely": {
+  "text": "lonely",
+  "lang_zh": "孤独的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "long tongue": {
+  "text": "long tongue",
+  "lang_zh": "长舌头",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "makeup": {
+  "text": "makeup",
+  "lang_zh": "浓装",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "moaning": {
+  "text": "moaning",
+  "lang_zh": "呻吟",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "mouth hold": {
+  "text": "mouth hold",
+  "lang_zh": "嘴咬住",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "naughty": {
+  "text": "naughty",
+  "lang_zh": "下流的表情",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "naughty face": {
+  "text": "naughty face",
+  "lang_zh": "下流的表情",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "nervous": {
+  "text": "nervous",
+  "lang_zh": "不安的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "nervous smile": {
+  "text": "nervous smile",
+  "lang_zh": "不安地微笑",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "no nose": {
+  "text": "no nose",
+  "lang_zh": "没有鼻子",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "nose blush": {
+  "text": "nose blush",
+  "lang_zh": "害羞",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "nosebleed": {
+  "text": "nosebleed",
+  "lang_zh": "鼻血",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "open mouth": {
+  "text": "open mouth",
+  "lang_zh": "张口",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "oral invitation": {
+  "text": "oral invitation",
+  "lang_zh": "伸出舌头",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "pain": {
+  "text": "pain",
+  "lang_zh": "疼痛",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "panicking": {
+  "text": "panicking",
+  "lang_zh": "恐慌的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "parted lips": {
+  "text": "parted lips",
+  "lang_zh": "嘴唇微张",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "pensive": {
+  "text": "pensive",
+  "lang_zh": "沉思的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "pout": {
+  "text": "pout",
+  "lang_zh": "努嘴",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "puckered lips": {
+  "text": "puckered lips",
+  "lang_zh": "撅起的嘴唇",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "raised eyebrow": {
+  "text": "raised eyebrow",
+  "lang_zh": "扬起的眉毛",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "rape face": {
+  "text": "rape face",
+  "lang_zh": "强硬的表情",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "red lips": {
+  "text": "red lips",
+  "lang_zh": "朱唇",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "sad": {
+  "text": "sad",
+  "lang_zh": "悲伤的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "sad smile": {
+  "text": "sad smile",
+  "lang_zh": "苦笑",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "saliva": {
+  "text": "saliva",
+  "lang_zh": "唾液",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "saliva trail": {
+  "text": "saliva trail",
+  "lang_zh": "唾液拉丝",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "scared": {
+  "text": "scared",
+  "lang_zh": "害怕的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "scowl": {
+  "text": "scowl",
+  "lang_zh": "怒视/嫌弃/不满",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "screaming": {
+  "text": "screaming",
+  "lang_zh": "尖叫",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "seductive smile": {
+  "text": "seductive smile",
+  "lang_zh": "诱人的微笑",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "serious": {
+  "text": "serious",
+  "lang_zh": "严肃的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "shaded": {
+  "text": "shaded",
+  "lang_zh": "阴沉脸",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "shy": {
+  "text": "shy",
+  "lang_zh": "害羞的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "sigh": {
+  "text": "sigh",
+  "lang_zh": "叹气",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "skin fang": {
+  "text": "skin fang",
+  "lang_zh": "虎牙状",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "sleepy": {
+  "text": "sleepy",
+  "lang_zh": "困乏的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "smelling": {
+  "text": "smelling",
+  "lang_zh": "闻",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "smile": {
+  "text": "smile",
+  "lang_zh": "微笑",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "smiley": {
+  "text": "smiley",
+  "lang_zh": "笑脸",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "smirk": {
+  "text": "smirk",
+  "lang_zh": "傻笑/得意的笑",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "smug": {
+  "text": "smug",
+  "lang_zh": "得意脸",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "sobbing": {
+  "text": "sobbing",
+  "lang_zh": "啜泣",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "spit take": {
+  "text": "spit take",
+  "lang_zh": "惊讶或无语到喷了",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "stifled laugh": {
+  "text": "stifled laugh",
+  "lang_zh": "憋笑",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "sulking": {
+  "text": "sulking",
+  "lang_zh": "闷闷不乐",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "surprised": {
+  "text": "surprised",
+  "lang_zh": "惊讶",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "tearing up": {
+  "text": "tearing up",
+  "lang_zh": "要哭的表情",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "teeth": {
+  "text": "teeth",
+  "lang_zh": "牙",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "thinking": {
+  "text": "thinking",
+  "lang_zh": "思考",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "tired": {
+  "text": "tired",
+  "lang_zh": "累",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "tongue": {
+  "text": "tongue",
+  "lang_zh": "舌头",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "tongue out": {
+  "text": "tongue out",
+  "lang_zh": "吐舌头",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "torogao": {
+  "text": "torogao",
+  "lang_zh": "诱惑的表情",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "troll": {
+  "text": "troll",
+  "lang_zh": "嚣张脸",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "tsundere": {
+  "text": "tsundere",
+  "lang_zh": "傲娇",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "turn pale": {
+  "text": "turn pale",
+  "lang_zh": "脸色苍白",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "unconscious": {
+  "text": "unconscious",
+  "lang_zh": "失神",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "upper teeth": {
+  "text": "upper teeth",
+  "lang_zh": "露出上排牙齿",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "upset": {
+  "text": "upset",
+  "lang_zh": "气愤",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "v-shaped eyebrows": {
+  "text": "v-shaped eyebrows",
+  "lang_zh": "V形眉(表高傲或愤怒)",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "worried": {
+  "text": "worried",
+  "lang_zh": "担忧的",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "yandere": {
+  "text": "yandere",
+  "lang_zh": "病娇",
+  "subType": "normal",
+  "dir": "普通/表情"
+ },
+ "jacket": {
+  "text": "jacket",
+  "lang_zh": "夹克",
+  "subType": "normal",
+  "dir": "普通/服装"
  },
  "paw pose": {
   "text": "paw pose",
@@ -3118,48 +3160,6 @@
   "lang_zh": "举起拳头",
   "subType": "normal",
   "dir": "普通/姿势"
- },
- "out of flame": {
-  "text": "out of flame",
-  "lang_zh": "火焰背景",
-  "subType": "normal",
-  "dir": "普通/背景"
- },
- "blacklight": {
-  "text": "blacklight",
-  "lang_zh": "背后有光",
-  "subType": "normal",
-  "dir": "普通/背景"
- },
- "street view": {
-  "text": "street view",
-  "lang_zh": "街景",
-  "subType": "normal",
-  "dir": "普通/背景"
- },
- "white background": {
-  "text": "white background",
-  "lang_zh": "白背景",
-  "subType": "normal",
-  "dir": "普通/背景"
- },
- "mecha": {
-  "text": "mecha",
-  "lang_zh": "机甲",
-  "subType": "normal",
-  "dir": "普通/背景"
- },
- "exoskeleton ": {
-  "text": "exoskeleton ",
-  "lang_zh": "外骨骼",
-  "subType": "normal",
-  "dir": "普通/背景"
- },
- "god rays": {
-  "text": "god rays",
-  "lang_zh": "神降光芒",
-  "subType": "normal",
-  "dir": "普通/背景"
  },
  "abstract": {
   "text": "abstract",
@@ -3328,348 +3328,6 @@
   "lang_zh": "摇摇欲坠",
   "subType": "style",
   "dir": "风格/画风"
- },
- "anaglyph": {
-  "text": "anaglyph",
-  "lang_zh": "互补色",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "backlighting": {
-  "text": "backlighting",
-  "lang_zh": "逆光",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "blending": {
-  "text": "blending",
-  "lang_zh": "混合",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "bloom": {
-  "text": "bloom",
-  "lang_zh": "盛开",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "chiaroscuro": {
-  "text": "chiaroscuro",
-  "lang_zh": "明暗对比",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "chromatic aberration": {
-  "text": "chromatic aberration",
-  "lang_zh": "色差",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "chromatic aberration abuse": {
-  "text": "chromatic aberration abuse",
-  "lang_zh": "色差滥用",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "cinematic lighting": {
-  "text": "cinematic lighting",
-  "lang_zh": "电影光效",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "depth of field": {
-  "text": "depth of field",
-  "lang_zh": "景深虚化",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "details": {
-  "text": "details",
-  "lang_zh": "充满细节",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "dithering": {
-  "text": "dithering",
-  "lang_zh": "抖动",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "drop shadow": {
-  "text": "drop shadow",
-  "lang_zh": "立绘阴影",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "film grain": {
-  "text": "film grain",
-  "lang_zh": "胶片颗粒感",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "glowing light": {
-  "text": "glowing light",
-  "lang_zh": "荧光",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "halftone": {
-  "text": "halftone",
-  "lang_zh": "半色调",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "image fill": {
-  "text": "image fill",
-  "lang_zh": "图像填充",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "jpeg artifacts": {
-  "text": "jpeg artifacts",
-  "lang_zh": "JPEG 压缩失真",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "lens flare": {
-  "text": "lens flare",
-  "lang_zh": "镜头光晕",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "lens flare abuse": {
-  "text": "lens flare abuse",
-  "lang_zh": "镜头光晕滥用",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "motion blur": {
-  "text": "motion blur",
-  "lang_zh": "动态模糊",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "motion lines": {
-  "text": "motion lines",
-  "lang_zh": "体现运动的线",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "multiple monochrome": {
-  "text": "multiple monochrome",
-  "lang_zh": "黑白拼接",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "optical illusion": {
-  "text": "optical illusion",
-  "lang_zh": "视错觉",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "ray tracing": {
-  "text": "ray tracing",
-  "lang_zh": "光线追踪",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "reflection light": {
-  "text": "reflection light",
-  "lang_zh": "反射光",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "scanlines": {
-  "text": "scanlines",
-  "lang_zh": "扫描线",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "silhouette": {
-  "text": "silhouette",
-  "lang_zh": "剪影",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "sparkle": {
-  "text": "sparkle",
-  "lang_zh": "闪耀效果",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "speed lines": {
-  "text": "speed lines",
-  "lang_zh": "速度线",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "stereogram": {
-  "text": "stereogram",
-  "lang_zh": "立体画",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "vignetting": {
-  "text": "vignetting",
-  "lang_zh": "晕影",
-  "subType": "style",
-  "dir": "风格/画面效果"
- },
- "135mm": {
-  "text": "135mm",
-  "lang_zh": "焦距 135mm",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "35mm": {
-  "text": "35mm",
-  "lang_zh": "焦距 35mm",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "360 view": {
-  "text": "360 view",
-  "lang_zh": "360 度视角",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "85mm": {
-  "text": "85mm",
-  "lang_zh": "焦距 85mm",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "bokeh": {
-  "text": "bokeh",
-  "lang_zh": "背景散焦",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "canon 5DMark": {
-  "text": "canon 5DMark",
-  "lang_zh": "佳能",
-  "subType": "style",
-  "dir": "风格/相机"
- },
- "caustics": {
-  "text": "caustics",
-  "lang_zh": "焦散",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "diffraction spikes": {
-  "text": "diffraction spikes",
-  "lang_zh": "衍射十字星",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "emphasis lines": {
-  "text": "emphasis lines",
-  "lang_zh": "集中线",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "eye-level shot": {
-  "text": "eye-level shot",
-  "lang_zh": "人眼视角拍摄",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "f/1.2": {
-  "text": "f/1.2",
-  "lang_zh": "光圈 F1.2",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "f/1.8": {
-  "text": "f/1.8",
-  "lang_zh": "光圈 F1.8",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "f/16": {
-  "text": "f/16",
-  "lang_zh": "光圈 F16",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "f/2.8": {
-  "text": "f/2.8",
-  "lang_zh": "光圈 F2.8",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "f/4.0": {
-  "text": "f/4.0",
-  "lang_zh": "光圈 F4.0",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "foreshortening": {
-  "text": "foreshortening",
-  "lang_zh": "正前缩距透视法",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "fujifilm": {
-  "text": "fujifilm",
-  "lang_zh": "富士",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "hasselblad": {
-  "text": "hasselblad",
-  "lang_zh": "哈数",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "macro photo": {
-  "text": "macro photo",
-  "lang_zh": "微距照片",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "nikon": {
-  "text": "nikon",
-  "lang_zh": "尼康",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "overexposure": {
-  "text": "overexposure",
-  "lang_zh": "过曝",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "satellite image": {
-  "text": "satellite image",
-  "lang_zh": "卫星鸟瞰",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "sony fe": {
-  "text": "sony fe",
-  "lang_zh": "索尼镜头",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "sony fe gm": {
-  "text": "sony fe gm",
-  "lang_zh": "索尼大师镜头",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "ultra-wide angle": {
-  "text": "ultra-wide angle",
-  "lang_zh": "超广角",
-  "subType": "style",
-  "dir": "风格/镜头"
- },
- "wide-angle": {
-  "text": "wide-angle",
-  "lang_zh": "广角",
-  "subType": "style",
-  "dir": "风格/镜头"
  },
  "abstract expressionism": {
   "text": "abstract expressionism",
@@ -4139,227 +3797,191 @@
   "subType": "style",
   "dir": "风格/偏好"
  },
- "atmospheric perspective": {
-  "text": "atmospheric perspective",
-  "lang_zh": "大气距离感",
+ "anaglyph": {
+  "text": "anaglyph",
+  "lang_zh": "互补色",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "back view": {
-  "text": "back view",
-  "lang_zh": "后视",
+ "backlighting": {
+  "text": "backlighting",
+  "lang_zh": "逆光",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "blurry foreground": {
-  "text": "blurry foreground",
-  "lang_zh": "前景模糊",
+ "blending": {
+  "text": "blending",
+  "lang_zh": "混合",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "close-up": {
-  "text": "close-up",
-  "lang_zh": "特写镜头",
+ "bloom": {
+  "text": "bloom",
+  "lang_zh": "盛开",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "cowboy shot": {
-  "text": "cowboy shot",
-  "lang_zh": "七分身镜头",
+ "chiaroscuro": {
+  "text": "chiaroscuro",
+  "lang_zh": "明暗对比",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "cut-in": {
-  "text": "cut-in",
-  "lang_zh": "插入画面",
+ "chromatic aberration": {
+  "text": "chromatic aberration",
+  "lang_zh": "色差",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "dutch angle": {
-  "text": "dutch angle",
-  "lang_zh": "德式倾斜镜头",
+ "chromatic aberration abuse": {
+  "text": "chromatic aberration abuse",
+  "lang_zh": "色差滥用",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "extreme close-up": {
-  "text": "extreme close-up",
-  "lang_zh": "超近特写",
+ "cinematic lighting": {
+  "text": "cinematic lighting",
+  "lang_zh": "电影光效",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "first-person view": {
-  "text": "first-person view",
-  "lang_zh": "第一人称视角",
+ "depth of field": {
+  "text": "depth of field",
+  "lang_zh": "景深虚化",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "fisheye": {
-  "text": "fisheye",
-  "lang_zh": "鱼眼镜头",
+ "details": {
+  "text": "details",
+  "lang_zh": "充满细节",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "from above": {
-  "text": "from above",
-  "lang_zh": "俯拍",
+ "dithering": {
+  "text": "dithering",
+  "lang_zh": "抖动",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "from behind": {
-  "text": "from behind",
-  "lang_zh": "背影",
+ "drop shadow": {
+  "text": "drop shadow",
+  "lang_zh": "立绘阴影",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "from below": {
-  "text": "from below",
-  "lang_zh": "仰拍",
+ "film grain": {
+  "text": "film grain",
+  "lang_zh": "胶片颗粒感",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "from outside": {
-  "text": "from outside",
-  "lang_zh": "向内拍摄",
+ "glowing light": {
+  "text": "glowing light",
+  "lang_zh": "荧光",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "from side": {
-  "text": "from side",
-  "lang_zh": "角色的侧面",
+ "halftone": {
+  "text": "halftone",
+  "lang_zh": "半色调",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "front view": {
-  "text": "front view",
-  "lang_zh": "正视",
+ "image fill": {
+  "text": "image fill",
+  "lang_zh": "图像填充",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "full shot": {
-  "text": "full shot",
-  "lang_zh": "全身镜头",
+ "jpeg artifacts": {
+  "text": "jpeg artifacts",
+  "lang_zh": "JPEG 压缩失真",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "ground level view": {
-  "text": "ground level view",
-  "lang_zh": "地面视角",
+ "lens flare": {
+  "text": "lens flare",
+  "lang_zh": "镜头光晕",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "hatching (texture)": {
-  "text": "hatching (texture)",
-  "lang_zh": "线影法(纹理)",
+ "lens flare abuse": {
+  "text": "lens flare abuse",
+  "lang_zh": "镜头光晕滥用",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "high angle view": {
-  "text": "high angle view",
-  "lang_zh": "高视角",
+ "motion blur": {
+  "text": "motion blur",
+  "lang_zh": "动态模糊",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "looking at viewer": {
-  "text": "looking at viewer",
-  "lang_zh": "前视角",
+ "motion lines": {
+  "text": "motion lines",
+  "lang_zh": "体现运动的线",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "low angle view": {
-  "text": "low angle view",
-  "lang_zh": "低视角",
+ "multiple monochrome": {
+  "text": "multiple monochrome",
+  "lang_zh": "黑白拼接",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "medium full shot": {
-  "text": "medium full shot",
-  "lang_zh": "7分镜",
+ "optical illusion": {
+  "text": "optical illusion",
+  "lang_zh": "视错觉",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "medium shot": {
-  "text": "medium shot",
-  "lang_zh": "中镜头",
+ "ray tracing": {
+  "text": "ray tracing",
+  "lang_zh": "光线追踪",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "multiple views": {
-  "text": "multiple views",
-  "lang_zh": "多视图",
+ "reflection light": {
+  "text": "reflection light",
+  "lang_zh": "反射光",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "overhead view": {
-  "text": "overhead view",
-  "lang_zh": "俯视",
+ "scanlines": {
+  "text": "scanlines",
+  "lang_zh": "扫描线",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "panorama": {
-  "text": "panorama",
-  "lang_zh": "全景",
+ "silhouette": {
+  "text": "silhouette",
+  "lang_zh": "剪影",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "perspective": {
-  "text": "perspective",
-  "lang_zh": "透视画法",
+ "sparkle": {
+  "text": "sparkle",
+  "lang_zh": "闪耀效果",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "pov": {
-  "text": "pov",
-  "lang_zh": "主观视角",
+ "speed lines": {
+  "text": "speed lines",
+  "lang_zh": "速度线",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "rotated": {
-  "text": "rotated",
-  "lang_zh": "经过旋转的",
+ "stereogram": {
+  "text": "stereogram",
+  "lang_zh": "立体画",
   "subType": "style",
-  "dir": "风格/视角"
+  "dir": "风格/画面效果"
  },
- "side view ": {
-  "text": "side view ",
-  "lang_zh": "侧视",
+ "vignetting": {
+  "text": "vignetting",
+  "lang_zh": "晕影",
   "subType": "style",
-  "dir": "风格/视角"
- },
- "sideways": {
-  "text": "sideways",
-  "lang_zh": "横向显示的",
-  "subType": "style",
-  "dir": "风格/视角"
- },
- "three sided view": {
-  "text": "three sided view",
-  "lang_zh": "三视图",
-  "subType": "style",
-  "dir": "风格/视角"
- },
- "upside-down": {
-  "text": "upside-down",
-  "lang_zh": "上下颠倒",
-  "subType": "style",
-  "dir": "风格/视角"
- },
- "vanishing point": {
-  "text": "vanishing point",
-  "lang_zh": "远景透视",
-  "subType": "style",
-  "dir": "风格/视角"
- },
- "wide shot": {
-  "text": "wide shot",
-  "lang_zh": "广角镜头",
-  "subType": "style",
-  "dir": "风格/视角"
- },
- "nikon d850": {
-  "text": "nikon d850",
-  "lang_zh": "尼康相机",
-  "subType": "style",
-  "dir": "风格/相机"
+  "dir": "风格/画面效果"
  },
  "afterimage": {
   "text": "afterimage",
@@ -4684,6 +4306,384 @@
   "lang_zh": "缩放图层",
   "subType": "style",
   "dir": "风格/形式"
+ },
+ "atmospheric perspective": {
+  "text": "atmospheric perspective",
+  "lang_zh": "大气距离感",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "back view": {
+  "text": "back view",
+  "lang_zh": "后视",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "blurry foreground": {
+  "text": "blurry foreground",
+  "lang_zh": "前景模糊",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "close-up": {
+  "text": "close-up",
+  "lang_zh": "特写镜头",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "cowboy shot": {
+  "text": "cowboy shot",
+  "lang_zh": "七分身镜头",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "cut-in": {
+  "text": "cut-in",
+  "lang_zh": "插入画面",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "dutch angle": {
+  "text": "dutch angle",
+  "lang_zh": "德式倾斜镜头",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "extreme close-up": {
+  "text": "extreme close-up",
+  "lang_zh": "超近特写",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "first-person view": {
+  "text": "first-person view",
+  "lang_zh": "第一人称视角",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "fisheye": {
+  "text": "fisheye",
+  "lang_zh": "鱼眼镜头",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "from above": {
+  "text": "from above",
+  "lang_zh": "俯拍",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "from behind": {
+  "text": "from behind",
+  "lang_zh": "背影",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "from below": {
+  "text": "from below",
+  "lang_zh": "仰拍",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "from outside": {
+  "text": "from outside",
+  "lang_zh": "向内拍摄",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "from side": {
+  "text": "from side",
+  "lang_zh": "角色的侧面",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "front view": {
+  "text": "front view",
+  "lang_zh": "正视",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "full shot": {
+  "text": "full shot",
+  "lang_zh": "全身镜头",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "ground level view": {
+  "text": "ground level view",
+  "lang_zh": "地面视角",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "hatching (texture)": {
+  "text": "hatching (texture)",
+  "lang_zh": "线影法(纹理)",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "high angle view": {
+  "text": "high angle view",
+  "lang_zh": "高视角",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "looking at viewer": {
+  "text": "looking at viewer",
+  "lang_zh": "前视角",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "low angle view": {
+  "text": "low angle view",
+  "lang_zh": "低视角",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "medium full shot": {
+  "text": "medium full shot",
+  "lang_zh": "7分镜",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "medium shot": {
+  "text": "medium shot",
+  "lang_zh": "中镜头",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "multiple views": {
+  "text": "multiple views",
+  "lang_zh": "多视图",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "overhead view": {
+  "text": "overhead view",
+  "lang_zh": "俯视",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "panorama": {
+  "text": "panorama",
+  "lang_zh": "全景",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "perspective": {
+  "text": "perspective",
+  "lang_zh": "透视画法",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "pov": {
+  "text": "pov",
+  "lang_zh": "主观视角",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "rotated": {
+  "text": "rotated",
+  "lang_zh": "经过旋转的",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "side view ": {
+  "text": "side view ",
+  "lang_zh": "侧视",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "sideways": {
+  "text": "sideways",
+  "lang_zh": "横向显示的",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "three sided view": {
+  "text": "three sided view",
+  "lang_zh": "三视图",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "upside-down": {
+  "text": "upside-down",
+  "lang_zh": "上下颠倒",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "vanishing point": {
+  "text": "vanishing point",
+  "lang_zh": "远景透视",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "wide shot": {
+  "text": "wide shot",
+  "lang_zh": "广角镜头",
+  "subType": "style",
+  "dir": "风格/视角"
+ },
+ "135mm": {
+  "text": "135mm",
+  "lang_zh": "焦距 135mm",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "35mm": {
+  "text": "35mm",
+  "lang_zh": "焦距 35mm",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "360 view": {
+  "text": "360 view",
+  "lang_zh": "360 度视角",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "85mm": {
+  "text": "85mm",
+  "lang_zh": "焦距 85mm",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "bokeh": {
+  "text": "bokeh",
+  "lang_zh": "背景散焦",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "caustics": {
+  "text": "caustics",
+  "lang_zh": "焦散",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "diffraction spikes": {
+  "text": "diffraction spikes",
+  "lang_zh": "衍射十字星",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "emphasis lines": {
+  "text": "emphasis lines",
+  "lang_zh": "集中线",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "eye-level shot": {
+  "text": "eye-level shot",
+  "lang_zh": "人眼视角拍摄",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "f/1.2": {
+  "text": "f/1.2",
+  "lang_zh": "光圈 F1.2",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "f/1.8": {
+  "text": "f/1.8",
+  "lang_zh": "光圈 F1.8",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "f/16": {
+  "text": "f/16",
+  "lang_zh": "光圈 F16",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "f/2.8": {
+  "text": "f/2.8",
+  "lang_zh": "光圈 F2.8",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "f/4.0": {
+  "text": "f/4.0",
+  "lang_zh": "光圈 F4.0",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "foreshortening": {
+  "text": "foreshortening",
+  "lang_zh": "正前缩距透视法",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "fujifilm": {
+  "text": "fujifilm",
+  "lang_zh": "富士",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "hasselblad": {
+  "text": "hasselblad",
+  "lang_zh": "哈数",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "macro photo": {
+  "text": "macro photo",
+  "lang_zh": "微距照片",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "nikon": {
+  "text": "nikon",
+  "lang_zh": "尼康",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "overexposure": {
+  "text": "overexposure",
+  "lang_zh": "过曝",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "satellite image": {
+  "text": "satellite image",
+  "lang_zh": "卫星鸟瞰",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "sony fe": {
+  "text": "sony fe",
+  "lang_zh": "索尼镜头",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "sony fe gm": {
+  "text": "sony fe gm",
+  "lang_zh": "索尼大师镜头",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "ultra-wide angle": {
+  "text": "ultra-wide angle",
+  "lang_zh": "超广角",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "wide-angle": {
+  "text": "wide-angle",
+  "lang_zh": "广角",
+  "subType": "style",
+  "dir": "风格/镜头"
+ },
+ "canon 5DMark": {
+  "text": "canon 5DMark",
+  "lang_zh": "佳能",
+  "subType": "style",
+  "dir": "风格/相机"
+ },
+ "nikon d850": {
+  "text": "nikon d850",
+  "lang_zh": "尼康相机",
+  "subType": "style",
+  "dir": "风格/相机"
  },
  "HD": {
   "text": "HD",
