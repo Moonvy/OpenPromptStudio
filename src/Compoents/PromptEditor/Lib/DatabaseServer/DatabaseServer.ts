@@ -53,7 +53,7 @@ export class DatabaseServer {
                     ws[`E${id}`] && (prompt.desc = ws[`E${id}`].v)                       //desc
                     ws[`D${id}`] && (prompt.sampleCmds = JSON.parse(ws[`D${id}`].v))     //sampleCmds
                     ws[`C${id}`] && (prompt.dir = `${subTypeName}/${ws[`C${id}`].v}`)    //dir
-                    mapDict[ws[`A${id}`].v] = prompt
+                    mapDict[ws[`A${id}`].v.toLowerCase()] = prompt
                 }
             })
         })
