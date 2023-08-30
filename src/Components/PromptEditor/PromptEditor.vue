@@ -31,7 +31,7 @@
                 "
             >
                 <Icon icon="ic:baseline-g-translate" />
-                <div class="lable">
+                <div class="label">
                     {{ t("翻译服务：") }}
                 </div>
                 <select v-model="promptEditor.data.server">
