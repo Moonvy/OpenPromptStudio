@@ -262,7 +262,7 @@
 </style>
 <script>
 import { getDictData } from "./getDictData"
-import vPromptItem from "../../Compoents/PromptEditor/Components/PromptItem/PromptItem.vue"
+import vPromptItem from "../../Components/PromptEditor/Components/PromptItem/PromptItem.vue"
 import { useDatabaseServer } from "../PromptEditor/Lib/DatabaseServer/DatabaseServer"
 import { useStorage } from "@vueuse/core"
 import { debounce } from "lodash"

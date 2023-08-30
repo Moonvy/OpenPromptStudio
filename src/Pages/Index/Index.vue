@@ -169,8 +169,8 @@
 </style>
 <script lang="ts">
 import Vue, { PropType } from "vue"
-import vPromptEditor from "../../Compoents/PromptEditor/PromptEditor.vue"
-import vPromptDict from "../../Compoents/PromptDict/PromptDict.vue"
+import vPromptEditor from "../../Components/PromptEditor/PromptEditor.vue"
+import vPromptDict from "../../Components/PromptDict/PromptDict.vue"
 
 import pkg from "../../../package.json"
 export default Vue.extend({

@@ -39,7 +39,7 @@ function paresWord(text: string) {
 
     let re: any
     // [from:to:when] https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#prompt-editing
-    if (mactch(Editing_from_to_when.test(text))) {
+    if (match(Editing_from_to_when.test(text))) {
         displayText = text
         word = {
             text: displayText,
@@ -49,7 +49,7 @@ function paresWord(text: string) {
         }
     }
     // [from:when]
-    else if (mactch(Editing_to_when.test(text))) {
+    else if (match(Editing_to_when.test(text))) {
         displayText = text
         word = {
             text: displayText,
@@ -59,27 +59,27 @@ function paresWord(text: string) {
         }
     }
     // (xxx:2)
-    else if (mactch(REG_Attention_number.exec(text))) {
+    else if (match(REG_Attention_number.exec(text))) {
         displayText = re[1]
         lv = re[2]
         word = { text: displayText, lv, type: PromptWordType.Word, rawText: text }
     }
     // ((((xxx)))
-    else if (mactch(REG_Attention_adds.exec(text))) {
+    else if (match(REG_Attention_adds.exec(text))) {
         displayText = re[2]
         alv = re[1].length
         lv = round(Math.pow(1.1, alv), 2)
         word = { text: displayText, lv, alv, type: PromptWordType.Word, rawText: text }
     }
     // [[[xxx]]]
-    else if (mactch(REG_Attention_subs.exec(text))) {
+    else if (match(REG_Attention_subs.exec(text))) {
         displayText = re[2]
         alv = -re[1].length
         lv = round(1 / Math.pow(1.1, Math.abs(alv)), 2)
         word = { text: displayText, lv, alv, type: PromptWordType.Word, rawText: text }
     }
     // <lora:filename:multiplier>
-    else if (mactch(REG_ExtraNetworks.exec(text))) {
+    else if (match(REG_ExtraNetworks.exec(text))) {
         word = {
             text: text,
             type: PromptWordType.Word,
@@ -96,7 +96,7 @@ function paresWord(text: string) {
     // console.log("[paresWordInfo]", word)
     return { displayText, lv, word }
 
-    function mactch(v: any) {
+    function match(v: any) {
         re = v
         return v
     }
