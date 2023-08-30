@@ -253,7 +253,7 @@ export default Vue.extend({
         },
         "item.state.isEdit": {
             handler(val) {
-                if (val) setTimeout(() => this.doFoucs(), 100)
+                if (val) setTimeout(() => this.doFocus(), 100)
             },
             immediate: true,
         },
@@ -271,7 +271,7 @@ export default Vue.extend({
         doOpenUrl(url: string) {
             window.open(url)
         },
-        doFoucs() {
+        doFocus() {
             setTimeout(() => {
                 if (this.item.state.isEdit == "text") {
                     ;(this.$refs.input as any)?.focus()

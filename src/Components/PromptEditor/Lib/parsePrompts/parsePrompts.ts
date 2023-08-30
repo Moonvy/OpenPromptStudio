@@ -41,7 +41,7 @@ export async function parsePrompts(
         throw new Error(`err ParsePrompts not support this parser:${options.parser}`)
     }
     if (options.minify) {
-        words = wordsDeduplicat(words)
+        words = wordsDeduplicate(words)
     }
 
     let dataserver = useDatabaseServer()
@@ -85,7 +85,7 @@ export function stringifyPrompts(groups: IPromptGroup[] = [], options: { parser:
     return prompts
 }
 
-function wordsDeduplicat(words: IPromptWord[]): IPromptWord[] {
+function wordsDeduplicate(words: IPromptWord[]): IPromptWord[] {
     let map: any = {}
     words.forEach((word) => (map[word.rawText] = word))
     return Object.values(map)

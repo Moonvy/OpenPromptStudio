@@ -86,12 +86,12 @@ export default {
         doEdit() {
             this.close()
             this.item.state.isEdit = "text"
-            this.bindEl.__vue__.doFoucs()
+            this.bindEl.__vue__.doFocus()
         },
         doEditLang() {
             this.close()
             this.item.state.isEdit = "lang"
-            this.bindEl.__vue__.doFoucs()
+            this.bindEl.__vue__.doFocus()
         },
         doDelete() {
             this.close()

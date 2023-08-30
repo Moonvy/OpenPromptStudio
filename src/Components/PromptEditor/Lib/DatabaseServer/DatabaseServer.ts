@@ -30,16 +30,16 @@ export class DatabaseServer {
     }
     async queryPromptsDefine(prompts: string[]): Promise<IPromptDefineItem[]> {
         await this.ready()
-        let reuslt = []
+        let result = []
         for (let prompt of prompts) {
             let re = this.localPromptDefineMap[prompt?.toLowerCase()]
             if (re) {
-                reuslt.push(re)
+                result.push(re)
             } else {
-                reuslt.push(null)
+                result.push(null)
             }
         }
-        return <any>reuslt
+        return <any>result
     }
 
     async getPromptsDefine(options?: { onlyMyNotion?: boolean }) {

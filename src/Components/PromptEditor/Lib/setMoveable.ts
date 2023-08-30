@@ -5,7 +5,7 @@ export interface IMoveableOptions {
     callback_move?: (e: IMoveInfo) => boolean
     /** 开始回调，关闭*/
     callback_end?: (e: IMoveInfo) => void
-    /** 传递 passive 参数给 move 事件， 默认为 ture */
+    /** 传递 passive 参数给 move 事件， 默认为 true */
     passive?: boolean
     /** 元素移动 */
     setMove?: boolean

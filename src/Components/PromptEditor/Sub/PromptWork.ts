@@ -68,7 +68,7 @@ export class PromptWork {
         // 未分组
         if (noGroup.length > 0) {
             finGroups.push({
-                id: `group-noGoutp`,
+                id: `group-noGroup`,
                 lists: sortPromptMap(createListMap(noGroup)),
             })
         }
