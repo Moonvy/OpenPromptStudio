@@ -26,7 +26,7 @@
                 class="server-select"
                 v-tooltip="
                     `调用翻译接口会有不小的成本开销，我们做了适当限制\n当同时使用用户过多时会不稳定，请见谅\n想要更好的翻译体验可以在本项目 Github 页获得本地部署的方法\n\n${
-                        promptEditor.data.server === LocalTrasnslateServer ? promptEditor.data.server : ''
+                        promptEditor.data.server === LocalTranslateServer ? promptEditor.data.server : ''
                     }`
                 "
             >
@@ -35,7 +35,7 @@
                     {{ t("翻译服务：") }}
                 </div>
                 <select v-model="promptEditor.data.server">
-                    <option :value="LocalTrasnslateServer" :title="LocalTrasnslateServer">本地翻译接口</option>
+                    <option :value="LocalTranslateServer" :title="LocalTranslateServer">本地翻译接口</option>
                     <option value="https://indexfs.moonvy.com:19213/prompt-studio">腾讯翻译</option>
                     <option value="https://indexfs.moonvy.com:19213/prompt-studio2">腾讯翻译 2</option>
                     <option value="https://indexfs.moonvy.com:19213/prompt-studio/ai" disabled>
@@ -200,7 +200,7 @@ export default {
         dndInit()
         let promptEditor = new PromptEditorClass({ initPrompts: this.initPrompts })
         return {
-            LocalTrasnslateServer: LOCAL_TRANSLATE_SERVER,
+            LocalTranslateServer: LOCAL_TRANSLATE_SERVER,
             promptEditor,
             adDelay: false,
         }
