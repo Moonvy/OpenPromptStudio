@@ -15,16 +15,17 @@ export async function fetchFromNotion(options: { apiKey: string; databaseId: str
 
     const notion = new Client({
         auth: apiKey,
-        baseUrl: `https://cloudy-toad-cors-dgvpb2704n30.deno.dev/https://api.notion.com`,
+        baseUrl: `https://worker-cors.yarna-moonvy.workers.dev/https://api.notion.com`,
     })
 
     let i = 0
     await once()
     async function once(start_cursor?: string) {
         let re = await notion.databases.query({ database_id, start_cursor })
-        console.log(`[notion] get page${i} :${start_cursor ?? "init"}`)
-        re.results.forEach((page: any) => {
-            let text = page.properties?.text.title?.[0]?.text?.content
+        console.log(`[notion] get page${i} :${start_cursor ?? "init"}`, { re })
+        re.results.forEach((page: any, index) => {
+            // console.log(`[notion] page${index}`, { page })
+            let text = page.properties?.text?.title?.[0]?.text?.content
             let desc = page.properties?.desc?.rich_text?.[0]?.text?.content
             let lang_zh = page.properties?.["lang_zh"].rich_text?.[0]?.text?.content
             let tags = page.properties?.tags?.multi_select?.map((x: any) => x.name)
