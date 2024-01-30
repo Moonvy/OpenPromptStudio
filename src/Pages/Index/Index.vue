@@ -166,6 +166,12 @@
         }
     }
 }
+
+@media screen and (max-width: 1550px) {
+    .IndexPage > footer {
+        padding-top: 92px;
+    }
+}
 </style>
 <script lang="ts">
 import Vue, { PropType } from "vue"

@@ -142,8 +142,16 @@
 
         <!--    在使用 indexfs.moonvy.com 的翻译服务时显示广告，尝试给腾讯翻译的服务费回血    -->
         <div v-if="needShowAd" class="回血-box" v-tooltip="'广告商提供的内容，与本网站（Moonvy 月维）无关'">
+            <!-- <a href="https://moonvy.com?homepage&ops" target="_blank"> <img src="./Assets/ad_moonvy.png" /> </a> -->
+            <a href="https://www.wolai.com/9u31LAYfakr6THnD2burvW" target="_blank"> <img src="./Assets/ad221126.png" /> </a>
             <a href="https://nf.video/yinhe/web?sharedId=124758" target="_blank"> <img src="./Assets/ad.png" /> </a>
+            <!-- <a href="https://universalbus.cn?s=hd2fCq8xEw" target="_blank"> <img src="./Assets/ad5.jpg" /> </a> -->
+
+            <a href="https://sd-1258045456.cos.ap-guangzhou.myqcloud.com/sd011" target="_blank"> <img src="./Assets/ad6.png" /> </a>
+            <!-- <a href="https://www.kaiecho.com/" target="_blank"> <img src="./Assets/ad2.jpg" /> </a> -->
+            <!-- <a href="https://sd-1258045456.cos.ap-guangzhou.myqcloud.com/chachasd.html" target="_blank"> <img src="./Assets/ad3c.png" /> </a> -->
         </div>
+       
     </div>
 </template>
 <style lang="scss">
@@ -184,6 +192,7 @@
         left: 18px;
         img {
             height: 52px;
+            margin-right: 4px;
         }
     }
 }
