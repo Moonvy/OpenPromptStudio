@@ -3,13 +3,29 @@ const Commands = [
         keys: ["--version", "--v"],
         zh: "版本",
         desc: "模型版本",
-        sampleCmds: ["4", "5", "niji" ],
+        sampleCmds: ["4", "5", "6", "niji"],
     },
     {
         keys: ["--aspect", "--ar"],
         zh: "宽高比",
         sampleCmds: ["2:3", "16:9", "3:2"],
         desc: "生成图片的宽高比尺寸",
+    },
+    {
+        keys: ["--cref"],
+        zh: "一致性引用源",
+        desc: "生成与提供的链接一致性的结果（后跟链接）",
+    },
+    {
+        keys: ["--cw"],
+        zh: "一致性权重",
+        sampleCmds: [0, 50, 100],
+        desc: "<0–100>，数值越大一致性越高",
+    },
+    {
+        keys: ["--tile"],
+        zh: "无缝拼贴图案",
+        desc: "生成无缝拼贴图案",
     },
     {
         keys: ["--chaos", "--c"],
@@ -47,7 +63,8 @@ const Commands = [
     {
         keys: ["--style"],
         zh: "风格",
-        desc: "<4a, 4b or 4c> 模型版本 4 的版本之间切换",
+        sampleCmds: ["raw", "4a", "4b", "4c"],
+        desc: "<raw, 4a, 4b or 4c> 模型版本的风格之间切换",
     },
     {
         keys: ["--stylize", "--s"],
@@ -72,7 +89,7 @@ const Commands = [
     },
     {
         keys: ["--niji"],
-        sampleCmds: ["", "5" ],
+        sampleCmds: ["", "5", "6"],
         zh: "动漫模型",
         desc: "另一种模型专注于动漫风格的图像",
     },
@@ -94,7 +111,7 @@ const Commands = [
     {
         keys: ["--repeat"],
         zh: "重复",
-        sampleCmds: ["1", "3" ],
+        sampleCmds: ["1", "3"],
         desc: "重复",
     },
 ]

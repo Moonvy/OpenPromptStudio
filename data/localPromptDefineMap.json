@@ -57,68 +57,9 @@
   "lang_zh": "现代极简主义插画",
   "subType": "style"
  },
- "surrealism": {
-  "text": "Surrealism",
-  "lang_zh": "超现实主义",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "rococo": {
-  "text": "Rococo",
-  "lang_zh": "洛可可",
-  "subType": "style"
- },
- "anatomically correct": {
-  "text": "anatomically correct",
-  "lang_zh": "解剖学正确",
-  "subType": "quality",
-  "dir": "质量"
- },
- "color field painting": {
-  "text": "Color Field painting",
-  "lang_zh": "色块画",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "art deco": {
-  "text": "Art Deco",
-  "lang_zh": "装饰艺术",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "rococo style": {
-  "text": "rococo style",
-  "lang_zh": "洛可可风格",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "high detail": {
-  "text": "high detail",
-  "lang_zh": "高细节",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "blind box toy style": {
-  "text": "blind box toy style",
-  "lang_zh": "盲盒玩具风格",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "cubist futurism": {
-  "text": "Cubist Futurism",
-  "lang_zh": "立体派未来主义",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
  "conceptual art": {
   "text": "Conceptual art",
   "lang_zh": "概念艺术",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "futurism": {
-  "text": "Futurism",
-  "lang_zh": "未来主义",
   "subType": "style",
   "dir": "绘画/风格"
  },
@@ -131,24 +72,6 @@
  "interior architecture": {
   "text": "interior architecture",
   "lang_zh": "室内建筑",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "chiaroscuro": {
-  "text": "chiaroscuro",
-  "lang_zh": "明暗对比",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "renaissance": {
-  "text": "Renaissance",
-  "lang_zh": "文艺复兴",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "neoclassicism": {
-  "text": "Neoclassicism",
-  "lang_zh": "新古典主义",
   "subType": "style",
   "dir": "绘画/风格"
  },
@@ -188,34 +111,6 @@
   "subType": "style",
   "dir": "绘画/风格"
  },
- "tonalism": {
-  "text": "Tonalism",
-  "lang_zh": "色调主义",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "baroque": {
-  "text": "Baroque",
-  "lang_zh": "巴洛克",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "3d rendering": {
-  "text": "3d rendering",
-  "lang_zh": "3D渲染",
-  "subType": "style"
- },
- "fauvism": {
-  "text": "Fauvism",
-  "lang_zh": "野兽派",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "punk woman": {
-  "text": "punk woman",
-  "lang_zh": "朋克女性",
-  "subType": "style"
- },
  "c4d": {
   "text": "c4d",
   "lang_zh": "c4d",
@@ -230,18 +125,6 @@
   "subType": "style",
   "dir": "绘画/风格"
  },
- "carl larsson": {
-  "text": "Carl Larsson",
-  "lang_zh": "卡尔·拉尔松风格的画作",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "op art": {
-  "text": "Op art",
-  "lang_zh": "视错觉艺术",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
  "realism": {
   "text": "Realism",
   "lang_zh": "现实主义",
@@ -253,49 +136,6 @@
   "lang_zh": "当代艺术",
   "subType": "style",
   "dir": "绘画/风格"
- },
- "genre painting": {
-  "text": "Genre painting",
-  "lang_zh": "风俗画",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "constructivism": {
-  "text": "Constructivism",
-  "lang_zh": "构成主义",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "mannerism": {
-  "text": "Mannerism",
-  "lang_zh": "后期文艺复兴",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "bauhaus": {
-  "text": "Bauhaus",
-  "lang_zh": "包豪斯",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "action painting": {
-  "text": "Action painting",
-  "lang_zh": "行动绘画",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "by alfons mucha": {
-  "text": "by Alfons Mucha",
-  "lang_zh": "由阿尔方斯·穆卡制作",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "blender": {
-  "text": "blender",
-  "subType": "style",
-  "tags": [
-   "3D"
-  ]
  },
  "dutch golden age painting": {
   "text": "Dutch Golden Age painting",
@@ -327,12 +167,6 @@
   "subType": "style",
   "dir": "绘画/风格"
  },
- "ukiyo-e": {
-  "text": "Ukiyo-e",
-  "lang_zh": "浮世绘",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
  "luminism": {
   "text": "Luminism",
   "lang_zh": "明亮主义",
@@ -344,9 +178,187 @@
   "lang_zh": "超写实",
   "subType": "style"
  },
+ "art deco": {
+  "text": "Art Deco",
+  "lang_zh": "装饰艺术",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "rococo style": {
+  "text": "rococo style",
+  "lang_zh": "洛可可风格",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "chiaroscuro": {
+  "text": "chiaroscuro",
+  "lang_zh": "明暗对比",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "tonalism": {
+  "text": "Tonalism",
+  "lang_zh": "色调主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "3d rendering": {
+  "text": "3d rendering",
+  "lang_zh": "3D渲染",
+  "subType": "style"
+ },
+ "fauvism": {
+  "text": "Fauvism",
+  "lang_zh": "野兽派",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "punk woman": {
+  "text": "punk woman",
+  "lang_zh": "朋克女性",
+  "subType": "style"
+ },
+ "carl larsson": {
+  "text": "Carl Larsson",
+  "lang_zh": "卡尔·拉尔松风格的画作",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "mannerism": {
+  "text": "Mannerism",
+  "lang_zh": "后期文艺复兴",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "action painting": {
+  "text": "Action painting",
+  "lang_zh": "行动绘画",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "blender": {
+  "text": "blender",
+  "subType": "style",
+  "tags": [
+   "3D"
+  ]
+ },
+ "anatomically correct": {
+  "text": "anatomically correct",
+  "lang_zh": "解剖学正确",
+  "subType": "quality",
+  "dir": "质量"
+ },
+ "cubist futurism": {
+  "text": "Cubist Futurism",
+  "lang_zh": "立体派未来主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "futurism": {
+  "text": "Futurism",
+  "lang_zh": "未来主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "neoclassicism": {
+  "text": "Neoclassicism",
+  "lang_zh": "新古典主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "baroque": {
+  "text": "Baroque",
+  "lang_zh": "巴洛克",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "genre painting": {
+  "text": "Genre painting",
+  "lang_zh": "风俗画",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "constructivism": {
+  "text": "Constructivism",
+  "lang_zh": "构成主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "by alfons mucha": {
+  "text": "by Alfons Mucha",
+  "lang_zh": "由阿尔方斯·穆卡制作",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "blind box toy style": {
+  "text": "blind box toy style",
+  "lang_zh": "盲盒玩具风格",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "ukiyo-e": {
+  "text": "Ukiyo-e",
+  "lang_zh": "浮世绘",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "rococo": {
+  "text": "Rococo",
+  "lang_zh": "洛可可",
+  "subType": "style"
+ },
+ "high detail": {
+  "text": "high detail",
+  "lang_zh": "高细节",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "op art": {
+  "text": "Op art",
+  "lang_zh": "视错觉艺术",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "color field painting": {
+  "text": "Color Field painting",
+  "lang_zh": "色块画",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "renaissance": {
+  "text": "Renaissance",
+  "lang_zh": "文艺复兴",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "surrealism": {
+  "text": "Surrealism",
+  "lang_zh": "超现实主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "bauhaus": {
+  "text": "Bauhaus",
+  "lang_zh": "包豪斯",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
  "abstract expressionism": {
   "text": "Abstract expressionism",
   "lang_zh": "抽象表现主义",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "pre-raphaelite brotherhood": {
+  "text": "Pre-Raphaelite Brotherhood",
+  "lang_zh": "前拉斐尔派兄弟会",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "impressionism": {
+  "text": "Impressionism",
+  "lang_zh": "印象派",
   "subType": "style",
   "dir": "绘画/风格"
  },
@@ -361,33 +373,21 @@
   "subType": "quality",
   "dir": "质量"
  },
- "impressionism": {
-  "text": "Impressionism",
-  "lang_zh": "印象派",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
- "pre-raphaelite brotherhood": {
-  "text": "Pre-Raphaelite Brotherhood",
-  "lang_zh": "前拉斐尔派兄弟会",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
  "classicism": {
   "text": "Classicism",
   "lang_zh": "古典主义",
   "subType": "style",
   "dir": "绘画/风格"
  },
- "ghibli-like colours": {
-  "text": "Ghibli-like colours",
-  "lang_zh": "吉卜力色彩",
-  "subType": "style",
-  "dir": "绘画/风格"
- },
  "hyperrealism": {
   "text": "Hyperrealism",
   "lang_zh": "超现实主义细节画派",
+  "subType": "style",
+  "dir": "绘画/风格"
+ },
+ "ghibli-like colours": {
+  "text": "Ghibli-like colours",
+  "lang_zh": "吉卜力色彩",
   "subType": "style",
   "dir": "绘画/风格"
  },
@@ -451,14 +451,14 @@
   "subType": "quality",
   "dir": "质量"
  },
- "timeless modern": {
-  "text": "timeless modern",
-  "lang_zh": "永恒的现代",
-  "subType": "style"
- },
  "8k octane": {
   "text": "8k octane",
   "lang_zh": "8k八角渲染",
+  "subType": "style"
+ },
+ "timeless modern": {
+  "text": "timeless modern",
+  "lang_zh": "永恒的现代",
   "subType": "style"
  },
  "pointillism": {
@@ -490,14 +490,14 @@
   "lang_zh": "柔和的颜色",
   "subType": "style"
  },
- "careful line drawing": {
-  "text": "careful line drawing",
-  "lang_zh": "细心的线条绘画",
-  "subType": "style"
- },
  "naïve art": {
   "text": "Naïve art",
   "lang_zh": "原始艺术",
+  "subType": "style"
+ },
+ "careful line drawing": {
+  "text": "careful line drawing",
+  "lang_zh": "细心的线条绘画",
   "subType": "style"
  },
  "pixar": {
@@ -4124,6 +4124,216 @@
   "subType": "style",
   "dir": "构图/形式"
  },
+ "chromatic aberration": {
+  "text": "chromatic aberration",
+  "lang_zh": "色差",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "lens flare": {
+  "text": "lens flare",
+  "lang_zh": "镜头光晕",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "motion blur": {
+  "text": "motion blur",
+  "lang_zh": "动态模糊",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "sparkle": {
+  "text": "sparkle",
+  "lang_zh": "闪耀效果",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "jpeg artifacts": {
+  "text": "jpeg artifacts",
+  "lang_zh": "JPEG 压缩失真",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "blurry": {
+  "text": "blurry",
+  "lang_zh": "模糊的",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "glowing light": {
+  "text": "glowing light",
+  "lang_zh": "荧光",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "god rays": {
+  "text": "god rays",
+  "lang_zh": "神圣感顶光",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "ray tracing": {
+  "text": "ray tracing",
+  "lang_zh": "光线追踪",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "reflection light": {
+  "text": "reflection light",
+  "lang_zh": "反射光",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "overexposure": {
+  "text": "overexposure",
+  "lang_zh": "过曝",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "backlighting": {
+  "text": "backlighting",
+  "lang_zh": "逆光",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "blending": {
+  "text": "blending",
+  "lang_zh": "混合",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "bloom": {
+  "text": "bloom",
+  "lang_zh": "盛开",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "bokeh": {
+  "text": "bokeh",
+  "lang_zh": "背景散焦",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "caustics": {
+  "text": "caustics",
+  "lang_zh": "焦散",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "chromatic aberration abuse": {
+  "text": "chromatic aberration abuse",
+  "lang_zh": "色差滥用",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "diffraction spikes": {
+  "text": "diffraction spikes",
+  "lang_zh": "衍射十字星",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "dithering": {
+  "text": "dithering",
+  "lang_zh": "抖动",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "drop shadow": {
+  "text": "drop shadow",
+  "lang_zh": "立绘阴影",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "emphasis lines": {
+  "text": "emphasis lines",
+  "lang_zh": "集中线",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "film grain": {
+  "text": "film grain",
+  "lang_zh": "胶片颗粒感/老电影滤镜",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "foreshortening": {
+  "text": "foreshortening",
+  "lang_zh": "正前缩距透视法",
+  "subType": "style",
+  "dir": "构图/镜头"
+ },
+ "halftone": {
+  "text": "halftone",
+  "lang_zh": "半调风格",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "image fill": {
+  "text": "image fill",
+  "lang_zh": "图像填充",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "lens flare abuse": {
+  "text": "lens flare abuse",
+  "lang_zh": "镜头光晕滥用",
+  "subType": "style",
+  "dir": "构图/画面效果"
+ },
+ "motion lines": {
+  "text": "motion lines",
+  "lang_zh": "体现运动的线",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "multiple monochrome": {
+  "text": "multiple monochrome",
+  "lang_zh": "多重单色",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "optical illusion": {
+  "text": "optical illusion",
+  "lang_zh": "视错觉",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "anaglyph": {
+  "text": "anaglyph",
+  "lang_zh": "互补色",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "stereogram": {
+  "text": "stereogram",
+  "lang_zh": "立体画",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "scanlines": {
+  "text": "scanlines",
+  "lang_zh": "扫描线",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "silhouette": {
+  "text": "silhouette",
+  "lang_zh": "剪影",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "speed lines": {
+  "text": "speed lines",
+  "lang_zh": "速度线",
+  "subType": "style",
+  "dir": "画面效果"
+ },
+ "vignetting": {
+  "text": "vignetting",
+  "lang_zh": "晕影",
+  "subType": "style",
+  "dir": "画面效果"
+ },
  "first-person view": {
   "text": "first-person view",
   "lang_zh": "第一人称视角",
@@ -4268,48 +4478,6 @@
   "subType": "style",
   "dir": "构图/视角"
  },
- "lens flare": {
-  "text": "lens flare",
-  "lang_zh": "镜头光晕",
-  "subType": "style",
-  "dir": "构图/镜头"
- },
- "overexposure": {
-  "text": "overexposure",
-  "lang_zh": "过曝",
-  "subType": "style",
-  "dir": "构图/镜头"
- },
- "bokeh": {
-  "text": "bokeh",
-  "lang_zh": "背景散焦",
-  "subType": "style",
-  "dir": "构图/镜头"
- },
- "caustics": {
-  "text": "caustics",
-  "lang_zh": "焦散",
-  "subType": "style",
-  "dir": "构图/镜头"
- },
- "diffraction spikes": {
-  "text": "diffraction spikes",
-  "lang_zh": "衍射十字星",
-  "subType": "style",
-  "dir": "构图/镜头"
- },
- "foreshortening": {
-  "text": "foreshortening",
-  "lang_zh": "正前缩距透视法",
-  "subType": "style",
-  "dir": "构图/镜头"
- },
- "emphasis lines": {
-  "text": "emphasis lines",
-  "lang_zh": "集中线",
-  "subType": "style",
-  "dir": "构图/镜头"
- },
  "satellite image": {
   "text": "satellite image",
   "lang_zh": "卫星鸟瞰",
@@ -4430,171 +4598,9 @@
   "subType": "style",
   "dir": "构图/镜头"
  },
- "motion blur": {
-  "text": "motion blur",
-  "lang_zh": "动态模糊",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "chromatic aberration": {
-  "text": "chromatic aberration",
-  "lang_zh": "色差",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "sparkle": {
-  "text": "sparkle",
-  "lang_zh": "闪耀效果",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "jpeg artifacts": {
-  "text": "jpeg artifacts",
-  "lang_zh": "JPEG 压缩失真",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "blurry": {
-  "text": "blurry",
-  "lang_zh": "模糊的",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "glowing light": {
-  "text": "glowing light",
-  "lang_zh": "荧光",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "god rays": {
-  "text": "god rays",
-  "lang_zh": "神圣感顶光",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "ray tracing": {
-  "text": "ray tracing",
-  "lang_zh": "光线追踪",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "reflection light": {
-  "text": "reflection light",
-  "lang_zh": "反射光",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "backlighting": {
-  "text": "backlighting",
-  "lang_zh": "逆光",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "blending": {
-  "text": "blending",
-  "lang_zh": "混合",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "bloom": {
-  "text": "bloom",
-  "lang_zh": "盛开",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "chromatic aberration abuse": {
-  "text": "chromatic aberration abuse",
-  "lang_zh": "色差滥用",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "dithering": {
-  "text": "dithering",
-  "lang_zh": "抖动",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "drop shadow": {
-  "text": "drop shadow",
-  "lang_zh": "立绘阴影",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "film grain": {
-  "text": "film grain",
-  "lang_zh": "胶片颗粒感/老电影滤镜",
-  "subType": "style",
-  "dir": "画面效果"
- },
  "fujicolor": {
   "text": "Fujicolor",
   "lang_zh": "富士色彩",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "halftone": {
-  "text": "halftone",
-  "lang_zh": "半调风格",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "image fill": {
-  "text": "image fill",
-  "lang_zh": "图像填充",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "motion lines": {
-  "text": "motion lines",
-  "lang_zh": "体现运动的线",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "multiple monochrome": {
-  "text": "multiple monochrome",
-  "lang_zh": "多重单色",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "optical illusion": {
-  "text": "optical illusion",
-  "lang_zh": "视错觉",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "anaglyph": {
-  "text": "anaglyph",
-  "lang_zh": "互补色",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "stereogram": {
-  "text": "stereogram",
-  "lang_zh": "立体画",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "scanlines": {
-  "text": "scanlines",
-  "lang_zh": "扫描线",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "silhouette": {
-  "text": "silhouette",
-  "lang_zh": "剪影",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "speed lines": {
-  "text": "speed lines",
-  "lang_zh": "速度线",
-  "subType": "style",
-  "dir": "画面效果"
- },
- "vignetting": {
-  "text": "vignetting",
-  "lang_zh": "晕影",
   "subType": "style",
   "dir": "画面效果"
  },
@@ -4606,6 +4612,7 @@
   "sampleCmds": [
    "4",
    "5",
+   "6",
    "niji"
   ],
   "dir": "命令/版本"
@@ -4657,6 +4664,50 @@
   "lang_zh": "宽高比",
   "subType": "command",
   "desc": "生成图片的宽高比尺寸"
+ },
+ "--cref": {
+  "text": "--cref",
+  "lang_zh": "一致性引用源",
+  "subType": "command",
+  "desc": "生成与提供的链接一致性的结果（后跟链接）",
+  "dir": "命令/一致性引用源"
+ },
+ "—cref": {
+  "text": "—cref",
+  "lang_zh": "一致性引用源",
+  "subType": "command",
+  "desc": "生成与提供的链接一致性的结果（后跟链接）"
+ },
+ "--cw": {
+  "text": "--cw",
+  "lang_zh": "一致性权重",
+  "subType": "command",
+  "desc": "<0–100>，数值越大一致性越高",
+  "sampleCmds": [
+   0,
+   50,
+   100
+  ],
+  "dir": "命令/一致性权重"
+ },
+ "—cw": {
+  "text": "—cw",
+  "lang_zh": "一致性权重",
+  "subType": "command",
+  "desc": "<0–100>，数值越大一致性越高"
+ },
+ "--tile": {
+  "text": "--tile",
+  "lang_zh": "无缝拼贴图案",
+  "subType": "command",
+  "desc": "生成无缝拼贴图案",
+  "dir": "命令/无缝拼贴图案"
+ },
+ "—tile": {
+  "text": "—tile",
+  "lang_zh": "无缝拼贴图案",
+  "subType": "command",
+  "desc": "生成无缝拼贴图案"
  },
  "--chaos": {
   "text": "--chaos",
@@ -4777,14 +4828,20 @@
   "text": "--style",
   "lang_zh": "风格",
   "subType": "command",
-  "desc": "<4a, 4b or 4c> 模型版本 4 的版本之间切换",
+  "desc": "<raw, 4a, 4b or 4c> 模型版本的风格之间切换",
+  "sampleCmds": [
+   "raw",
+   "4a",
+   "4b",
+   "4c"
+  ],
   "dir": "命令/风格"
  },
  "—style": {
   "text": "—style",
   "lang_zh": "风格",
   "subType": "command",
-  "desc": "<4a, 4b or 4c> 模型版本 4 的版本之间切换"
+  "desc": "<raw, 4a, 4b or 4c> 模型版本的风格之间切换"
  },
  "--stylize": {
   "text": "--stylize",
@@ -4860,6 +4917,11 @@
   "lang_zh": "动漫模型",
   "subType": "command",
   "desc": "另一种模型专注于动漫风格的图像",
+  "sampleCmds": [
+   "",
+   "5",
+   "6"
+  ],
   "dir": "命令/动漫模型"
  },
  "—niji": {

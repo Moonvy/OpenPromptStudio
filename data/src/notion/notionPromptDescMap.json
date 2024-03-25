@@ -69,78 +69,9 @@
     "subType": "style",
     "tags": []
   },
-  "surrealism": {
-    "text": "Surrealism",
-    "lang_zh": "超现实主义",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "rococo": {
-    "text": "Rococo",
-    "lang_zh": "洛可可",
-    "subType": "style",
-    "tags": []
-  },
-  "anatomically correct": {
-    "text": "anatomically correct",
-    "lang_zh": "解剖学正确",
-    "subType": "quality",
-    "dir": "质量",
-    "tags": []
-  },
-  "color field painting": {
-    "text": "Color Field painting",
-    "lang_zh": "色块画",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "art deco": {
-    "text": "Art Deco",
-    "lang_zh": "装饰艺术",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "rococo style": {
-    "text": "rococo style",
-    "lang_zh": "洛可可风格",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "high detail": {
-    "text": "high detail",
-    "lang_zh": "高细节",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "blind box toy style": {
-    "text": "blind box toy style",
-    "lang_zh": "盲盒玩具风格",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "cubist futurism": {
-    "text": "Cubist Futurism",
-    "lang_zh": "立体派未来主义",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
   "conceptual art": {
     "text": "Conceptual art",
     "lang_zh": "概念艺术",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "futurism": {
-    "text": "Futurism",
-    "lang_zh": "未来主义",
     "subType": "style",
     "dir": "绘画/风格",
     "tags": []
@@ -155,27 +86,6 @@
   "interior architecture": {
     "text": "interior architecture",
     "lang_zh": "室内建筑",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "chiaroscuro": {
-    "text": "Chiaroscuro",
-    "lang_zh": "明暗对比法",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "renaissance": {
-    "text": "Renaissance",
-    "lang_zh": "文艺复兴",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "neoclassicism": {
-    "text": "Neoclassicism",
-    "lang_zh": "新古典主义",
     "subType": "style",
     "dir": "绘画/风格",
     "tags": []
@@ -222,39 +132,6 @@
     "dir": "绘画/风格",
     "tags": []
   },
-  "tonalism": {
-    "text": "Tonalism",
-    "lang_zh": "色调主义",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "baroque": {
-    "text": "Baroque",
-    "lang_zh": "巴洛克",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "3d rendering": {
-    "text": "3d rendering",
-    "lang_zh": "3D渲染",
-    "subType": "style",
-    "tags": []
-  },
-  "fauvism": {
-    "text": "Fauvism",
-    "lang_zh": "野兽派",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "punk woman": {
-    "text": "punk woman",
-    "lang_zh": "朋克女性",
-    "subType": "style",
-    "tags": []
-  },
   "c4d": {
     "text": "c4d",
     "lang_zh": "c4d",
@@ -266,20 +143,6 @@
   "expressionism": {
     "text": "Expressionism",
     "lang_zh": "表现主义",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "carl larsson": {
-    "text": "Carl Larsson",
-    "lang_zh": "卡尔·拉尔松风格的画作",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "op art": {
-    "text": "Op art",
-    "lang_zh": "视错觉艺术",
     "subType": "style",
     "dir": "绘画/风格",
     "tags": []
@@ -297,55 +160,6 @@
     "subType": "style",
     "dir": "绘画/风格",
     "tags": []
-  },
-  "genre painting": {
-    "text": "Genre painting",
-    "lang_zh": "风俗画",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "constructivism": {
-    "text": "Constructivism",
-    "lang_zh": "构成主义",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "mannerism": {
-    "text": "Mannerism",
-    "lang_zh": "后期文艺复兴",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "bauhaus": {
-    "text": "Bauhaus",
-    "lang_zh": "包豪斯",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "action painting": {
-    "text": "Action painting",
-    "lang_zh": "行动绘画",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "by alfons mucha": {
-    "text": "by Alfons Mucha",
-    "lang_zh": "由阿尔方斯·穆卡制作",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "blender": {
-    "text": "blender",
-    "subType": "style",
-    "tags": [
-      "3D"
-    ]
   },
   "dutch golden age painting": {
     "text": "Dutch Golden Age painting",
@@ -382,13 +196,6 @@
     "dir": "绘画/风格",
     "tags": []
   },
-  "ukiyo-e": {
-    "text": "Ukiyo-e",
-    "lang_zh": "浮世绘",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
   "luminism": {
     "text": "Luminism",
     "lang_zh": "明亮主义",
@@ -402,9 +209,216 @@
     "subType": "style",
     "tags": []
   },
+  "art deco": {
+    "text": "Art Deco",
+    "lang_zh": "装饰艺术",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "rococo style": {
+    "text": "rococo style",
+    "lang_zh": "洛可可风格",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "chiaroscuro": {
+    "text": "Chiaroscuro",
+    "lang_zh": "明暗对比法",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "tonalism": {
+    "text": "Tonalism",
+    "lang_zh": "色调主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "3d rendering": {
+    "text": "3d rendering",
+    "lang_zh": "3D渲染",
+    "subType": "style",
+    "tags": []
+  },
+  "fauvism": {
+    "text": "Fauvism",
+    "lang_zh": "野兽派",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "punk woman": {
+    "text": "punk woman",
+    "lang_zh": "朋克女性",
+    "subType": "style",
+    "tags": []
+  },
+  "carl larsson": {
+    "text": "Carl Larsson",
+    "lang_zh": "卡尔·拉尔松风格的画作",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "mannerism": {
+    "text": "Mannerism",
+    "lang_zh": "后期文艺复兴",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "action painting": {
+    "text": "Action painting",
+    "lang_zh": "行动绘画",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "blender": {
+    "text": "blender",
+    "subType": "style",
+    "tags": [
+      "3D"
+    ]
+  },
+  "anatomically correct": {
+    "text": "anatomically correct",
+    "lang_zh": "解剖学正确",
+    "subType": "quality",
+    "dir": "质量",
+    "tags": []
+  },
+  "cubist futurism": {
+    "text": "Cubist Futurism",
+    "lang_zh": "立体派未来主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "futurism": {
+    "text": "Futurism",
+    "lang_zh": "未来主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "neoclassicism": {
+    "text": "Neoclassicism",
+    "lang_zh": "新古典主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "baroque": {
+    "text": "Baroque",
+    "lang_zh": "巴洛克",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "genre painting": {
+    "text": "Genre painting",
+    "lang_zh": "风俗画",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "constructivism": {
+    "text": "Constructivism",
+    "lang_zh": "构成主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "by alfons mucha": {
+    "text": "by Alfons Mucha",
+    "lang_zh": "由阿尔方斯·穆卡制作",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "blind box toy style": {
+    "text": "blind box toy style",
+    "lang_zh": "盲盒玩具风格",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "ukiyo-e": {
+    "text": "Ukiyo-e",
+    "lang_zh": "浮世绘",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "rococo": {
+    "text": "Rococo",
+    "lang_zh": "洛可可",
+    "subType": "style",
+    "tags": []
+  },
+  "high detail": {
+    "text": "high detail",
+    "lang_zh": "高细节",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "op art": {
+    "text": "Op art",
+    "lang_zh": "视错觉艺术",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "color field painting": {
+    "text": "Color Field painting",
+    "lang_zh": "色块画",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "renaissance": {
+    "text": "Renaissance",
+    "lang_zh": "文艺复兴",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "surrealism": {
+    "text": "Surrealism",
+    "lang_zh": "超现实主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "bauhaus": {
+    "text": "Bauhaus",
+    "lang_zh": "包豪斯",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
   "abstract expressionism": {
     "text": "Abstract expressionism",
     "lang_zh": "抽象表现主义",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "pre-raphaelite brotherhood": {
+    "text": "Pre-Raphaelite Brotherhood",
+    "lang_zh": "前拉斐尔派兄弟会",
+    "subType": "style",
+    "dir": "绘画/风格",
+    "tags": []
+  },
+  "impressionism": {
+    "text": "Impressionism",
+    "lang_zh": "印象派",
     "subType": "style",
     "dir": "绘画/风格",
     "tags": []
@@ -422,20 +436,6 @@
     "dir": "质量",
     "tags": []
   },
-  "impressionism": {
-    "text": "Impressionism",
-    "lang_zh": "印象派",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
-  "pre-raphaelite brotherhood": {
-    "text": "Pre-Raphaelite Brotherhood",
-    "lang_zh": "前拉斐尔派兄弟会",
-    "subType": "style",
-    "dir": "绘画/风格",
-    "tags": []
-  },
   "classicism": {
     "text": "Classicism",
     "lang_zh": "古典主义",
@@ -443,16 +443,16 @@
     "dir": "绘画/风格",
     "tags": []
   },
-  "ghibli-like colours": {
-    "text": "Ghibli-like colours",
-    "lang_zh": "吉卜力色彩",
+  "hyperrealism": {
+    "text": "Hyperrealism",
+    "lang_zh": "超现实主义细节画派",
     "subType": "style",
     "dir": "绘画/风格",
     "tags": []
   },
-  "hyperrealism": {
-    "text": "Hyperrealism",
-    "lang_zh": "超现实主义细节画派",
+  "ghibli-like colours": {
+    "text": "Ghibli-like colours",
+    "lang_zh": "吉卜力色彩",
     "subType": "style",
     "dir": "绘画/风格",
     "tags": []
@@ -527,15 +527,15 @@
     "dir": "质量",
     "tags": []
   },
-  "timeless modern": {
-    "text": "timeless modern",
-    "lang_zh": "永恒的现代",
-    "subType": "style",
-    "tags": []
-  },
   "8k octane": {
     "text": "8k octane",
     "lang_zh": "8k八角渲染",
+    "subType": "style",
+    "tags": []
+  },
+  "timeless modern": {
+    "text": "timeless modern",
+    "lang_zh": "永恒的现代",
     "subType": "style",
     "tags": []
   },
@@ -573,15 +573,15 @@
     "subType": "style",
     "tags": []
   },
-  "careful line drawing": {
-    "text": "careful line drawing",
-    "lang_zh": "细心的线条绘画",
-    "subType": "style",
-    "tags": []
-  },
   "naïve art": {
     "text": "Naïve art",
     "lang_zh": "原始艺术",
+    "subType": "style",
+    "tags": []
+  },
+  "careful line drawing": {
+    "text": "careful line drawing",
+    "lang_zh": "细心的线条绘画",
     "subType": "style",
     "tags": []
   },
