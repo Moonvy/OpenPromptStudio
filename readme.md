@@ -160,3 +160,23 @@ TENCENT_SECRET_KEY="a5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 #### 自部署
 
 如果要部署到自己的服务器，请在 `.env` 文件中配置翻译服务的访问地址： `LOCAL_TRANSLATE_HOST`，如 `192.168.50.222:3000`或者`https://mySite.com`，在 Web 页中会根据此地址发起请求，请根据你部署后实际访问地址来配置。
+
+## Star History
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="
+      https://api.star-history.com/svg?repos=Moonvy/OpenPromptStudio&type=Date&theme=dark
+    "
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="
+      https://api.star-history.com/svg?repos=Moonvy/OpenPromptStudio&type=Date
+    "
+  />
+  <img
+    alt="Moonvy/OpenPromptStudio"
+    src="https://api.star-history.com/svg?repos=Moonvy/OpenPromptStudio&type=Date"
+  />
+</picture>
