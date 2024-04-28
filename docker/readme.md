@@ -2,7 +2,7 @@
 
 ## 使用 docker-compose 
 
-下载 [docker-compose.yml](https://github.com/Moonvy/OpenPromptStudio/blob/master/docker/docker-compose.yml) 文件，在所在目录下执行 `docker compose up -d`
+最简单的部署方法是使用 docker-compose ：下载 [docker-compose.yml](https://github.com/Moonvy/OpenPromptStudio/blob/master/docker/docker-compose.yml) 文件，在所在目录下执行 `docker compose up -d`
 
 
 ```yml
