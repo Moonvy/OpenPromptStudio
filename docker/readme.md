@@ -1,9 +1,9 @@
 # Docker 说明
 
+## 使用 docker-compose 
 
-## 简单实用
+下载 [docker-compose.yml](https://github.com/Moonvy/OpenPromptStudio/blob/master/docker/docker-compose.yml) 文件，在所在目录下执行 `docker compose up -d`
 
-### 使用 docker-compose 
 
 ```yml
 version: "3.7"
@@ -27,8 +27,6 @@ services:
 ## 构建
 
 在没有 `node` 环境的情况下， 可以使用当前构建脚本。
-
-
 
 ### 构建命令
 
