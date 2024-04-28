@@ -54,7 +54,7 @@ services:
         environment:
             - TENCENT_SECRET_ID=AKIDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
             - TENCENT_SECRET_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            # - LOCAL_TRANSLATE_HOST="192.168.50.222:3000" # 自定义翻译服务地址
+            - LOCAL_TRANSLATE_HOST=localhost:39011 # 自定义翻译服务地址，设置为你服务器最终访问地址
         ports:
             - "12833:12833" # 宿主 Web 页端口:容器端口
             - "39011:39011" # 宿主翻译服务端口:容器端口
