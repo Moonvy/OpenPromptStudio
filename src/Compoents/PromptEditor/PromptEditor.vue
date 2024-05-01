@@ -147,7 +147,7 @@
             <a href="https://nf.video/yinhe/web?sharedId=124758" target="_blank"> <img src="./Assets/ad.png" /> </a>
             <!-- <a href="https://universalbus.cn?s=hd2fCq8xEw" target="_blank"> <img src="./Assets/ad5.jpg" /> </a> -->
 
-            <a href="https://sd-1258045456.cos.ap-guangzhou.myqcloud.com/sd011" target="_blank"> <img src="./Assets/ad6.png" /> </a>
+            <!-- <a href="https://sd-1258045456.cos.ap-guangzhou.myqcloud.com/sd011" target="_blank"> <img src="./Assets/ad6.png" /> </a> -->
             <!-- <a href="https://www.kaiecho.com/" target="_blank"> <img src="./Assets/ad2.jpg" /> </a> -->
             <!-- <a href="https://sd-1258045456.cos.ap-guangzhou.myqcloud.com/chachasd.html" target="_blank"> <img src="./Assets/ad3c.png" /> </a> -->
         </div>
