@@ -1,6 +1,6 @@
 import { Client } from "@notionhq/client"
-import secret from "../../../secret.json" assert { type: "json" }
 import fs from "fs"
+const secret = JSON.parse(fs.readFileSync(new URL("../../../secret.json", import.meta.url), "utf-8"))
 
 const notion = new Client({
     auth: secret.notion,

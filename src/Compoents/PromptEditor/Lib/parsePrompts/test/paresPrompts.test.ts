@@ -1,4 +1,4 @@
-import { parsePrompts } from "../ParsePrompts"
+import { parsePrompts } from "../parsePrompts"
 
 test("parsePrompts", () => {
     let re = parsePrompts(

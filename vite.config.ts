@@ -20,7 +20,14 @@ let config = {
         format: "es",
     },
     plugins: [vue(), progress()],
-    css: {},
+    css: {
+        preprocessorOptions: {
+            scss: {
+                api: "modern-compiler",
+                silenceDeprecations: ["import"],
+            },
+        },
+    },
     build: {
         // minify: "terser",
         assetsInlineLimit: 1024 * 10 /* 10kb */,
